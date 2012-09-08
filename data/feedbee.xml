@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<bookshelf>
+	<book>
+		<name>Отзывчивый веб-дизайн</name>
+		<authors>
+			<author>
+				<name>Итан Маркотт</name>
+				<url>http://oz.by/people/more9048239.html</url>
+			</author>
+		</authors>
+		<publish>
+			<publisher>
+				<name>Манн, Иванов и Фербер</name>
+				<url>http://oz.by/producer/more120478.html</url>
+			</publisher>
+			<year>2012</year>
+			<pages>176</pages>
+		</publish>
+		<url>http://oz.by/books/more10234401.html</url>
+		<cover>http://oz.by/data/img/10/234/401/cover/Otziviviy-veb-dizayn-Itan-Markott_10234401_b9e4490a.jpg</cover>
+		<my>
+			<rating>5</rating>
+			<review>Хорошая практичная книга, HTML-coders Must Read!</review>
+		</my>
+	</book>
+	<book>
+		<name>Чистый код. Создание, анализ и рефакторинг</name>
+		<authors>
+			<author>
+				<name>Роберт Мартин</name>
+				<url>http://oz.by/people/more904052.html</url>
+			</author>
+		</authors>
+		<publish>
+			<publisher>
+				<name>Питер</name>
+				<url>http://oz.by/producer/more1202.html</url>
+			</publisher>
+			<year>2011</year>
+			<pages>464</pages>
+		</publish>
+		<url>http://oz.by/books/more10109592.html</url>
+		<cover>http://oz.by/data/img/10/109/592/cover/istiy-kod-Sozdanie-analiz-i-refaktoring-Robert-Martin_10109592_ed2282ab.jpg</cover>
+		<my>
+			<rating>5</rating>
+			<review>Лучшая книга для программиста. Programmers Must Read!</review>
+		</my>
+	</book>
+	<book>
+		<name>Современные операционные системы</name>
+		<authors>
+			<author>
+				<name>Эндрю Таненбаум</name>
+				<url>http://oz.by/people/more90811.html</url>
+			</author>
+		</authors>
+		<publish>
+			<publisher>
+				<name>Питер</name>
+				<url>http://oz.by/producer/more1202.html</url>
+			</publisher>
+			<year>2012</year>
+			<pages>1120</pages>
+		</publish>
+		<url>http://oz.by/books/more101783.html</url>
+		<cover>http://oz.by/data/img/10/4/617/cover/Sovremennie-operacionnie-sistemi-Endru-Tanenbaum_104617_40898eb7.jpg</cover>
+		<my>
+			<rating>5</rating>
+			<review>Отличное пособие. Must read for all!</review>
+		</my>
+	</book>
+	<book>
+		<name>Приемы объектно-ориентированного проектирования. Паттерны проектирования</name>
+		<authors>
+			<author>
+				<name>Р. Хелм</name>
+				<url>http://oz.by/people/more908690.html</url>
+			</author>
+			<author>
+				<name>Э. Гамма</name>
+				<url>http://oz.by/people/more905851.html</url>
+			</author>
+			<author>
+				<name>Р. Джонсон</name>
+				<url></url>
+			</author>
+			<author>
+				<name>Д. Влиссидес</name>
+				<url></url>
+			</author>
+		</authors>
+		<publish>
+			<publisher>
+				<name>Питер</name>
+				<url>http://oz.by/producer/more1202.html</url>
+			</publisher>
+			<year>2009</year>
+			<pages>368</pages>
+		</publish>
+		<url>http://oz.by/books/more101783.html</url>
+		<cover>http://oz.by/data/img/10/1/783/cover/Priemi-ob-ektno-orientirovannogo-proektirovaniy-Patterni-proektirovaniy-Erik-Gamma-R-Helm_101783_bdd33bb1.jpg</cover>
+		<my>
+			<rating>4</rating>
+			<review>Неплохая книга, правда тяжеловато читается</review>
+		</my>
+	</book>
+</bookshelf>
