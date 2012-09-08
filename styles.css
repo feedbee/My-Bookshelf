@@ -1,0 +1,128 @@
+/* Defaults */
+body {
+	margin: 0;
+	padding: 0;
+	
+	background: gray url("img/bewitched.gif");
+}
+body, table, select {
+	font: 11.5pt Calibri, Ubuntu, "Myriad Pro", sans-serif;
+}
+
+h1, h2, h3, h4 {
+	font-family: Cambria, "DejaVu Serif", Ubuntu, serif;
+	font-weight: normal;
+}
+h1 { font-size: 21pt; }
+h2 { font-size: 19pt; }
+h3 { font-size: 17pt; }
+h4 { font-size: 14pt; }
+
+hr {
+	border-top: .15em dashed lightgray;
+	border-bottom: .15em dashed darkgray;
+}
+
+a { color: #424983; }
+a:hover { color: #A03138; }
+a:visited { color: #424983; }
+
+blockquote {
+	padding: .7em;
+	margin-right: 0;
+	margin-left: 0;
+	
+	border: 2pt solid rgba(162,162,162,.45);
+	border-left: 30pt solid rgba(162,162,162,.5);
+	background-color: rgba(179,179,199,.25);
+	
+	font-style: italic;
+}
+
+header {
+	font-size: 300%;
+	background-color: white;
+	
+	border-radius: .2em;
+	padding: .9%;
+}
+footer {
+	margin-top: 1.5em;
+	padding: 0 0 .3em 0;
+	font-size: 80%;
+}
+
+/* Page */
+#page-wrapper {
+	margin: 0 auto;
+	margin-top: 1.2em;
+	margin-bottom: 1em;
+	width: 90%;
+	min-width: 250px;
+	max-width: 1200px;
+	
+	background-color: rgba(162,162,162,.45);
+	padding: .7em;
+	
+	border-radius: 1em;
+}
+#content-wrapper {
+	padding: .99%;
+	
+	background-color: rgba(255,255,255,.75);
+	
+	border-radius: .6em;
+}
+@media screen and (max-width: 400px) {
+	#page-wrapper {
+		width: 100%;
+		padding: 0;
+		margin-top: 0;
+		margin-bottom: 0;
+	}
+}
+
+@media screen and (max-width: 650px) {
+	#page-wrapper {
+		width: 94%;
+		padding: .25em;
+		margin-top: .25em;
+		margin-bottom: .35em;
+	}
+	#content-wrapper {
+		padding: .5em;
+	}
+}
+
+/* Optional designed elements */
+.designed-table {
+	border-collapse: collapse;
+}
+.designed-table, .designed-table td, .designed-table th {
+	border: 2pt solid #333;
+}
+.designed-table td, .designed-table th {
+	padding: .29em;
+}
+.designed-table th {
+	background-color: #b9b9b9;
+}
+.designed-table td {
+	font-size: 11pt;
+}
+
+.code-block {
+	padding: .7em;
+	margin-right: 0;
+	margin-left: 0;
+	
+	border: 2pt solid rgba(162,162,162,.45);
+	border-left: 30pt solid rgba(162,162,162,.5);
+	background-color: rgba(179,179,199,.25);
+	
+	font: 11pt monospace, "Courier New";
+}
+
+.validators img {
+	vertical-align: middle;
+}

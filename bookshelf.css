@@ -1,0 +1,108 @@
+.bookshelf {
+	list-style: none;
+	padding: 0;
+	margin: 0 0 0 -2%;
+}
+.bookshelf-book:nth-child(-n+1):after {
+	content: '';
+	display: block;
+	clear: left;
+} 
+
+.bookshelf-book {
+	padding: .75em 0;
+	margin-left: 2%;
+
+	border-bottom: 4pt solid gray;
+}
+.bookshelf-book:after {
+	content: '';
+	display: block;
+	clear: left;
+}
+@media screen and (max-width: 799px) {
+	.bookshelf-book:last-child {
+		border-bottom: none;
+	}
+}
+
+.bookshelf-book-cover {
+	float: left;
+	max-height: 10em;
+	max-width: 7em;
+	margin: 0 .8em .8em 0;
+	
+	border: 1pt solid gray;
+	box-shadow: .12em .12em .08em .04em #999;
+}
+@media screen and (max-width: 799px) {
+	.bookshelf-book:last-child .bookshelf-book-cover {
+		margin-bottom: 0;
+	}
+}
+
+.bookshelf-book-info {
+	margin-bottom: .8em;
+}
+.bookshelf-book-info-title {
+	margin-bottom: 0;
+	margin-top: 0;
+}
+.bookshelf-book-info-authors {
+	margin-bottom: 0;
+	margin-top: .5em;
+}
+.bookshelf-book-info-publication {
+	margin-top: .5em;
+	font-size: 80%;
+}
+
+.bookshelf-raiting-outer, .bookshelf-raiting-inner {
+	display:inline-block;
+}
+.bookshelf-raiting-outer {
+	width: 80px; /* 16*5 */
+	height: 16px;
+	background: url("img/star-gray.png");
+	background-size: 20% 100%;
+}
+.bookshelf-raiting-inner {
+	height: 16px;
+	background: url("img/star.png");
+}
+.bookshelf-review {
+	font-size: 80%;
+	font-style: italic;
+	
+	margin-top: 0;
+}
+
+.bookshelf-name:before { content: '«'; }
+.bookshelf-name:after { content: '»'; }
+.bookshelf-year:after { content: ' г.'; }
+.bookshelf-pages:after { content: ' стр.'; }
+
+
+@media screen and (min-width: 800px) {
+	.bookshelf {
+		margin-left: -2%
+	}
+	.bookshelf-book {
+		float: left;
+		width: 48%;
+		margin-left: 2%;
+
+		height: 10.6em;
+		overflow: hidden;
+	}
+	.bookshelf:after {
+		content: '';
+		display: block;
+		clear: left;
+	}
+}
+@media screen and (min-width: 1600px) {
+	.bookshelf-book {
+		width: 31.333333333%;
+	}
+}
