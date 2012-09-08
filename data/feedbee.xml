@@ -104,4 +104,96 @@
 			<review>Неплохая книга, правда тяжеловато читается</review>
 		</my>
 	</book>
+	<book>
+		<name>MySQL 5 в подлиннике</name>
+		<authors>
+			<author>
+				<name>Максим Кузнецов</name>
+				<url>http://oz.by/people/more904991.html</url>
+			</author>
+		</authors>
+		<publish>
+			<publisher>
+				<name>BHV</name>
+				<url>http://oz.by/producer/more1203.html</url>
+			</publisher>
+			<year>2006</year>
+			<pages>1024</pages>
+		</publish>
+		<url>http://oz.by/books/more1026914.html</url>
+		<cover>http://oz.by/data/img/10/26/914/cover/MySQL-v-podlinnike-CD-ROM-Maksim-Kuznecov_1026914_c0a7e4e4.jpg</cover>
+		<my>
+			<rating>3</rating>
+			<review>Мануал. Кой-что полезное подметил в свое время</review>
+		</my>
+	</book>
+	<book>
+		<name>VBA 2003. Самоучитель</name>
+		<authors>
+			<author>
+				<name>В. Кузьменко</name>
+				<url>http://oz.by/people/more901168.html</url>
+			</author>
+		</authors>
+		<publish>
+			<publisher>
+				<name>Бином</name>
+				<url>http://oz.by/producer/more12010.html</url>
+			</publisher>
+			<year>2004</year>
+			<pages>432</pages>
+		</publish>
+		<url>http://oz.by/books/more1010980.html</url>
+		<cover>http://oz.by/data/img/10/10/980/cover/VBA-Samouitel-V-Kuz-menko_1010980_9eb4a80a.jpg</cover>
+		<my>
+			<rating>3</rating>
+			<review>Вообще не помню ничего про нее</review>
+		</my>
+	</book>
+	<book>
+		<name>Программирование в C++ Builder 6</name>
+		<authors>
+			<author>
+				<name>Алексей Архангельский</name>
+				<url>http://oz.by/people/more90674.html</url>
+			</author>
+		</authors>
+		<publish>
+			<publisher>
+				<name>Бином</name>
+				<url>http://oz.by/producer/more12010.html</url>
+			</publisher>
+			<year>2004</year>
+			<pages>-</pages>
+		</publish>
+		<url>http://oz.by/books/more104020.html</url>
+		<cover>http://oz.by/data/img/10/4/020/cover/Programmirovanie-v-C-Builder-i-CD-ROM-Aleksey-Arhangel-skiy_104020_aa50350c.jpg</cover>
+		<my>
+			<rating>4</rating>
+			<review>Мало что помню ничего про нее</review>
+		</my>
+	</book>
+	<book>
+		<name>C/C++. Программирование на языке высокого уровня</name>
+		<authors>
+			<author>
+				<name>Татьяна Павловская</name>
+				<url>http://oz.by/people/more901106.html</url>
+			</author>
+		</authors>
+		<publish>
+			<publisher>
+				<name>Питер</name>
+				<url>http://oz.by/producer/more1202.html</url>
+			</publisher>
+			<year>2004</year>
+			<pages>-</pages>
+		</publish>
+		<url>http://oz.by/books/more102293.html</url>
+		<cover>http://oz.by/data/img/10/2/293/cover/C-C-Programmirovanie-na-yzike-visokogo-urovny-Tat-yna-Pavlovskay_102293_14ab1807.jpg</cover>
+		<my>
+			<rating>4</rating>
+			<review>Средненько. Для студентов начальных курсов</review>
+		</my>
+	</book>
 </bookshelf>
