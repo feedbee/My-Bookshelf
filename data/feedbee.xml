@@ -1,6 +1,102 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <bookshelf>
 	<book>
+		<name>Архитектура компьютера. Пятое издание</name>
+		<authors>
+			<author>
+				<name>Эндрю Таненбаум</name>
+				<url>http://oz.by/people/more90811.html</url>
+			</author>
+		</authors>
+		<publish>
+			<publisher>
+				<name>Питер</name>
+				<url>http://oz.by/producer/more1202.html</url>
+			</publisher>
+			<year>2012</year>
+			<pages>848</pages>
+		</publish>
+		<url>http://oz.by/books/more1028409.html</url>
+		<cover>http://oz.by/data/img/10/28/409/cover/Arhitektura-komp-utera-Pytoe-izdanie-CD-ROM-Endru-Tanenbaum_1028409_1e23d01c.jpg</cover>
+		<my>
+			<rating>0</rating>
+			<review>Пока не начал читать (№ 3 в очереди)</review>
+		</my>
+	</book>
+	<book>
+		<name>Мифический человеко-месяц или как создаются программные системы</name>
+		<authors>
+			<author>
+				<name>Фредерик Брукс</name>
+				<url>http://ru.wikipedia.org/wiki/%D0%91%D1%80%D1%83%D0%BA%D1%81,_%D0%A4%D1%80%D0%B5%D0%B4%D0%B5%D1%80%D0%B8%D0%BA</url>
+			</author>
+		</authors>
+		<publish>
+			<publisher>
+				<name>Символ</name>
+				<url>http://oz.by/producer/more12021.html</url>
+			</publisher>
+			<year>2009</year>
+			<pages>304</pages>
+		</publish>
+		<url>http://oz.by/books/more101035.html</url>
+		<cover>http://oz.by/data/img/10/1/035/cover/Mifieskiy-eloveko-mesyc-ili-kak-sozdautsy-programmnie-sistemi_101035_177e3505.jpg</cover>
+		<my>
+			<rating>0</rating>
+			<review>Пока не начал читать (№ 2 в очереди)</review>
+		</my>
+	</book>
+	<book>
+		<name>Программист-прагматик. Путь от подмастерья к мастеру</name>
+		<authors>
+			<author>
+				<name>Д. Томас</name>
+				<url>http://oz.by/people/more9014437.html</url>
+			</author>
+			<author>
+				<name>Э. Хант</name>
+				<url>http://oz.by/people/more9014438.html</url>
+			</author>
+		</authors>
+		<publish>
+			<publisher>
+				<name>Лори</name>
+				<url>http://oz.by/producer/more12067.html</url>
+			</publisher>
+			<year>2009</year>
+			<pages>270</pages>
+		</publish>
+		<url>http://oz.by/books/more1031721.html</url>
+		<cover>http://oz.by/data/img/10/31/721/cover/Programmist-pragmatik-Put-ot-podmaster-y-k-masteru-D-Tomas-E-Hant_1031721_771187ef.jpg</cover>
+		<my>
+			<rating>0</rating>
+			<review>Пока не начал читать (№ 1 в очереди)</review>
+		</my>
+	</book>
+	<book>
+		<name>Джоэл. И снова о программировании</name>
+		<authors>
+			<author>
+				<name>Джоэл Спольски</name>
+				<url>http://oz.by/people/more9011792.html</url>
+			</author>
+		</authors>
+		<publish>
+			<publisher>
+				<name>Символ</name>
+				<url>http://oz.by/producer/more12021.html</url>
+			</publisher>
+			<year>2009</year>
+			<pages>320</pages>
+		</publish>
+		<url>http://oz.by/books/more1064026.html</url>
+		<cover>http://oz.by/data/img/10/64/026/cover/Djoel-I-snova-o-programmirovanii-Djoel-Spol-ski_1064026_c7a3297f.jpg</cover>
+		<my>
+			<rating>5</rating>
+			<review>Отличная познавательная книга</review>
+		</my>
+	</book>
+	<book>
 		<name>Отзывчивый веб-дизайн</name>
 		<authors>
 			<author>
@@ -21,6 +117,101 @@
 		<my>
 			<rating>5</rating>
 			<review>Хорошая практичная книга, HTML-coders Must Read!</review>
+		</my>
+	</book>
+	<book>
+		<name>Джоэл о программировании</name>
+		<authors>
+			<author>
+				<name>Джоэл Спольски</name>
+				<url>http://oz.by/people/more9011792.html</url>
+			</author>
+		</authors>
+		<publish>
+			<publisher>
+				<name>Символ</name>
+				<url>http://oz.by/producer/more12021.html</url>
+			</publisher>
+			<year>2006</year>
+			<pages>352</pages>
+		</publish>
+		<url>http://oz.by/books/more1025139.html</url>
+		<cover>http://oz.by/data/img/10/25/139/cover/Djoel-o-programmirovanii-Djoel-Spol-ski_1025139_6f8d0213.jpg</cover>
+		<my>
+			<rating>5</rating>
+			<review>Отличная познавательная книга</review>
+		</my>
+	</book>
+	<book>
+		<name>Компьютерные сети</name>
+		<authors>
+			<author>
+				<name>Эндрю Таненбаум</name>
+				<url>http://oz.by/people/more90811.html</url>
+			</author>
+			<author>
+				<name>Д. Уэзеролл</name>
+			</author>
+		</authors>
+		<publish>
+			<publisher>
+				<name>Питер</name>
+				<url>http://oz.by/producer/more1202.html</url>
+			</publisher>
+			<year>2012</year>
+			<pages>960</pages>
+		</publish>
+		<url>http://oz.by/books/more104157.html</url>
+		<cover>http://oz.by/data/img/10/4/157/cover/Komp-uternie-seti-Endru-Tanenbaum_104157_0e62477a.jpg</cover>
+		<my>
+			<rating>5</rating>
+			<review>Очень интересно и познавательно. Читать всем!</review>
+		</my>
+	</book>
+	<book>
+		<name>Руководство Джоэла Спольски по подбору программистов и управлению ими</name>
+		<authors>
+			<author>
+				<name>Джоэл Спольски</name>
+				<url>http://oz.by/people/more9011792.html</url>
+			</author>
+		</authors>
+		<publish>
+			<publisher>
+				<name>Вильямс</name>
+				<url>http://oz.by/producer/more1207.html</url>
+			</publisher>
+			<year>2008</year>
+			<pages>144</pages>
+		</publish>
+		<url>http://oz.by/books/more1043609.html</url>
+		<cover>http://oz.by/data/img/10/43/609/cover/Rukovodstvo-Djoela-Spol-ski-po-podboru-programmistov-i-upravleniu-imi-Djoel-Spol-ski_1043609_8b057e4c.jpg</cover>
+		<my>
+			<rating>5</rating>
+			<review>Хорошая практичная книга</review>
+		</my>
+	</book>
+	<book>
+		<name>Совершенный код. Мастер-класс</name>
+		<authors>
+			<author>
+				<name>Стив МакКоннелл</name>
+				<url>http://oz.by/people/more907177.html</url>
+			</author>
+		</authors>
+		<publish>
+			<publisher>
+				<name>Русская редакция</name>
+				<url>http://oz.by/producer/more12090.html</url>
+			</publisher>
+			<year>2012</year>
+			<pages>896</pages>
+		</publish>
+		<url>http://oz.by/books/more1015206.html</url>
+		<cover>http://oz.by/data/img/10/15/206/cover/Soverenniy-kod-Master-klass-Stiv-MakKonnell_1015206_5a821c26.jpg</cover>
+		<my>
+			<rating>3</rating>
+			<review>Нудно, многословно и скучно написано. Полезная иформация есть. Пока не дочитал.</review>
 		</my>
 	</book>
 	<book>
@@ -70,6 +261,79 @@
 		</my>
 	</book>
 	<book>
+		<name>Искусство управления IT-проектами</name>
+		<authors>
+			<author>
+				<name>Скотт Беркун</name>
+				<url>http://oz.by/people/more9014340.html</url>
+			</author>
+		</authors>
+		<publish>
+			<publisher>
+				<name>Питер</name>
+				<url>http://oz.by/producer/more1202.html</url>
+			</publisher>
+			<year>2010</year>
+			<pages>432</pages>
+		</publish>
+		<url>http://oz.by/books/more1031383.html</url>
+		<cover>http://oz.by/data/img/10/31/383/cover/Iskusstvo-upravleniy-IT-proektami-Skott-Berkun_1031383_eacffdd6.jpg</cover>
+		<my>
+			<rating>2</rating>
+			<review>Очень тяжело читается. Полезного мало. Не дочитал</review>
+		</my>
+	</book>
+	<book>
+		<name>Как пасти котов. Наставление для программистов, руководящих другими программистами</name>
+		<authors>
+			<author>
+				<name>Дж. Рейнвотер</name>
+				<url>http://oz.by/people/more908017.html</url>
+			</author>
+		</authors>
+		<publish>
+			<publisher>
+				<name>Питер</name>
+				<url>http://oz.by/producer/more1202.html</url>
+			</publisher>
+			<year>2011</year>
+			<pages>256</pages>
+		</publish>
+		<url>http://oz.by/books/more1016852.html</url>
+		<cover>http://oz.by/data/img/10/16/852/cover/Kak-pasti-kotov-Nastavlenie-dly-programmistov-rukovodyih-drugimi-programmistami-Dj-Reynvoter_1016852_2b9ee91a.jpg</cover>
+		<my>
+			<rating>2</rating>
+			<review>Очень тяжело читается. Полезного мало. Не дочитал</review>
+		</my>
+	</book>
+	<book>
+		<name>Rework. Бизнес без предрассудков</name>
+		<authors>
+			<author>
+				<name>Джейсон Фрайд</name>
+				<url>http://oz.by/people/more9039956.html</url>
+			</author>
+			<author>
+				<name>Дэвид Хенссон</name>
+				<url>http://oz.by/people/more9039958.html</url>
+			</author>
+		</authors>
+		<publish>
+			<publisher>
+				<name>Манн, Иванов и Фербер</name>
+				<url>http://oz.by/producer/more120478.html</url>
+			</publisher>
+			<year>2010</year>
+			<pages>208</pages>
+		</publish>
+		<url>http://oz.by/books/more10120181.html</url>
+		<cover>http://oz.by/data/img/10/120/181/cover/Rework-Biznes-bez-predrassudkov-Djeyson-Frayd-Devid-Hensson_10120181_793d79b7.jpg</cover>
+		<my>
+			<rating>5</rating>
+			<review>Отличная книга для всех. Must read!</review>
+		</my>
+	</book>
+	<book>
 		<name>Приемы объектно-ориентированного проектирования. Паттерны проектирования</name>
 		<authors>
 			<author>
@@ -102,6 +366,29 @@
 		<my>
 			<rating>4</rating>
 			<review>Неплохая книга, правда тяжеловато читается</review>
+		</my>
+	</book>
+	<book>
+		<name>Профессиональное программирование на PHP</name>
+		<authors>
+			<author>
+				<name>Джордж Шлосснейгл</name>
+				<url>http://oz.by/people/more909064.html</url>
+			</author>
+		</authors>
+		<publish>
+			<publisher>
+				<name>Вильямс</name>
+				<url>http://oz.by/producer/more1207.html</url>
+			</publisher>
+			<year>2006</year>
+			<pages>624</pages>
+		</publish>
+		<url>http://oz.by/books/more1019011.html</url>
+		<cover>http://oz.by/data/img/10/19/011/cover/Professional-noe-programmirovanie-na-PHP-Djordj-lossneygl_1019011_cd152e75.jpg</cover>
+		<my>
+			<rating>4</rating>
+			<review>Неплохой был учебник для начинающих</review>
 		</my>
 	</book>
 	<book>
