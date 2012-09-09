@@ -7,9 +7,9 @@
 <head>
 	<meta charset="utf-8" />
 	<title>feedbee — My Bookshelf</title>
-	<link rel="stylesheet" href="styles.css" type="text/css" />
-	<link rel="stylesheet" href="my-bookshelf.css" type="text/css" />
-	<link rel="stylesheet" href="bookshelf.css" type="text/css" />
+	<link rel="stylesheet" href="css/styles.css" type="text/css" />
+	<link rel="stylesheet" href="css/my-bookshelf.css" type="text/css" />
+	<link rel="stylesheet" href="css/bookshelf.css" type="text/css" />
 </head>
 
 <body>
