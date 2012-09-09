@@ -1,5 +1,11 @@
 .mb-logo {
 	height: 1.2em;
-	vertical-align: middle;
 	margin-right: .5em;
+
+	vertical-align: middle;
+}
+@media screen and (min-width: 1360px) {
+	.mb-logo {
+		margin-left: -2.14em;
+	}
 }

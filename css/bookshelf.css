@@ -53,12 +53,12 @@
 .bookshelf-raiting-outer {
 	width: 80px; /* 16*5 */
 	height: 16px;
-	background: url("img/star-gray.png");
+	background: url("../img/star-gray.png");
 	background-size: 20% 100%;
 }
 .bookshelf-raiting-inner {
 	height: 16px;
-	background: url("img/star.png");
+	background: url("../img/star.png");
 }
 .bookshelf-review {
 	font-size: 80%;

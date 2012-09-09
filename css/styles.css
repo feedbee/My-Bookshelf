@@ -3,7 +3,7 @@ body {
 	margin: 0;
 	padding: 0;
 	
-	background: gray url("img/bewitched.gif");
+	background: gray url("../img/bewitched.gif");
 }
 body, table, select {
 	font: 11.5pt Calibri, Ubuntu, "Myriad Pro", sans-serif;
@@ -123,6 +123,6 @@ footer {
 	font: 11pt monospace, "Courier New";
 }
 
-.validators img {
+.validators ../img {
 	vertical-align: middle;
 }
