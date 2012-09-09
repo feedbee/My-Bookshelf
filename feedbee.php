@@ -8,6 +8,7 @@
 	<meta charset="utf-8" />
 	<title>feedbee — My Bookshelf</title>
 	<link rel="stylesheet" href="styles.css" type="text/css" />
+	<link rel="stylesheet" href="my-bookshelf.css" type="text/css" />
 	<link rel="stylesheet" href="bookshelf.css" type="text/css" />
 </head>
 
@@ -15,9 +16,9 @@
 	<div id="page-wrapper">
 		<div id="content-wrapper">
 			<header>
-				<div>&lt;<strong>My Bookshelf</strong>&gt;</div>
+				<div><img src="img/logo.png" class="mb-logo" />&lt;<strong>My Bookshelf</strong>&gt;</div>
 			</header>
-			<h1>feedbee's bookshelf</h1>
+			<h1>Valera Leontyev's Bookshelf</h1>
 			
 			<?php if (count($bookshelf->book) < 1) { ?>
 			<p><small>Bookshelf is empty.</small></p>
