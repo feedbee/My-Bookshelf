@@ -4,11 +4,6 @@
 	margin: 0;
 	margin-top: -2em;
 }
-.bookshelf-book:nth-child(-n+1):after {
-	content: '';
-	display: block;
-	clear: left;
-} 
 
 .bookshelf-book {
 	padding: 1.2em 0;
@@ -74,21 +69,21 @@
 
 @media screen and (min-width: 1300px) { /* 2 cols */
 	.bookshelf {
-		margin-left: -2%
+		margin-left: -1%;
 	}
 	.bookshelf-book {
-		float: left;
-		width: 48%;
+		display: inline-block;
+        vertical-align: top;
+        zoom: 1;
+        *display: inline;
+
+		width: 47.33%;
 		margin-left: 2%;
 
-		height: 11em;
+		min-height: 11em;
 		padding-top: 2em;
-		overflow: hidden;
-	}
-	.bookshelf:after {
-		content: '';
-		display: block;
-		clear: left;
+
+		/*border-bottom: none;*/
 	}
 }
 @media screen and (max-width: 1299px) { /* 2 cols */
@@ -111,7 +106,7 @@
 }
 @media screen and (min-width: 1600px) { /* 3 cols */
 	.bookshelf-book {
-		width: 31.333333333%;
+		width: 30.7%;
 	}
 }
 @media screen and (max-width: 399px) {
