@@ -2,13 +2,11 @@
 	list-style: none;
 	padding: 0;
 	margin: 0;
-	margin-top: -2em;
+	margin-top: -1em;
 }
 
 .bookshelf-book {
 	padding: 1.2em 0;
-
-	border-bottom: 4pt solid gray;
 }
 .bookshelf-book:after {
 	content: '';
@@ -17,7 +15,6 @@
 }
 
 .bookshelf-book-cover {
-	float: left;
 	max-height: 10em;
 	max-width: 7em;
 	margin: 0 .8em .8em 0;
@@ -67,9 +64,11 @@
 .bookshelf-year:after { content: ' г.'; }
 .bookshelf-pages:after { content: ' стр.'; }
 
-@media screen and (min-width: 1300px) { /* 2 cols */
+@media screen and (min-width: 950px) { /* 2 cols */
 	.bookshelf {
 		margin-left: -1%;
+		padding-left: 2%;
+		padding-right: 2%;
 	}
 	.bookshelf-book {
 		display: inline-block;
@@ -82,35 +81,25 @@
 
 		min-height: 11em;
 		padding-top: 2em;
-
-		/*border-bottom: none;*/
 	}
 }
-@media screen and (max-width: 1299px) { /* 2 cols */
+@media screen and (max-width: 949px) { /* 1 col */
 	.bookshelf {
-		padding-left: 2%;
-		padding-right: 2%;
-	}
-	.bookshelf-book:last-child {
-		border-bottom: none;
+		padding-left: 3%;
+		padding-right: 3%;
 	}
 	.bookshelf-book:last-child .bookshelf-book-cover {
 		margin-bottom: 0;
 	}
 }
-@media screen and (max-width: 1100px) {
+@media screen and (max-width: 500px) {
 	.bookshelf {
 		padding-left: 1%;
 		padding-right: 1%;
 	}
 }
-@media screen and (min-width: 1600px) { /* 3 cols */
+@media screen and (min-width: 1450px) { /* 3 cols */
 	.bookshelf-book {
 		width: 30.7%;
-	}
-}
-@media screen and (max-width: 399px) {
-	.bookshelf-book-cover {
-		float: none;
 	}
 }
