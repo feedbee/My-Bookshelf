@@ -11,7 +11,7 @@
 	<link rel="stylesheet" href="css/my-bookshelf.css" type="text/css" />
 	<link rel="stylesheet" href="css/bookshelf.css" type="text/css" />
 </head>
-
+	
 <body>
 	<div id="page-wrapper">
 		<div id="content-wrapper">
@@ -26,7 +26,7 @@
 			<ul class="bookshelf">
 				<?php foreach ($bookshelf->book as $book) { ?>
 				<li class="bookshelf-book">
-					<img src="<?php echo $book->cover; ?>" alt="Обложка" class="bookshelf-book-cover" />
+					<a href="<?php echo $book->url; ?>"><img src="<?php echo $book->cover; ?>" alt="Обложка" class="bookshelf-book-cover" /></a>
 					<div class="bookshelf-book-info">
 						<h3 class="bookshelf-book-info-title bookshelf-name"><a href="<?php echo $book->url; ?>"><?php echo $book->name; ?></a></h3>
 						<p class="bookshelf-book-info-authors">
