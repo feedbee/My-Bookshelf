@@ -1,0 +1,70 @@
+<%
+   require 'rexml/document'
+   require "erb"
+   include ERB::Util
+
+   xml_data = File.read('data/feedbee.xml')
+   doc = REXML::Document.new(xml_data)
+   username = REXML::XPath.first(doc, 'bookshelf/user/name').text
+
+%>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title><%=ERB::Util.h username %> — &lt;My Bookshelf&gt;</title>
+  <link rel="stylesheet" href="css/styles.css" type="text/css" />
+  <link rel="stylesheet" href="css/my-bookshelf.css" type="text/css" />
+  <link rel="stylesheet" href="css/bookshelf.css" type="text/css" />
+</head>
+
+<body>
+<div id="page-wrapper">
+  <div id="content-wrapper">
+    <header>
+      <div><img src="img/logo.png" class="mb-logo" />&lt;<strong>My Bookshelf</strong>&gt;</div>
+    </header>
+    <h1><% if doc.get_elements('bookshelf/title').length > 0
+             print ERB::Util.h doc.get_elements('bookshelf/title').first.text
+           else
+             print ERB::Util.h username %>'s Bookshelf<% end %></h1>
+
+    <% if doc.get_elements('bookshelf/intro').length > 0 %>
+    <p><em><%= ERB::Util.h(doc.text('bookshelf/intro').strip).gsub(/\r?\n/, '<br />') %></em></p>
+    <% end %>
+
+    <% if doc.get_elements('bookshelf/books/book').length < 1 %>
+    <p><small>Bookshelf is empty.</small></p>
+    <% else %>
+    <ul class="bookshelf">
+      <% doc.get_elements('bookshelf/books/book').each {|book| %>
+      <li class="bookshelf-book">
+        <a href="<%= book.text('url') %>"><img src="<%= book.text('cover') %>" alt="Обложка" class="bookshelf-book-cover" /></a>
+        <div class="bookshelf-book-info">
+          <h3 class="bookshelf-book-info-title bookshelf-name"><a href="<%= book.text('url') %>"><%=ERB::Util.h book.text('name') %></a></h3>
+          <p class="bookshelf-book-info-authors">
+            <% last_author = book.get_elements('authors/author').last
+               book.get_elements('authors/author').each {|author| %>
+            <a href="<%= author.text('url') %>"><%=ERB::Util.h author.text('name') %></a><% if author != last_author %>, <% end %>
+            <% } %>
+          </p>
+          <p class="bookshelf-book-info-publication">
+            Издательство <span class="bookshelf-name"><a href="<%= book.text('publish/publisher/url') %>">
+            <%=ERB::Util.h book.text('publish/publisher/name') %></a></span>;
+            <span class="bookshelf-pages"><%=ERB::Util.h book.text('publish/pages') %></span>;
+            <span class="bookshelf-year"><%=ERB::Util.h book.text('publish/year') %></span>
+          </p>
+          <div class="bookshelf-raiting-outer">
+            <div class="bookshelf-raiting-inner" style="width:<%= book.text('my/rating').to_i.round * 20 %>%"></div>
+          </div>
+          <p class="bookshelf-review"><%=ERB::Util.h book.text('my/review') %></p>
+        </div>
+      </li>
+      <% } %>
+    </ul>
+    <% end %>
+  </div>
+  <footer>&copy; <a href="http://valera.ws/" title="Personal blog" target="_blank">Valera Leontyev</a>, 2012. &lt;My Bookshelf&gt; application.</footer>
+</div>
+</body>
+</html>
