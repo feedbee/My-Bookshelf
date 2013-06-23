@@ -31,7 +31,30 @@
 			<cover>http://oz.by/data/img/10/28/409/cover/Arhitektura-komp-utera-Pytoe-izdanie-CD-ROM-Endru-Tanenbaum_1028409_1e23d01c.jpg</cover>
 			<my>
 				<rating>0</rating>
-				<review>Пока не начал читать (№ 2 в очереди)</review>
+				<review>Пока не начал читать (№ 1 в очереди)</review>
+			</my>
+		</book>
+		<book>
+			<name>Драйв. Что на самом деле нас мотивирует</name>
+			<authors>
+				<author>
+					<name>Дэниел Пинк</name>
+					<url>http://oz.by/people/more908922.html</url>
+				</author>
+			</authors>
+			<publish>
+				<publisher>
+					<name>Альпина</name>
+					<url>http://oz.by/producer/more12030.html</url>
+				</publisher>
+				<year>2013</year>
+				<pages>274</pages>
+			</publish>
+			<url>http://oz.by/books/more10285013.html</url>
+			<cover>http://s2.goods.ozstatic.by/200/13/285/10/10285013_0_Drayv_CHto_na_samom_dele_nas_motiviruet_Deniel_Pink.jpg</cover>
+			<my>
+				<rating>5</rating>
+				<review>Начал читать, довольно полезная книга, но кофициент повторяемости информации в ней высокий</review>
 			</my>
 		</book>
 		<book>
@@ -53,8 +76,8 @@
 			<url>http://oz.by/books/more101035.html</url>
 			<cover>http://oz.by/data/img/10/1/035/cover/Mifieskiy-eloveko-mesyc-ili-kak-sozdautsy-programmnie-sistemi_101035_177e3505.jpg</cover>
 			<my>
-				<rating>0</rating>
-				<review>Пока не начал читать (№ 1 в очереди)</review>
+				<rating>4</rating>
+				<review>Читать начал, но пока не закончил (не очень увлекательно)</review>
 			</my>
 		</book>
 		<book>
