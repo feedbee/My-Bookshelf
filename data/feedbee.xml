@@ -12,6 +12,102 @@
 	</intro>
 	<books>
 		<book>
+			<name>Человеческий фактор: успешные проекты и команды</name>
+			<authors>
+				<author>
+					<name>Тимоти Листер</name>
+					<url>http://oz.by/people/more907496.html</url>
+				</author>
+				<author>
+					<name>Том Демарко</name>
+					<url>http://oz.by/people/more907495.html</url>
+				</author>
+			</authors>
+			<publish>
+				<publisher>
+					<name>Символ</name>
+					<url>http://oz.by/producer/more12021.html</url>
+				</publisher>
+				<year>2007</year>
+				<pages>256</pages>
+			</publish>
+			<url>http://oz.by/books/more1015771.html</url>
+			<cover>1015771_0_CHelovecheskiy_faktor_uspeshnie_proekti_i_komandi_Tom_Demarko_Timoti_Lister.jpg</cover>
+			<my>
+				<rating></rating>
+				<review>Первая в очереди</review>
+			</my>
+		</book>
+		<book>
+			<name>Сначала скажите `нет`. Секреты профессиональных переговорщиков</name>
+			<authors>
+				<author>
+					<name>Джим Кэмп</name>
+					<url>http://oz.by/people/more908287.html</url>
+				</author>
+			</authors>
+			<publish>
+				<publisher>
+					<name>Добрая книга</name>
+					<url>http://oz.by/producer/more120281.html</url>
+				</publisher>
+				<year>2011</year>
+				<pages>272</pages>
+			</publish>
+			<url>http://oz.by/books/more1017188.html</url>
+			<cover>1017188_0_Snachala_skazhite_net_Sekreti_professionalnih_peregovorschikov_Dzhim_Kemp.jpg</cover>
+			<my>
+				<rating>3</rating>
+				<review>Начал читать. Пока похоже, что эта книга была куплена по ошибке :(</review>
+			</my>
+		</book>
+		<book>
+			<name>Рефакторинг. Улучшение существующего кода</name>
+			<authors>
+				<author>
+					<name>Мартин Фаулер</name>
+					<url>http://oz.by/people/more901495.html</url>
+				</author>
+			</authors>
+			<publish>
+				<publisher>
+					<name>Символ</name>
+					<url>http://oz.by/producer/more12021.html</url>
+				</publisher>
+				<year>2013</year>
+				<pages>432</pages>
+			</publish>
+			<url>http://oz.by/books/more105087.html</url>
+			<cover>105087_0_Refaktoring_Uluchshenie_suschestvuyuschego_koda_Martin_Fauler.jpg</cover>
+			<my>
+				<rating>5</rating>
+				<review>Начал читать. Начало вообще отличное. Но каталог паттерно тяжел для прочтения, но при этом едвали полезен столь высокий уровнь детализации — все же все виды рефакторинга надо понимать, а не уметь повторять</review>
+			</my>
+		</book>
+		<book>
+			<name>PHP: объекты, шаблоны и методики программирования</name>
+			<authors>
+				<author>
+					<name>Мэтт Зандстра</name>
+					<url>http://oz.by/people/more9019321.html</url>
+				</author>
+			</authors>
+			<publish>
+				<publisher>
+					<name>Вильямс</name>
+					<url>http://oz.by/producer/more1207.html</url>
+				</publisher>
+				<year>2013</year>
+				<pages>560</pages>
+			</publish>
+			<url>http://oz.by/books/more1074794.html</url>
+			<cover>1074794_0_PHP_obekti_shabloni_i_metodiki_programmirovaniya_Mett_Zandstra.jpg</cover>
+			<my>
+				<rating>5</rating>
+				<review>Начал читать. Похоже, что отличная книга для позднего джуниора или начинаюшего миддла. Даже сеньеру будет местами полезна</review>
+			</my>
+		</book>
+		<book>
 			<name>Архитектура компьютера. Пятое издание</name>
 			<authors>
 				<author>
@@ -28,10 +124,10 @@
 				<pages>848</pages>
 			</publish>
 			<url>http://oz.by/books/more1028409.html</url>
-			<cover>http://oz.by/data/img/10/28/409/cover/Arhitektura-komp-utera-Pytoe-izdanie-CD-ROM-Endru-Tanenbaum_1028409_1e23d01c.jpg</cover>
+			<cover>1028409_0_Arhitektura_kompyutera_Shestoe_izdanie_Endryu_Tanenbaum.jpg</cover>
 			<my>
 				<rating>0</rating>
-				<review>Пока не начал читать (№ 1 в очереди)</review>
+				<review>Начал читать. Интересно</review>
 			</my>
 		</book>
 		<book>
@@ -51,10 +147,10 @@
 				<pages>274</pages>
 			</publish>
 			<url>http://oz.by/books/more10285013.html</url>
-			<cover>http://s2.goods.ozstatic.by/200/13/285/10/10285013_0_Drayv_CHto_na_samom_dele_nas_motiviruet_Deniel_Pink.jpg</cover>
+			<cover>10285013_0_Drayv_CHto_na_samom_dele_nas_motiviruet_Deniel_Pink.jpg</cover>
 			<my>
 				<rating>5</rating>
-				<review>Начал читать, довольно полезная книга, но кофициент повторяемости информации в ней высокий</review>
+				<review>Довольно полезная книга для поинмания, объяснения и обостнования происходящего. Но местами скушноватая и кофициент повторяемости информации в ней высокий</review>
 			</my>
 		</book>
 		<book>
@@ -74,10 +170,10 @@
 				<pages>304</pages>
 			</publish>
 			<url>http://oz.by/books/more101035.html</url>
-			<cover>http://oz.by/data/img/10/1/035/cover/Mifieskiy-eloveko-mesyc-ili-kak-sozdautsy-programmnie-sistemi_101035_177e3505.jpg</cover>
+			<cover101035_0_Mificheskiy_cheloveko-mesyac_ili_kak_sozdayutsya_programmnie_sistemi.jpg</cover>
 			<my>
 				<rating>4</rating>
-				<review>Читать начал, но пока не закончил (не очень увлекательно)</review>
+				<review>Читать начал, но пока не закончил (не очень увлекательно, слишком устаревшая)</review>
 			</my>
 		</book>
 		<book>
@@ -101,10 +197,10 @@
 				<pages>270</pages>
 			</publish>
 			<url>http://oz.by/books/more1031721.html</url>
-			<cover>http://oz.by/data/img/10/31/721/cover/Programmist-pragmatik-Put-ot-podmaster-y-k-masteru-D-Tomas-E-Hant_1031721_771187ef.jpg</cover>
+			<cover>1031721_0_Programmist-pragmatik_Put_ot_podmasterya_k_masteru_D_Tomas_E_Hant.jpg</cover>
 			<my>
 				<rating>4</rating>
-				<review>Начал читать: интересно, но местами суховато (особенно после «Чистого кода»)</review>
+				<review>Интересная и полезная книга, но местами суховато (особенно после «Чистого кода»)</review>
 			</my>
 		</book>
 		<book>
@@ -124,7 +220,7 @@
 				<pages>320</pages>
 			</publish>
 			<url>http://oz.by/books/more1064026.html</url>
-			<cover>http://oz.by/data/img/10/64/026/cover/Djoel-I-snova-o-programmirovanii-Djoel-Spol-ski_1064026_c7a3297f.jpg</cover>
+			<cover>1064026_0_Dzhoel_I_snova_o_programmirovanii_Dzhoel_Spolski.jpg</cover>
 			<my>
 				<rating>5</rating>
 				<review>Отличная познавательная книга</review>
@@ -147,7 +243,7 @@
 				<pages>176</pages>
 			</publish>
 			<url>http://oz.by/books/more10234401.html</url>
-			<cover>http://oz.by/data/img/10/234/401/cover/Otziviviy-veb-dizayn-Itan-Markott_10234401_b9e4490a.jpg</cover>
+			<cover>10234401_0_Otzivchiviy_veb-dizayn_Itan_Markott.jpg</cover>
 			<my>
 				<rating>5</rating>
 				<review>Хорошая практичная книга, HTML-coders Must Read!</review>
@@ -170,7 +266,7 @@
 				<pages>352</pages>
 			</publish>
 			<url>http://oz.by/books/more1025139.html</url>
-			<cover>http://oz.by/data/img/10/25/139/cover/Djoel-o-programmirovanii-Djoel-Spol-ski_1025139_6f8d0213.jpg</cover>
+			<cover>10234401_0_Otzivchiviy_veb-dizayn_Itan_Markott.jpg</cover>
 			<my>
 				<rating>5</rating>
 				<review>Отличная познавательная книга</review>
@@ -196,7 +292,7 @@
 				<pages>960</pages>
 			</publish>
 			<url>http://oz.by/books/more104157.html</url>
-			<cover>http://oz.by/data/img/10/4/157/cover/Komp-uternie-seti-Endru-Tanenbaum_104157_0e62477a.jpg</cover>
+			<cover>104157_0_Kompyuternie_seti_Endryu_Tanenbaum.jpg</cover>
 			<my>
 				<rating>5</rating>
 				<review>Очень интересно и познавательно. Читать всем!</review>
@@ -219,7 +315,7 @@
 				<pages>144</pages>
 			</publish>
 			<url>http://oz.by/books/more1043609.html</url>
-			<cover>http://oz.by/data/img/10/43/609/cover/Rukovodstvo-Djoela-Spol-ski-po-podboru-programmistov-i-upravleniu-imi-Djoel-Spol-ski_1043609_8b057e4c.jpg</cover>
+			<cover>1043609_0_Rukovodstvo_Dzhoela_Spolski_po_podboru_programmistov_i_upravleniyu_imi_Dzhoel_Spolski.jpg</cover>
 			<my>
 				<rating>5</rating>
 				<review>Хорошая практичная книга</review>
@@ -242,7 +338,7 @@
 				<pages>896</pages>
 			</publish>
 			<url>http://oz.by/books/more1015206.html</url>
-			<cover>http://oz.by/data/img/10/15/206/cover/Soverenniy-kod-Master-klass-Stiv-MakKonnell_1015206_5a821c26.jpg</cover>
+			<cover>1015206_0_Sovershenniy_kod_Master-klass_Stiv_MakKonnell.jpg</cover>
 			<my>
 				<rating>3</rating>
 				<review>Нудно, многословно и скучно написано. Полезная иформация есть. Пока не дочитал.</review>
@@ -265,7 +361,7 @@
 				<pages>464</pages>
 			</publish>
 			<url>http://oz.by/books/more10109592.html</url>
-			<cover>http://oz.by/data/img/10/109/592/cover/istiy-kod-Sozdanie-analiz-i-refaktoring-Robert-Martin_10109592_ed2282ab.jpg</cover>
+			<cover>10109592_0_CHistiy_kod_Sozdanie_analiz_i_refaktoring_Robert_Martin.jpg</cover>
 			<my>
 				<rating>5</rating>
 				<review>Лучшая книга для программиста. Programmers Must Read!</review>
@@ -287,8 +383,8 @@
 				<year>2012</year>
 				<pages>1120</pages>
 			</publish>
-			<url>http://oz.by/books/more101783.html</url>
-			<cover>http://oz.by/data/img/10/4/617/cover/Sovremennie-operacionnie-sistemi-Endru-Tanenbaum_104617_40898eb7.jpg</cover>
+			<url>http://oz.by/books/more104617.html</url>
+			<cover>104617_0_Sovremennie_operacionnie_sistemi_Endryu_Tanenbaum.jpg</cover>
 			<my>
 				<rating>5</rating>
 				<review>Отличное пособие. Must read for all!</review>
@@ -311,7 +407,7 @@
 				<pages>432</pages>
 			</publish>
 			<url>http://oz.by/books/more1031383.html</url>
-			<cover>http://oz.by/data/img/10/31/383/cover/Iskusstvo-upravleniy-IT-proektami-Skott-Berkun_1031383_eacffdd6.jpg</cover>
+			<cover>1031383_0_Iskusstvo_upravleniya_IT-proektami_Skott_Berkun.jpg</cover>
 			<my>
 				<rating>2</rating>
 				<review>Очень тяжело читается. Полезного мало. Не дочитал</review>
@@ -334,7 +430,7 @@
 				<pages>256</pages>
 			</publish>
 			<url>http://oz.by/books/more1016852.html</url>
-			<cover>http://oz.by/data/img/10/16/852/cover/Kak-pasti-kotov-Nastavlenie-dly-programmistov-rukovodyih-drugimi-programmistami-Dj-Reynvoter_1016852_2b9ee91a.jpg</cover>
+			<cover>1016852_0_Kak_pasti_kotov_Nastavlenie_dlya_programmistov_rukovodyaschih_drugimi_programmistami_Dzh_Reynvoter.jpg</cover>
 			<my>
 				<rating>2</rating>
 				<review>Очень тяжело читается. Полезного мало. Не дочитал</review>
@@ -361,7 +457,7 @@
 				<pages>208</pages>
 			</publish>
 			<url>http://oz.by/books/more10120181.html</url>
-			<cover>http://oz.by/data/img/10/120/181/cover/Rework-Biznes-bez-predrassudkov-Djeyson-Frayd-Devid-Hensson_10120181_793d79b7.jpg</cover>
+			<cover>10120181_0_Rework_Biznes_bez_predrassudkov_Dzheyson_Frayd_Devid_Hensson.jpg</cover>
 			<my>
 				<rating>5</rating>
 				<review>Отличная книга для всех. Must read!</review>
@@ -396,10 +492,33 @@
 				<pages>368</pages>
 			</publish>
 			<url>http://oz.by/books/more101783.html</url>
-			<cover>http://oz.by/data/img/10/1/783/cover/Priemi-ob-ektno-orientirovannogo-proektirovaniy-Patterni-proektirovaniy-Erik-Gamma-R-Helm_101783_bdd33bb1.jpg</cover>
+			<cover>101783_0_Priemi_obektno-orientirovannogo_proektirovaniya_Patterni_proektirovaniya_Erik_Ramma_R_Helm.jpg</cover>
 			<my>
 				<rating>4</rating>
 				<review>Неплохая книга, правда тяжеловато читается</review>
+			</my>
+		</book>
+		<book>
+			<name>Веб-дизайн: книга Якоба Нильсена</name>
+			<authors>
+				<author>
+					<name>Якоб Нильсен</name>
+					<url>http://oz.by/people/more9091.html</url>
+				</author>
+			</authors>
+			<publish>
+				<publisher>
+					<name>Символ</name>
+					<url>http://oz.by/producer/more12021.html</url>
+				</publisher>
+				<year>2006</year>
+				<pages>512</pages>
+			</publish>
+			<url>http://oz.by/books/more101892.html</url>
+			<cover>101892_0_Veb-dizayn_kniga_Yakoba_Nilsena_Yakob_Nilsen.jpg</cover>
+			<my>
+				<rating>4</rating>
+				<review>Хорошая книга для своего времени, хотя и слишеом американизированная</review>
 			</my>
 		</book>
 		<book>
@@ -419,10 +538,37 @@
 				<pages>624</pages>
 			</publish>
 			<url>http://oz.by/books/more1019011.html</url>
-			<cover>http://oz.by/data/img/10/19/011/cover/Professional-noe-programmirovanie-na-PHP-Djordj-lossneygl_1019011_cd152e75.jpg</cover>
+			<cover>1019011_0_Professionalnoe_programmirovanie_na_PHP_Dzhordzh_Shlossneygl.jpg</cover>
 			<my>
 				<rating>4</rating>
 				<review>Неплохой был учебник для начинающих</review>
+			</my>
+		</book>
+		<book>
+			<name>Java 2 в подлиннике</name>
+			<authors>
+				<author>
+					<name>Патрик Ноутон</name>
+					<url>http://oz.by/people/more904871.html</url>
+				</author>
+				<author>
+					<name>Герберт Шилдт</name>
+					<url>http://oz.by/people/more90356.html</url>
+				</author>
+			</authors>
+			<publish>
+				<publisher>
+					<name>BHV</name>
+					<url>http://oz.by/producer/more1203.html</url>
+				</publisher>
+				<year>2008</year>
+				<pages>1072</pages>
+			</publish>
+			<url>http://oz.by/books/more108154.html</url>
+			<cover>108154_0_Java_2_v_podlinnike_Rerbert_Shildt_Patrik_Nouton.jpg</cover>
+			<my>
+				<rating></rating>
+				<review>Прочитал часть. Не помню точных ощущений от прочтения, но вроде книга</review>
 			</my>
 		</book>
 		<book>
@@ -442,7 +588,7 @@
 				<pages>1024</pages>
 			</publish>
 			<url>http://oz.by/books/more1026914.html</url>
-			<cover>http://oz.by/data/img/10/26/914/cover/MySQL-v-podlinnike-CD-ROM-Maksim-Kuznecov_1026914_c0a7e4e4.jpg</cover>
+			<cover>1026914_0_MySQL_5__CD-ROM_Maksim_Kuznecov.jpg</cover>
 			<my>
 				<rating>3</rating>
 				<review>Мануал. Кой-что полезное подметил в свое время</review>
@@ -465,7 +611,7 @@
 				<pages>432</pages>
 			</publish>
 			<url>http://oz.by/books/more1010980.html</url>
-			<cover>http://oz.by/data/img/10/10/980/cover/VBA-Samouitel-V-Kuz-menko_1010980_9eb4a80a.jpg</cover>
+			<cover>1010980_0_VBA_2003_Samouchitel_V_Kuzmenko.jpg</cover>
 			<my>
 				<rating>3</rating>
 				<review>Вообще не помню ничего про нее</review>
@@ -488,7 +634,7 @@
 				<pages>-</pages>
 			</publish>
 			<url>http://oz.by/books/more104020.html</url>
-			<cover>http://oz.by/data/img/10/4/020/cover/Programmirovanie-v-C-Builder-i-CD-ROM-Aleksey-Arhangel-skiy_104020_aa50350c.jpg</cover>
+			<cover>104020_0_Programmirovanie_v_C_Builder_6_i_2006__CD-ROM_Aleksey_Arhangelskiy.jpg</cover>
 			<my>
 				<rating>4</rating>
 				<review>Мало что помню ничего про нее</review>
@@ -511,7 +657,7 @@
 				<pages>-</pages>
 			</publish>
 			<url>http://oz.by/books/more102293.html</url>
-			<cover>http://oz.by/data/img/10/2/293/cover/C-C-Programmirovanie-na-yzike-visokogo-urovny-Tat-yna-Pavlovskay_102293_14ab1807.jpg</cover>
+			<cover>102293_0_CC_Programmirovanie_na_yazike_visokogo_urovnya_Tatyana_Pavlovskaya.jpg</cover>
 			<my>
 				<rating>4</rating>
 				<review>Средненько. Для студентов начальных курсов</review>
