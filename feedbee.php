@@ -41,8 +41,8 @@
 							<?php } ?>
 						</p>
 						<p class="bookshelf-book-info-publication">
-							Издательство <span class="bookshelf-name"><a href="<?php echo $book->publish->publisher->url; ?>">
-							<?php echo htmlspecialchars($book->publish->publisher->name); ?></a></span>; <span class="bookshelf-pages"><?php echo $book->publish->pages; ?></span>; <span class="bookshelf-year"><?php echo $book->publish->year; ?></span>
+							Издательство <span class="bookshelf-name"><a href="<?php echo $book->publish->publisher->url; ?>"><?php 
+								echo htmlspecialchars($book->publish->publisher->name); ?></a></span>; <span class="bookshelf-pages"><?php echo $book->publish->pages; ?></span>; <span class="bookshelf-year"><?php echo $book->publish->year; ?></span>
 						</p>
 						<div class="bookshelf-raiting-outer">
 							<div class="bookshelf-raiting-inner" style="width:<?php echo round((string)$book->my->rating) * 20; ?>%"></div>
