@@ -31,7 +31,7 @@
 			<ul class="bookshelf">
 				<?php foreach ($bookshelf->books->book as $book) { ?>
 				<li class="bookshelf-book">
-					<a href="<?php echo $book->url; ?>"><img src="data/cover/<?php echo $book->cover; ?>" alt="Обложка" class="bookshelf-book-cover" /></a>
+					<a href="<?php echo $book->url; ?>"><img src="data/covers/<?php echo $book->cover; ?>" alt="Обложка" class="bookshelf-book-cover" /></a>
 					<div class="bookshelf-book-info">
 						<h3 class="bookshelf-book-info-title bookshelf-name"><a href="<?php echo $book->url; ?>"><?php echo htmlspecialchars($book->name); ?></a></h3>
 						<p class="bookshelf-book-info-authors">
