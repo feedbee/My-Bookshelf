@@ -12,6 +12,140 @@
 	</intro>
 	<books>
 		<book>
+			<name>Domain Driven Design Quickly</name>
+			<authors>
+				<author>
+					<name>Nicholas Carlson</name>
+					<url>http://www.businessinsider.com/author/nicholas-carlson</url>
+				</author>
+			</authors>
+			<publish>
+				<publisher>
+					<name>InfoQ</name>
+					<url>http://www.infoq.com/</url>
+				</publisher>
+				<year>2006</year>
+				<pages>104</pages>
+			</publish>
+			<url>http://www.infoq.com/minibooks/domain-driven-design-quickly</url>
+			<cover>DomainDrivenDesignQuicklyOnline250x355.JPG</cover>
+			<my>
+				<rating>3</rating>
+				<review>Тема важная, хотя и переоцененная, но как написана книга, мне не понравилось</review>
+			</my>
+		</book>
+		<book>
+			<name>Marissa Mayer and the Fight to Save Yahoo!</name>
+			<authors>
+				<author>
+					<name>Nicholas Carlson</name>
+					<url>http://www.businessinsider.com/author/nicholas-carlson</url>
+				</author>
+			</authors>
+			<publish>
+				<publisher>
+					<name>Twelve</name>
+					<url>http://twelvebooks.com/</url>
+				</publisher>
+				<year>2015</year>
+				<pages>368</pages>
+			</publish>
+			<url>http://www.amazon.com/Marissa-Mayer-Fight-Save-Yahoo/dp/1455556610</url>
+			<cover>marissa-mayer.jpg</cover>
+			<my>
+				<rating>5</rating>
+				<review>Интересная, увлекательная и познавательная книга. Рекомендую</review>
+			</my>
+		</book>
+		<book>
+			<name>Сам себе МВА</name>
+			<authors>
+				<author>
+					<name>Джош Кауфман</name>
+					<url>http://oz.by/people/more9070571.html</url>
+				</author>
+			</authors>
+			<publish>
+				<publisher>
+					<name>Манн, Иванов и Фербер</name>
+					<url>http://oz.by/producer/more120478.html</url>
+				</publisher>
+				<year>2014</year>
+				<pages>464</pages>
+			</publish>
+			<url>http://oz.by/books/more10207863.html</url>
+			<cover>10207863_0_Sam_sebe_MVA_Dzhosh_Kaufman</cover>
+			<my>
+				<rating>5</rating>
+				<review>Отличная книга. Хотя и не дочитал пока, но отложил ее умышленно, так как сейчас интересны немного другие темы</review>
+			</my>
+		</book>
+		<book>
+			<name>Руководство к своду знаний по управлению проектами (Руководство PMBOK). — Пятое издание</name>
+			<authors>
+			</authors>
+			<publish>
+				<publisher>
+					<name>Project Management Institute, Inc</name>
+					<url>http://www.pmi.org/</url>
+				</publisher>
+				<year>2013</year>
+				<pages>590</pages>
+			</publish>
+			<url>http://oz.by/books/more10399197.html</url>
+			<cover>Scrum_and_XP_from_the_trenches.png</cover>
+			<my>
+				<rating>4</rating>
+				<review>Начал читать. Книга, конечно, полезная, но читается очень тяжело.</review>
+			</my>
+		</book>
+		<book>
+			<name>Scrum и XP: заметки с передовой</name>
+			<authors>
+				<author>
+					<name>Хенрик Книберг</name>
+					<url>https://www.crisp.se/konsulter/henrik-kniberg</url>
+				</author>
+			</authors>
+			<publish>
+				<publisher>
+					<name>Agile Ukraine</name>
+					<url>http://www.agileukraine.org/</url>
+				</publisher>
+				<year>2008</year>
+				<pages>94</pages>
+			</publish>
+			<url>http://scrum.org.ua/</url>
+			<cover>Scrum_and_XP_from_the_trenches.png</cover>
+			<my>
+				<rating>4</rating>
+				<review>Нормально, но ничего особенного</review>
+			</my>
+		</book>
+		<book>
+			<name>Гибкие методологии разработки</name>
+			<authors>
+				<author>
+					<name>Борис Вольфсон</name>
+					<url>https://twitter.com/borisvolfson</url>
+				</author>
+			</authors>
+			<publish>
+				<publisher>
+					<name>Agile Russia</name>
+					<url>http://agilerussia.ru/</url>
+				</publisher>
+				<year>2012</year>
+				<pages>112</pages>
+			</publish>
+			<url>http://agilerussia.ru/methodologies/borisvolfson_ebook/</url>
+			<cover>borisvolfson_book.png</cover>
+			<my>
+				<rating>4</rating>
+				<review>Нормально, но ничего особенного</review>
+			</my>
+		</book>
+		<book>
 			<name>Человеческий фактор: успешные проекты и команды</name>
 			<authors>
 				<author>
