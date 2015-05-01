@@ -12,6 +12,33 @@
 	</intro>
 	<books>
 		<book>
+			<name>Человеческий фактор: успешные проекты и команды</name>
+			<authors>
+				<author>
+					<name>Тимоти Листер</name>
+					<url>http://oz.by/people/more907496.html</url>
+				</author>
+				<author>
+					<name>Том Демарко</name>
+					<url>http://oz.by/people/more907495.html</url>
+				</author>
+			</authors>
+			<publish>
+				<publisher>
+					<name>Символ</name>
+					<url>http://oz.by/producer/more12021.html</url>
+				</publisher>
+				<year>2007</year>
+				<pages>256</pages>
+			</publish>
+			<url>http://oz.by/books/more1015771.html</url>
+			<cover>1015771_0_CHelovecheskiy_faktor_uspeshnie_proekti_i_komandi_Tom_Demarko_Timoti_Lister.jpg</cover>
+			<my>
+				<rating>5</rating>
+				<review>Хорошая книга. Хоть и старая, но не устаревшая</review>
+			</my>
+		</book>
+		<book>
 			<name>Domain Driven Design Quickly</name>
 			<authors>
 				<author>
@@ -143,33 +170,6 @@
 			<my>
 				<rating>4</rating>
 				<review>Нормально, но ничего особенного</review>
-			</my>
-		</book>
-		<book>
-			<name>Человеческий фактор: успешные проекты и команды</name>
-			<authors>
-				<author>
-					<name>Тимоти Листер</name>
-					<url>http://oz.by/people/more907496.html</url>
-				</author>
-				<author>
-					<name>Том Демарко</name>
-					<url>http://oz.by/people/more907495.html</url>
-				</author>
-			</authors>
-			<publish>
-				<publisher>
-					<name>Символ</name>
-					<url>http://oz.by/producer/more12021.html</url>
-				</publisher>
-				<year>2007</year>
-				<pages>256</pages>
-			</publish>
-			<url>http://oz.by/books/more1015771.html</url>
-			<cover>1015771_0_CHelovecheskiy_faktor_uspeshnie_proekti_i_komandi_Tom_Demarko_Timoti_Lister.jpg</cover>
-			<my>
-				<rating></rating>
-				<review>Первая в очереди</review>
 			</my>
 		</book>
 		<book>
