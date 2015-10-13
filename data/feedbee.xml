@@ -12,6 +12,29 @@
 	</intro>
 	<books>
 		<book>
+			<name>Выживают только параноики</name>
+			<authors>
+				<author>
+					<name>Эндрю Гроув</name>
+					<url>http://oz.by/producer/more12030.html</url>
+				</author>
+			</authors>
+			<publish>
+				<publisher>
+					<name>Альпина Паблишер</name>
+					<url>http://oz.by/producer/more12021.html</url>
+				</publisher>
+				<year>2011</year>
+				<pages>200</pages>
+			</publish>
+			<url>http://oz.by/books/more108000.html</url>
+			<cover>108000_0_Vizhivayut_tolko_paranoiki.jpg</cover>
+			<my>
+				<rating>5</rating>
+				<review>Книга хорошая и полезная, но есть лучше и полезнее. Информации маловато: можно было бы ужать до 100 страниц без потери информативности, просто стало бы суше и скучнее. Хотя ставлю 5 за книгу, но читать по бизнесу рекомендовал ее как минимум не первой, и даже не второй.</review>
+			</my>
+		</book>
+		<book>
 			<name>Человеческий фактор: успешные проекты и команды</name>
 			<authors>
 				<author>
