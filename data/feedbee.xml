@@ -12,6 +12,33 @@
 	</intro>
 	<books>
 		<book>
+			<name>Стратегия голубого океана</name>
+			<authors>
+				<author>
+					<name>Чан Ким</name>
+					<url>http://oz.by/people/more9010664.html</url>
+				</author>
+				<author>
+					<name>Рене Моборн</name>
+					<url>http://oz.by/people/more9010663.html</url>
+				</author>
+			</authors>
+			<publish>
+				<publisher>
+					<name>Манн, Иванов и Фербер</name>
+					<url>http://oz.by/producer/more120478.html</url>
+				</publisher>
+				<year>2015</year>
+				<pages>304</pages>
+			</publish>
+			<url>http://oz.by/books/more1022284.html</url>
+			<cover>1-chan-strategiya.jpg</cover>
+			<my>
+				<rating>5</rating>
+				<review>Очень хорошая, приятная в прочтении, практичная книга с очень высоким КПД (минимум воды). Рекомендую всем, кто хоть как-то связан с управлением</review>
+			</my>
+		</book>
+		<book>
 			<name>Выживают только параноики</name>
 			<authors>
 				<author>
@@ -31,7 +58,7 @@
 			<cover>108000_0_Vizhivayut_tolko_paranoiki.jpg</cover>
 			<my>
 				<rating>5</rating>
-				<review>Книга хорошая и полезная, но есть лучше и полезнее. Информации маловато: можно было бы ужать до 100 страниц без потери информативности, просто стало бы суше и скучнее. Хотя ставлю 5 за книгу, но читать по бизнесу рекомендовал ее как минимум не первой, и даже не второй.</review>
+				<review>Книга хорошая и полезная, но есть лучше и полезнее. Информации маловато: можно было бы ужать до 100 страниц без потери информативности, просто стало бы суше и скучнее. Хотя ставлю 5 за книгу, но читать по бизнесу рекомендовал бы ее как минимум не первой, и даже не второй.</review>
 			</my>
 		</book>
 		<book>
@@ -794,7 +821,7 @@
 			<cover>104020_0_Programmirovanie_v_C_Builder_6_i_2006__CD-ROM_Aleksey_Arhangelskiy.jpg</cover>
 			<my>
 				<rating>4</rating>
-				<review>Мало что помню ничего про нее</review>
+				<review>Мало что про нее помню</review>
 			</my>
 		</book>
 		<book>
