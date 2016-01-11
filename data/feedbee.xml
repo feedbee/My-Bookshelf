@@ -85,33 +85,6 @@
 			</my>
 		</book>
 		<book>
-			<name>Игра на победу. Как стратегия работает на самом деле</name>
-			<authors>
-				<author>
-					<name>Алан Лафли</name>
-					<url>http://oz.by/people/more9091948.html</url>
-				</author>
-				<author>
-					<name>Роджер Мартин</name>
-					<url>http://oz.by/people/more907549.html</url>
-				</author>
-			</authors>
-			<publish>
-				<publisher>
-					<name>Манн, Иванов и Фербер</name>
-					<url>http://oz.by/producer/more120478.html</url>
-				</publisher>
-				<year>2013</year>
-				<pages>304</pages>
-			</publish>
-			<url>http://oz.by/books/more10316165.html</url>
-			<cover>1_188.gif</cover>
-			<my>
-				<rating>4</rating>
-				<review>Хорошая книга о бизнесе в конкурентной среде. Немного скушновата, местами затянута, но стоит прочтения теми, кто в той или иной степени управляет бизнесом или его частью.</review>
-			</my>
-		</book>
-		<book>
 			<name>45 татуировок менеджера. Правила российского руководителя</name>
 			<authors>
 				<author>
