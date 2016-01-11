@@ -7,10 +7,133 @@
 	<title>Книжная полка Валеры Леонтьева</title>
 	<intro>
 		Ниже представлены книги, которые я прочел, или собираюсь прочесть.
-		Те, у которых стоит рейтинг 5, я однозначно рекомендую к прочтению. Многие книги с четверкой тоже хороши.
+		Те, у которых стоит рейтинг 5, я однозначно рекомендую к прочтению. Большинство книг с четверкой тоже хороши.
 		Некоторые книги я даже не дочитал. Книги с рейтингом 1 или 2 читать не стоит. Во всяком случае, в переводе.
 	</intro>
 	<books>
+		<book>
+			<name>От хорошего к великому. Почему одни компании совершают прорыв, а другие нет...</name>
+			<authors>
+				<author>
+					<name>Джим Коллинз</name>
+					<url>http://oz.by/people/more90192.html</url>
+				</author>
+			</authors>
+			<publish>
+				<publisher>
+					<name>Манн, Иванов и Фербер</name>
+					<url>http://oz.by/producer/more120478.html</url>
+				</publisher>
+				<year>2015</year>
+				<pages>320</pages>
+			</publish>
+			<url>http://oz.by/books/more103571.html</url>
+			<cover>good-big.png</cover>
+			<my>
+				<rating>0</rating>
+				<review>В процессе прочтения...</review>
+			</my>
+		</book>
+		<book>
+			<name>Без жалости к себе</name>
+			<authors>
+				<author>
+					<name>Эрик Бертран Ларссен</name>
+					<url>http://oz.by/people/more90111898.html</url>
+				</author>
+			</authors>
+			<publish>
+				<publisher>
+					<name>Манн, Иванов и Фербер</name>
+					<url>http://oz.by/producer/more120478.html</url>
+				</publisher>
+				<year>2015</year>
+				<pages>208</pages>
+			</publish>
+			<url>http://oz.by/books/more10467468.html</url>
+			<cover>e810fc9c5b7113355facb58314c.gif</cover>
+			<my>
+				<rating>5</rating>
+				<review>Отличная книга в своей области.</review>
+			</my>
+		</book>
+		<book>
+			<name>Игра на победу. Как стратегия работает на самом деле</name>
+			<authors>
+				<author>
+					<name>Алан Лафли</name>
+					<url>http://oz.by/people/more9091948.html</url>
+				</author>
+				<author>
+					<name>Роджер Мартин</name>
+					<url>http://oz.by/people/more907549.html</url>
+				</author>
+			</authors>
+			<publish>
+				<publisher>
+					<name>Манн, Иванов и Фербер</name>
+					<url>http://oz.by/producer/more120478.html</url>
+				</publisher>
+				<year>2013</year>
+				<pages>304</pages>
+			</publish>
+			<url>http://oz.by/books/more10316165.html</url>
+			<cover>1_188.gif</cover>
+			<my>
+				<rating>4</rating>
+				<review>Хорошая книга о бизнесе в конкурентной среде. Немного скушновата, местами затянута, но стоит прочтения теми, кто в той или иной степени управляет бизнесом или его частью.</review>
+			</my>
+		</book>
+		<book>
+			<name>Игра на победу. Как стратегия работает на самом деле</name>
+			<authors>
+				<author>
+					<name>Алан Лафли</name>
+					<url>http://oz.by/people/more9091948.html</url>
+				</author>
+				<author>
+					<name>Роджер Мартин</name>
+					<url>http://oz.by/people/more907549.html</url>
+				</author>
+			</authors>
+			<publish>
+				<publisher>
+					<name>Манн, Иванов и Фербер</name>
+					<url>http://oz.by/producer/more120478.html</url>
+				</publisher>
+				<year>2013</year>
+				<pages>304</pages>
+			</publish>
+			<url>http://oz.by/books/more10316165.html</url>
+			<cover>1_188.gif</cover>
+			<my>
+				<rating>4</rating>
+				<review>Хорошая книга о бизнесе в конкурентной среде. Немного скушновата, местами затянута, но стоит прочтения теми, кто в той или иной степени управляет бизнесом или его частью.</review>
+			</my>
+		</book>
+		<book>
+			<name>45 татуировок менеджера. Правила российского руководителя</name>
+			<authors>
+				<author>
+					<name>Максим Батырев</name>
+					<url>http://oz.by/people/more9093834.html</url>
+				</author>
+			</authors>
+			<publish>
+				<publisher>
+					<name>Манн, Иванов и Фербер</name>
+					<url>http://oz.by/producer/more120478.html</url>
+				</publisher>
+				<year>2013</year>
+				<pages>304</pages>
+			</publish>
+			<url>http://oz.by/books/more10327034.html</url>
+			<cover>10327034_26.jpg</cover>
+			<my>
+				<rating>4</rating>
+				<review>Хорошая книга в целом, и отличная книга для развивающихся менеджеров в областях, где все построено на иерархии и опыте, как продажи. Но прочесть стоит любому руководителю.</review>
+			</my>
+		</book>
 		<book>
 			<name>Стратегия голубого океана</name>
 			<authors>
