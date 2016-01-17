@@ -35,6 +35,37 @@
 			</my>
 		</book>
 		<book>
+			<name>Бизнес как игра</name>
+			<authors>
+				<author>
+					<name>Сергей Абдульманов</name>
+					<url>http://oz.by/people/more90112771.html</url>
+				</author>
+				<author>
+					<name>Дмитрий Борисов</name>
+					<url>http://oz.by/people/more90112773.html</url>
+				</author>
+				<author>
+					<name>Дмитрий Кибкало</name>
+					<url>http://oz.by/people/more90112772.html</url>
+				</author>
+			</authors>
+			<publish>
+				<publisher>
+					<name>Манн, Иванов и Фербер</name>
+					<url>http://oz.by/producer/more120478.html</url>
+				</publisher>
+				<year>2015</year>
+				<pages>256</pages>
+			</publish>
+			<url>http://oz.by/books/more10477465.html</url>
+			<cover>biznes-kak-igra-big.jpg</cover>
+			<my>
+				<rating>5</rating>
+				<review>Хорошая, полезная книга. Все кратко, четко и по делу.</review>
+			</my>
+		</book>
+		<book>
 			<name>Без жалости к себе</name>
 			<authors>
 				<author>
