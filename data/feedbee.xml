@@ -415,7 +415,7 @@
 			<cover>1074794_0_PHP_obekti_shabloni_i_metodiki_programmirovaniya_Mett_Zandstra.jpg</cover>
 			<my>
 				<rating>5</rating>
-				<review>Начал читать. Похоже, что отличная книга для позднего джуниора или начинаюшего миддла. Даже сеньеру будет местами полезна</review>
+				<review>Отличная книга для позднего джуниора или начинаюшего миддла. Даже сеньеру будет местами полезна</review>
 			</my>
 		</book>
 		<book>
@@ -439,6 +439,32 @@
 			<my>
 				<rating>0</rating>
 				<review>Начал читать. Интересно</review>
+			</my>
+		</book><book>
+			<name>Remote. Офис не обязателен</name>
+			<authors>
+				<author>
+					<name>Джейсон Фрайд</name>
+					<url>http://oz.by/people/more9039956.html</url>
+				</author>
+				<author>
+					<name>Дэвид Хенссон</name>
+					<url>http://oz.by/people/more9039958.html</url>
+				</author>
+			</authors>
+			<publish>
+				<publisher>
+					<name>Манн, Иванов и Фербер</name>
+					<url>http://oz.by/producer/more120478.html</url>
+				</publisher>
+				<year>2013</year>
+				<pages>288</pages>
+			</publish>
+			<url>http://oz.by/books/more10320995.html</url>
+			<cover>remote.jpg</cover>
+			<my>
+				<rating>4</rating>
+				<review>Хорошая книга, но немного с перегибами, как и Rework</review>
 			</my>
 		</book>
 		<book>
