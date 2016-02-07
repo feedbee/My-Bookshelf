@@ -12,6 +12,52 @@
 	</intro>
 	<books>
 		<book>
+			<name>Бизнес в стиле Virgin</name>
+			<authors>
+				<author>
+					<name>Ричард Брэнсон</name>
+					<url>http://oz.by/people/more903643.html</url>
+				</author>
+			</authors>
+			<publish>
+				<publisher>
+					<name>Манн, Иванов и Фербер</name>
+					<url>http://oz.by/producer/more120478.html</url>
+				</publisher>
+				<year>2015</year>
+				<pages>336</pages>
+			</publish>
+			<url>http://oz.by/books/more10278453.html</url>
+			<cover>branson.jpg</cover>
+			<my>
+				<rating>5</rating>
+				<review>Хорошая, полезная и мотивирующая литература</review>
+			</my>
+		</book>
+		<book>
+			<name>Код Дурова</name>
+			<authors>
+				<author>
+					<name>Николай Кононов</name>
+					<url>http://oz.by/people/more905926.html</url>
+				</author>
+			</authors>
+			<publish>
+				<publisher>
+					<name>Манн, Иванов и Фербер</name>
+					<url>http://oz.by/producer/more120478.html</url>
+				</publisher>
+				<year>2012</year>
+				<pages>206</pages>
+			</publish>
+			<url>http://oz.by/books/more10268210.html</url>
+			<cover>kod-durova.jpg</cover>
+			<my>
+				<rating>5</rating>
+				<review>Интересная и однозначно важная для понимания многих вещей книга (глаза на некоторые особенности автора закроем)</review>
+			</my>
+		</book>
+		<book>
 			<name>От хорошего к великому. Почему одни компании совершают прорыв, а другие нет...</name>
 			<authors>
 				<author>
