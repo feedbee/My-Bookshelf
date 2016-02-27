@@ -12,6 +12,52 @@
 	</intro>
 	<books>
 		<book>
+			<name>Deadline</name>
+			<authors>
+				<author>
+					<name>Том Демарко</name>
+					<url>http://oz.by/people/more901596.html</url>
+				</author>
+			</authors>
+			<publish>
+				<publisher>
+					<name>Манн, Иванов и Фербер</name>
+					<url>http://oz.by/producer/more120478.html</url>
+				</publisher>
+				<year>2013</year>
+				<pages>352</pages>
+			</publish>
+			<url>http://oz.by/books/more1018395.html</url>
+			<cover>deadline.jpg</cover>
+			<my>
+				<rating>5</rating>
+				<review>Гениальная книга</review>
+			</my>
+		</book>
+		<book>
+			<name>Маркетинг на 100%. Ремикс</name>
+			<authors>
+				<author>
+					<name>Игорь Манн</name>
+					<url>http://oz.by/people/more901596.html</url>
+				</author>
+			</authors>
+			<publish>
+				<publisher>
+					<name>Манн, Иванов и Фербер</name>
+					<url>http://oz.by/producer/more120478.html</url>
+				</publisher>
+				<year>2014</year>
+				<pages>256</pages>
+			</publish>
+			<url>http://oz.by/books/more10198146.html</url>
+			<cover>market.jpg</cover>
+			<my>
+				<rating>4</rating>
+				<review>Книга учит как стать специалистом в областях, подобных маркетингу. Самому маркетингу не учит вообще</review>
+			</my>
+		</book>
+		<book>
 			<name>Бизнес в стиле Virgin</name>
 			<authors>
 				<author>
@@ -28,7 +74,7 @@
 				<pages>336</pages>
 			</publish>
 			<url>http://oz.by/books/more10278453.html</url>
-			<cover>branson.jpg</cover>
+			<cover>branson.JPG</cover>
 			<my>
 				<rating>5</rating>
 				<review>Хорошая, полезная и мотивирующая литература</review>
