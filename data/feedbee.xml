@@ -12,6 +12,52 @@
 	</intro>
 	<books>
 		<book>
+			<name>Быть начальником — это нормально</name>
+			<authors>
+				<author>
+					<name>Брюс Тулган</name>
+					<url>http://oz.by/people/more9028822.html</url>
+				</author>
+			</authors>
+			<publish>
+				<publisher>
+					<name>Манн, Иванов и Фербер</name>
+					<url>http://oz.by/producer/more120478.html</url>
+				</publisher>
+				<year>2016</year>
+				<pages>240</pages>
+			</publish>
+			<url>http://oz.by/books/more10483232.html</url>
+			<cover>to-be-the-boss.jpg</cover>
+			<my>
+				<rating>5</rating>
+				<review>Хорошая, практичная книга. Поможет начинающим менеджерам</review>
+			</my>
+		</book>
+		<book>
+			<name>Как преодолеть кризисы менеджмента</name>
+			<authors>
+				<author>
+					<name>Ицхак Адизес</name>
+					<url>http://oz.by/people/more9013168.html</url>
+				</author>
+			</authors>
+			<publish>
+				<publisher>
+					<name>Манн, Иванов и Фербер</name>
+					<url>http://oz.by/producer/more120478.html</url>
+				</publisher>
+				<year>2015</year>
+				<pages>320</pages>
+			</publish>
+			<url>http://oz.by/books/more10353398.html</url>
+			<cover>adizes-krizisy-menedjmenta.jpg</cover>
+			<my>
+				<rating>5</rating>
+				<review>Очень хорошая книга, теория основанная на практике, которую можно и нужно применять на практике</review>
+			</my>
+		</book>
+		<book>
 			<name>Deadline</name>
 			<authors>
 				<author>
