@@ -15,8 +15,8 @@
 }
 
 .bookshelf-book-cover {
-	max-height: 10em;
-	max-width: 7em;
+	max-height: 14em;
+	max-width: 12em;
 	margin: 0 .8em .8em 0;
 	
 	border: 1pt solid gray;
