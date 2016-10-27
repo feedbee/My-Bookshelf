@@ -12,6 +12,52 @@
 	</intro>
 	<books>
 		<book>
+			<name>Парадокс перфекциониста</name>
+			<authors>
+				<author>
+					<name>Тал Бен-Шахар</name>
+					<url>http://oz.by/people/more9026767.html</url>
+				</author>
+			</authors>
+			<publish>
+				<publisher>
+					<name>Манн, Иванов и Фербер</name>
+					<url>http://oz.by/producer/more120478.html</url>
+				</publisher>
+				<year>2013</year>
+				<pages>256</pages>
+			</publish>
+			<url>http://oz.by/books/more10312935.html</url>
+			<cover>perfectionist-paradox.png</cover>
+			<my>
+				<rating>5</rating>
+				<review>Эта книга многим может польностью изменить жизнь. Лучше читать следом за Эмоциональным интеллектом Гоулмана</review>
+			</my>
+		</book>
+		<book>
+			<name>Эмоциональный интеллект</name>
+			<authors>
+				<author>
+					<name>Дэниель Гоулман</name>
+					<url>http://oz.by/people/more906615.html</url>
+				</author>
+			</authors>
+			<publish>
+				<publisher>
+					<name>Манн, Иванов и Фербер</name>
+					<url>http://oz.by/producer/more120478.html</url>
+				</publisher>
+				<year>2016</year>
+				<pages>560</pages>
+			</publish>
+			<url>http://oz.by/books/more1046198.html</url>
+			<cover>emotional-intellect.jpg</cover>
+			<my>
+				<rating>5</rating>
+				<review>Отличная книга с хорошей теоритей и практикой. Дает ответы на много вопросов</review>
+			</my>
+		</book>
+		<book>
 			<name>Эффективный руководитель</name>
 			<authors>
 				<author>
@@ -54,7 +100,7 @@
 			<cover>chto_ty_vyberesh.jpg</cover>
 			<my>
 				<rating>3</rating>
-				<review>Книга в целом содержит правильные мысли, но чего-то нового в ней мало. Обо всем и ни о чем. Наверное, лучше почитать что-то более конкретное.</review>
+				<review>Книга в целом содержит правильные мысли, но чего-то нового в ней мало. Обо всем и ни о чем. Наверное, лучше почитать что-то более конкретное</review>
 			</my>
 		</book>
 		<book>
