@@ -12,6 +12,29 @@
 	</intro>
 	<books>
 		<book>
+			<name>Воспоминания о войне</name>
+			<authors>
+				<author>
+					<name>Николай Никулин</name>
+					<url>http://oz.by/people/more9054611.html</url>
+				</author>
+			</authors>
+			<publish>
+				<publisher>
+					<name>АСТ</name>
+					<url>http://oz.by/producer/more1205.html</url>
+				</publisher>
+				<year>2014</year>
+				<pages>352</pages>
+			</publish>
+			<url>http://oz.by/books/more10372221.html</url>
+			<cover>war-memories.jpg</cover>
+			<my>
+				<rating>5</rating>
+				<review>Отрезвляет... Книгу советовал бы прочесть каждому, но особенно не помешает тем, кто управляет людьми</review>
+			</my>
+		</book>
+		<book>
 			<name>Парадокс перфекциониста</name>
 			<authors>
 				<author>
