@@ -12,6 +12,75 @@
 	</intro>
 	<books>
 		<book>
+			<name>Быть, а не казаться</name>
+			<authors>
+				<author>
+					<name>Стивен Кови</name>
+					<url>https://oz.by/people/more902187.html</url>
+				</author>
+			</authors>
+			<publish>
+				<publisher>
+					<name>Манн, Иванов и Фербер</name>
+					<url>https://oz.by/producer/more120478.html</url>
+				</publisher>
+				<year>2016</year>
+				<pages>240</pages>
+			</publish>
+			<url>https://oz.by/books/more10513410.html</url>
+			<cover>to-be.jpg</cover>
+			<my>
+				<rating>4</rating>
+				<review>Книга хороша, но я для себя в ней нового особо не нашел. Немного скучновата</review>
+			</my>
+		</book>
+		<book>
+			<name>Голая статистика</name>
+			<authors>
+				<author>
+					<name>Чарльз Уилан</name>
+					<url>https://oz.by/people/more90114421.html</url>
+				</author>
+			</authors>
+			<publish>
+				<publisher>
+					<name>Манн, Иванов и Фербер</name>
+					<url>https://oz.by/producer/more120478.html</url>
+				</publisher>
+				<year>2016</year>
+				<pages>352</pages>
+			</publish>
+			<url>https://oz.by/books/more10492311.html</url>
+			<cover>golaya_statistika.jpg</cover>
+			<my>
+				<rating>4</rating>
+				<review>Книга действительно хорошая и интересная, хотя и немного затянутая. Но однозначно полезна тем, кто хочет на легке освоить остновные статистические понятия</review>
+			</my>
+		</book>
+		<book>
+			<name>Большая восьмерка</name>
+			<authors>
+				<author>
+					<name>Ричард Джон</name>
+					<url>https://oz.by/people/more90112621.html</url>
+				</author>
+			</authors>
+			<publish>
+				<publisher>
+					<name>Манн, Иванов и Фербер</name>
+					<url>https://oz.by/producer/more120478.html</url>
+				</publisher>
+				<year>2015</year>
+				<pages>272</pages>
+			</publish>
+			<url>https://oz.by/books/more10475842.html</url>
+			<cover>great8.jpg</cover>
+			<my>
+				<rating>4</rating>
+				<review>С одной стороны, полезная книга и написано по делу, с другой стороны попытка больше доказать, чем рассказать</review>
+			</my>
+		</book>
+		<book>
 			<name>Воспоминания о войне</name>
 			<authors>
 				<author>
