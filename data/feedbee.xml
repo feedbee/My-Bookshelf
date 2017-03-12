@@ -12,6 +12,29 @@
 	</intro>
 	<books>
 		<book>
+			<name>Номер 1</name>
+			<authors>
+				<author>
+					<name>Игорь Манн</name>
+					<url>https://oz.by/people/more901596.html</url>
+				</author>
+			</authors>
+			<publish>
+				<publisher>
+					<name>Манн, Иванов и Фербер</name>
+					<url>https://oz.by/producer/more120478.html</url>
+				</publisher>
+				<year>2015</year>
+				<pages>240</pages>
+			</publish>
+			<url>https://oz.by/books/more10355756.html</url>
+			<cover>no1.png</cover>
+			<my>
+				<rating>4</rating>
+				<review>Я не в восторге от книги. Мне кажется, что в ней больше маркетинга Манна, чем реальной пользы. Самое ценное в книге — это список литературы по темам</review>
+			</my>
+		</book>
+		<book>
 			<name>Быть, а не казаться</name>
 			<authors>
 				<author>
