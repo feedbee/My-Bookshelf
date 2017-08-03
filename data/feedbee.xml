@@ -12,6 +12,52 @@
 	</intro>
 	<books>
 		<book>
+			<name>Гибкое сознание</name>
+			<authors>
+				<author>
+					<name>Кэрол Дуэк</name>
+					<url>https://oz.by/people/more9092576.html</url>
+				</author>
+			</authors>
+			<publish>
+				<publisher>
+					<name>Манн, Иванов и Фербер</name>
+					<url>https://oz.by/producer/more120478.html</url>
+				</publisher>
+				<year>2013</year>
+				<pages>400</pages>
+			</publish>
+			<url>https://oz.by/books/more10321131.html</url>
+			<cover>gibkoe-soznanie.png</cover>
+			<my>
+				<rating>5</rating>
+				<review>Очень важная книга, многое расставит по своим местам и откроет путь к развитию для многих. Лучше читать после Эмоционального интеллекта</review>
+			</my>
+		</book>
+		<book>
+			<name>Подсознание может все!</name>
+			<authors>
+				<author>
+					<name>Джон Кехо</name>
+					<url>https://oz.by/people/more902110.html</url>
+				</author>
+			</authors>
+			<publish>
+				<publisher>
+					<name>Попурри</name>
+					<url>https://oz.by/producer/more120283.html</url>
+				</publisher>
+				<year>2016</year>
+				<pages>160</pages>
+			</publish>
+			<url>https://oz.by/books/more10264200.html</url>
+			<cover>podsoznanie.jpg</cover>
+			<my>
+				<rating>4</rating>
+				<review>Хотя книга и весьма спорная (в том числе по части аргументации, больше на впаривание похоже), но смысл в ее прочтении есть.</review>
+			</my>
+		</book>
+		<book>
 			<name>Номер 1</name>
 			<authors>
 				<author>
