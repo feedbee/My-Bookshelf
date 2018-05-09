@@ -12,6 +12,56 @@
 	</intro>
 	<books>
 		<book>
+			<name>Наука общения</name>
+			<authors>
+				<author>
+					<name>Ванесса ван Эдвардс</name>
+					<url>https://oz.by/people/more90123789.html</url>
+				</author>
+			</authors>
+			<publish>
+				<publisher>
+					<name>Манн, Иванов и Фербер</name>
+					<url>https://oz.by/producer/more120478.html</url>
+				</publisher>
+				<year>2017</year>
+				<pages>384</pages>
+			</publish>
+			<url>https://oz.by/books/more10660564.html</url>
+			<cover>nauka-obshenia.jpg</cover>
+			<my>
+				<rating>4</rating>
+				<review>неплохая практичная книга, но сильно растянута, объем можно было бы сократить вдвое</review>
+			</my>
+		</book>
+		<book>
+			<name>Эмоциональные интеллект 2.0</name>
+			<authors>
+				<author>
+					<name>Тревис Бредберри</name>
+					<url>https://oz.by/people/more9023412.html</url>
+				</author>
+				<author>
+					<name>Джин Гривз</name>
+					<url>https://oz.by/people/more9023327.html</url>
+				</author>
+			</authors>
+			<publish>
+				<publisher>
+					<name>Манн, Иванов и Фербер</name>
+					<url>https://oz.by/producer/more120478.html</url>
+				</publisher>
+				<year>2017</year>
+				<pages>192</pages>
+			</publish>
+			<url>https://oz.by/books/more10594629.html</url>
+			<cover>eq20.jpg</cover>
+			<my>
+				<rating>4</rating>
+				<review>Хорошая книга, правда после Гоулмана уже не так вставила</review>
+			</my>
+		</book>
+		<book>
 			<name>Гибкое сознание</name>
 			<authors>
 				<author>
