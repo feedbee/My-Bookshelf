@@ -12,6 +12,56 @@
 	</intro>
 	<books>
 		<book>
+			<name>Законы победителей</name>
+			<authors>
+				<author>
+					<name>Бодо Шефер</name>
+					<url>https://oz.by/people/more90836.html</url>
+				</author>
+			</authors>
+			<publish>
+				<publisher>
+					<name>Попурри</name>
+					<url>https://oz.by/producer/more120283.html</url>
+				</publisher>
+				<year>2013</year>
+				<pages>160</pages>
+			</publish>
+			<url>https://oz.by/books/more10680363.html</url>
+			<cover>zakoni-p.jpg</cover>
+			<my>
+				<rating>5</rating>
+				<review>Отличная книга. КПД очень высок, воды нет, структирована отлично. И раскрывает тему полностью. К тому же очень практична. Одно из лучшего, что я прочел.</review>
+			</my>
+		</book>
+		<book>
+			<name>Безжалостный менеджмент</name>
+			<authors>
+				<author>
+					<name>Андрей Парабеллум</name>
+					<url>https://www.ozon.ru/person/4341702/</url>
+				</author>
+				<author>
+					<name>Николай Мрочковский</name>
+					<url>https://www.ozon.ru/person/3451937/</url>
+				</author>
+			</authors>
+			<publish>
+				<publisher>
+					<name>Питер</name>
+					<url>https://www.ozon.ru/brand/856134/</url>
+				</publisher>
+				<year>2013</year>
+				<pages>160</pages>
+			</publish>
+			<url>https://www.ozon.ru/context/detail/id/21668639/</url>
+			<cover>bezhmen.jpg</cover>
+			<my>
+				<rating>2</rating>
+				<review>Эта книга особая. С точки зрения применимости она скорей из области вредных советов. Но с точки зрения образования я бы советовал ее прочесть, чтобы понимать, как работают многие другие вокруг.</review>
+			</my>
+		</book>
+		<book>
 			<name>Наука общения</name>
 			<authors>
 				<author>
@@ -31,7 +81,7 @@
 			<cover>nauka-obshenia.jpg</cover>
 			<my>
 				<rating>4</rating>
-				<review>неплохая практичная книга, но сильно растянута, объем можно было бы сократить вдвое</review>
+				<review>Неплохая практичная книга, но сильно растянута, объем можно было бы сократить вдвое</review>
 			</my>
 		</book>
 		<book>
