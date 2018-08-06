@@ -12,6 +12,29 @@
 	</intro>
 	<books>
 		<book>
+			<name>Measure What Matters</name>
+			<authors>
+				<author>
+					<name>John Doerr</name>
+					<url>https://en.wikipedia.org/wiki/John_Doerr</url>
+				</author>
+			</authors>
+			<publish>
+				<publisher>
+					<name>Penguin Publishing Group</name>
+					<url>http://www.penguin.com/publishers/penguin-publishing-group/</url>
+				</publisher>
+				<year>2017</year>
+				<pages>352</pages>
+			</publish>
+			<url>https://www.amazon.com/Measure-What-Matters-Google-Foundation/dp/0525536221</url>
+			<cover>measure-what-matters.jpg</cover>
+			<my>
+				<rating>4</rating>
+				<review>Книга про очень правильные и важные вещи. Из минусов только стиль ее написания, можно было бы компактнее и интереснее.</review>
+			</my>
+		</book>
+		<book>
 			<name>Законы победителей</name>
 			<authors>
 				<author>
