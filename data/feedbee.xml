@@ -35,6 +35,29 @@
 			</my>
 		</book>
 		<book>
+			<name>Размышления о личном развитии</name>
+			<authors>
+				<author>
+					<name>Ицхак Адизес</name>
+					<url>http://oz.by/people/more9013168.html</url>
+				</author>
+			</authors>
+			<publish>
+				<publisher>
+					<name>Манн, Иванов и Фербер</name>
+					<url>https://oz.by/producer/more120478.html</url>
+				</publisher>
+				<year>2015</year>
+				<pages>208</pages>
+			</publish>
+			<url>https://oz.by/books/more10400002.html</url>
+			<cover>adizes-personal-dev.jpg</cover>
+			<my>
+				<rating>4</rating>
+				<review>Хорошая интересная книга, но никаких сакральных тайн не раскроет.</review>
+			</my>
+		</book>
+		<book>
 			<name>Законы победителей</name>
 			<authors>
 				<author>
