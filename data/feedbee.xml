@@ -12,6 +12,29 @@
 	</intro>
 	<books>
 		<book>
+			<name>Управляя изменениями</name>
+			<authors>
+				<author>
+					<name>Ицхак Адизес</name>
+					<url>http://oz.by/people/more9013168.html</url>
+				</author>
+			</authors>
+			<publish>
+				<publisher>
+					<name>Манн, Иванов и Фербер</name>
+					<url>https://oz.by/producer/more120478.html</url>
+				</publisher>
+				<year>2015</year>
+				<pages>368</pages>
+			</publish>
+			<url>https://oz.by/books/more10360322.html</url>
+			<cover>adizes.changes.png</cover>
+			<my>
+				<rating>5</rating>
+				<review>Одна из лучших книг, который я прочем. Однозначно лучшая по менеджменту. По сути – учебник, который структурирует понимание такой сложной области знаний очень простым и понятным способом.</review>
+			</my>
+		</book>
+		<book>
 			<name>Measure What Matters</name>
 			<authors>
 				<author>
