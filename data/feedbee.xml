@@ -12,6 +12,29 @@
 	</intro>
 	<books>
 		<book>
+			<name>Бизнес с нуля. Метод Lean Startup </name>
+			<authors>
+				<author>
+					<name>Эрик Рис</name>
+					<url>https://oz.by/people/more9082705.html</url>
+				</author>
+			</authors>
+			<publish>
+				<publisher>
+					<name>Альпина Паблишер</name>
+					<url>http://oz.by/producer/more12021.html</url>
+				</publisher>
+				<year>2017</year>
+				<pages>256</pages>
+			</publish>
+			<url>https://oz.by/books/more10268366.html</url>
+			<cover>lean-startup.jpg</cover>
+			<my>
+				<rating>3</rating>
+				<review>В книге есть хорошие мысли, но много воды и КПД довольно низкий. Плюс все ключевые моменты из книги постоянно всплывают в общении, статьях и других книгах. Так что хотя книга в целом и неплоха, не могу ее рекомендовать как must read.</review>
+			</my>
+		</book>
+		<book>
 			<name>Управляя изменениями</name>
 			<authors>
 				<author>
