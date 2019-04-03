@@ -12,7 +12,57 @@
 	</intro>
 	<books>
 		<book>
-			<name>Бизнес с нуля. Метод Lean Startup </name>
+			<name>Союз непохожих. Как создать счастливую семью не вопреки, а благодаря вашим различиям</name>
+			<authors>
+				<author>
+					<name>Ицхак Адизес</name>
+					<url>http://oz.by/people/more9013168.html</url>
+				</author>
+			</authors>
+			<publish>
+				<publisher>
+					<name>Манн, Иванов и Фербер</name>
+					<url>https://oz.by/producer/more120478.html</url>
+				</publisher>
+				<year>2015</year>
+				<pages>208</pages>
+			</publish>
+			<url>https://oz.by/books/more10594716.html</url>
+			<cover>souz-nepohozhih.jpg</cover>
+			<my>
+				<rating>5</rating>
+				<review>Проекция теории Адизеса на семейные отношения. Хорошая книга, как и все остальные. Есть и практика, и теория.</review>
+			</my>
+		</book>
+		<book>
+			<name>The Phoenix Project</name>
+			<authors>
+				<author>
+					<name>Gene Kim</name>
+					<url>https://www.amazon.com/Gene-Kim/e/B00AERCJ9E</url>
+				</author>
+				<author>
+					<name>Kevin Behr</name>
+					<url>https://www.amazon.com/Kevin-Behr/e/B001JS6SXU</url>
+				</author>
+			</authors>
+			<publish>
+				<publisher>
+					<name>IT Revolution Press</name>
+					<url>https://itrevolution.com/</url>
+				</publisher>
+				<year>2017</year>
+				<pages>256</pages>
+			</publish>
+			<url>https://www.amazon.com/Phoenix-Project-DevOps-Helping-Business/dp/0988262592</url>
+			<cover>phoenix.jpg</cover>
+			<my>
+				<rating>5</rating>
+				<review>Прекрасная книга, которая не только рассказывает о становлении культуры devops в большой компании с нуля, но и дает хорошее понимание устройства классической американской корпорации изнутри.</review>
+			</my>
+		</book>
+		<book>
+			<name>Бизнес с нуля. Метод Lean Startup</name>
 			<authors>
 				<author>
 					<name>Эрик Рис</name>
