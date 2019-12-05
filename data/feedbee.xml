@@ -13,6 +13,29 @@
 	</intro>
 	<books>
 		<book>
+			<name>Слон на танцполе. Как Герман Греф и его команда учат Сбербанк танцевать</name>
+			<authors>
+				<author>
+					<name>Евгений Карасюк</name>
+					<url>https://www.litres.ru/evgeniy-karasuk/</url>
+				</author>
+			</authors>
+			<publish>
+				<publisher>
+					<name>Манн, Иванов и Фербер</name>
+					<url>https://www.litres.ru/mann-ivanov-i-ferber/audioknigi/</url>
+				</publisher>
+				<year>2013</year>
+				<pages>260</pages>
+			</publish>
+			<url>https://www.litres.ru/evgeniy-karasuk/slon-na-tancpole-kak-german-gref-i-ego-komanda-uchat-sberbank-tancevat/?lfrom=141525098&amp;ref_key=ebaa8e4689a07c9fedd6085b05f670e62ae84e845553c97a95f1ebf023790f3b&amp;ref_offer=1</url>
+			<cover>slon-na-tancpole.jpg</cover>
+			<my>
+				<rating>3</rating>
+				<review>(Аудиокнига) Ниже ожиданий. Чистое повествование истории, никаких откровений или практических знаний, мало деталей, очень поверхностно. Лучше слушать в аудио, если интересна непосредственно история Сбербанка</review>
+			</my>
+		</book>
+		<book>
 			<name>Вы или вас: профессиональная эксплуатация подчиненных</name>
 			<authors>
 				<author>
@@ -31,8 +54,8 @@
 			<url>https://www.litres.ru/aleksandr-fridman/vy-ili-vas-professionalnaya-ekspluataciya-podchinennyh-regulyarnyy-menedzhment-dlya-racionalnogo-rukovoditelya/?lfrom=141525098&amp;ref_key=7bbff15f4eea0624590505d862c95c87600c4b2ab6f2e0362ec0df8d9cd14280&amp;ref_offer=1</url>
 			<cover>vy-ili-vas.jpg</cover>
 			<my>
-				<rating>...</rating>
-				<review>(Аудиокнига) В процессе прослушивания...</review>
+				<rating>3</rating>
+				<review>(Аудиокнига) Разложение теории менеджмента по полочкам, пракчически полное отсутствие практики и много воды. Точно не стоит слушать в аудио, а читать стоит тем, кто хочет разобраться в сути менеджмента, а не получить новые навыки</review>
 			</my>
 		</book>
 		<book>
@@ -55,7 +78,7 @@
 			<cover>sapiens.jpg</cover>
 			<my>
 				<rating>5</rating>
-				<review>В процессе чтения...</review>
+				<review>Супер-книга. Меняет взгляд на многие вещи в жизни, дает ответы на многие вопросы. Наконец-то – слаженная и последовательная подача истории человечества</review>
 			</my>
 		</book>
 		<book>
