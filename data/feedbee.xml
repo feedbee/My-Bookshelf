@@ -13,6 +13,83 @@
 	</intro>
 	<books>
 		<book>
+			<name>Атлант расправил плечи</name>
+			<authors>
+				<author>
+					<name>Айн Рэнд</name>
+					<url>https://www.litres.ru/ayn-rend/</url>
+				</author>
+			</authors>
+			<publish>
+				<publisher>
+					<name>Альпина Диджитал</name>
+					<url>https://www.litres.ru/alpina/</url>
+				</publisher>
+				<year>1957</year>
+				<pages>1890</pages>
+			</publish>
+			<url>https://www.litres.ru/ayn-rend/atlant-raspravil-plechi/?lfrom=141525098&amp;ref_key=1d6acf8f311fe04530ee2363417e661d3e2273a2c4461517224037a6d05f37fb&amp;ref_offer=1</url>
+			<cover>atlant-raspravil-plechi.jpg</cover>
+			<my>
+				<rating>5</rating>
+				<review>(Аудиокнига) Очень длинная, но интересная и полезная. Разные люди найдут в ней разные ценности – мысли, мотивацию, структрурирование накопленных знанией. Рекоммендовал бы к прочтению любому выходцу из СССР. Так как книга очень длинная, лучше слушать в аудио. Рекоммендую читать после книги "Sapiens. Краткая история человечества" и "1984" (именно в таком порядке).</review>
+			</my>
+		</book>
+		<book>
+			<name>1984</name>
+			<authors>
+				<author>
+					<name>Айн Рэнд</name>
+					<url>https://www.litres.ru/ayn-rend/</url>
+				</author>
+			</authors>
+			<publish>
+				<publisher>
+					<name>Издательство АСТ</name>
+					<url>https://www.litres.ru/ast/</url>
+				</publisher>
+				<year>1949</year>
+				<pages>320</pages>
+			</publish>
+			<url>https://www.litres.ru/dzhordzh-oruell/1984/?lfrom=141525098&amp;ref_key=f01450091f628ed07257f37db0b611ae76b2389c04797f40c4f28f01bf6e0758&amp;ref_offer=1</url>
+			<cover>1984.jpg</cover>
+			<my>
+				<rating>4</rating>
+				<review>(Аудиокнига) Книга тяжелая, но полезная к прочтению. Описывает устройство (в форме крайностей) таких государтсв, как Северная Корея.</review>
+			</my>
+		</book>
+		<book>
+			<name>Психология убеждения</name>
+			<authors>
+				<author>
+					<name>Роберт Чалдини</name>
+					<url>https://www.litres.ru/robert-chaldini/</url>
+				</author>
+				<author>
+					<name>Ноа Гольдштейн</name>
+					<url>https://www.litres.ru/noa-goldshteyn/</url>
+				</author>
+				<author>
+					<name>Стив Мартин</name>
+					<url>https://www.litres.ru/stiv-martin/</url>
+				</author>
+			</authors>
+			<publish>
+				<publisher>
+					<name>Манн, Иванов и Фербер</name>
+					<url>https://www.litres.ru/mann-ivanov-i-ferber/</url>
+				</publisher>
+				<year>2013</year>
+				<pages>230</pages>
+			</publish>
+			<url>https://www.litres.ru/noa-goldshteyn/psihologiya-ubezhdeniya-50-dokazannyh-sposobov-byt-ubeditelnym/</url>
+			<cover>psihologiya-ubezhdeniya.jpg</cover>
+			<my>
+				<rating>3</rating>
+				<review>(В процессе...) Пока сложно сказать, насколько она ценна</review>
+			</my>
+		</book>
+		<book>
 			<name>Слон на танцполе. Как Герман Греф и его команда учат Сбербанк танцевать</name>
 			<authors>
 				<author>
