@@ -13,6 +13,64 @@
 	</intro>
 	<books>
 		<book>
+			<name>Как работает Google</name>
+			<authors>
+				<author>
+					<name>Алан Игл</name>
+					<url>https://www.litres.ru/alan-igl/</url>
+				</author>
+				<author>
+					<name>Джонатан Розенберг</name>
+					<url>https://www.litres.ru/dzhonatan-rozenberg/</url>
+				</author>
+				<author>
+					<name>Эрик Шмидт</name>
+					<url>https://www.litres.ru/erik-shmidt/</url>
+				</author>
+			</authors>
+			<publish>
+				<publisher>
+					<name>Бомбора</name>
+					<url>https://www.litres.ru/bombora/</url>
+				</publisher>
+				<year>2014</year>
+				<pages>410</pages>
+			</publish>
+			<url>https://www.litres.ru/alan-igl/kak-rabotaet-google-9811789/?lfrom=141525098&amp;ref_key=7b61e2c9a008fb10cd6d56baa0a104a88d81d8a1b0131e73219547c2802ca3a2&amp;ref_offer=1</url>
+			<cover>kak-rabotaet-google.jpg</cover>
+			<my>
+				<rating>4</rating>
+				<review>(Аудиокнига; В процессе...) Начало интересное, но четкое ощущение, что ее лучше слушать, чем читать</review>
+				<start>2019-12-30</start>
+				<end></end>
+			</my>
+		</book>
+		<book>
+			<name>Shape Up (v 1.7)</name>
+			<authors>
+				<author>
+					<name>Ryan Singer</name>
+					<url>https://www.feltpresence.com/</url>
+				</author>
+			</authors>
+			<publish>
+				<publisher>
+					<name>Самиздат</name>
+					<url>https://basecamp.com/shapeup</url>
+				</publisher>
+				<year>2019</year>
+				<pages>143</pages>
+			</publish>
+			<url>https://basecamp.com/shapeup</url>
+			<cover>shape-up.jpg</cover>
+			<my>
+				<rating>5</rating>
+				<review>(В процессе...) Интересненько...</review>
+				<start>2019-12-31</start>
+				<end></end>
+			</my>
+		</book>
+		<book>
 			<name>Атлант расправил плечи</name>
 			<authors>
 				<author>
@@ -86,7 +144,7 @@
 			<cover>psihologiya-ubezhdeniya.jpg</cover>
 			<my>
 				<rating>3</rating>
-				<review>(В процессе...) Пока сложно сказать, насколько она ценна</review>
+				<review>Чисто практическая книга, пременима прежде всего к области рекламы (причем, фокус авторов на рекламе просматривается по ходу книги). Не скажу, что бесполезна, но и нового там не много узнал. Впрочем, для новичков в этом деле будет полезна.</review>
 			</my>
 		</book>
 		<book>
