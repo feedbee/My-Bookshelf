@@ -9,5 +9,6 @@
   },
   "storage": {
     "coversPrefix": "/covers"
-  }
+  },
+  "basePath": ""
 }
