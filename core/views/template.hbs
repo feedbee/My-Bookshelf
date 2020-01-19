@@ -6,13 +6,15 @@
 	<link rel="stylesheet" href="{{config.basePath}}/css/styles.css" type="text/css" />
 	<link rel="stylesheet" href="{{config.basePath}}/css/my-bookshelf.css" type="text/css" />
 	<link rel="stylesheet" href="{{config.basePath}}/css/bookshelf.css" type="text/css" />
+	
+	<meta name="viewport" content="initial-scale=1.0">
 </head>
 	
 <body>
 	<div id="page-wrapper">
 		<div id="content-wrapper">
 			<header>
-				<div><img src="{{config.basePath}}/img/logo.png" class="mb-logo" />&lt;My Bookshelf&gt;</div>
+				<div><img src="{{config.basePath}}/img/logo.png" class="mb-logo" /><span style="white-space: nowrap;">&lt;My Bookshelf&gt;</span></div>
 			</header>
 			<h1>{{#if shelf.title}}{{shelf.title}}{{else}}{{shelf.user.name}}'s Bookshelf{{/if}}</h1>
 			
