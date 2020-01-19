@@ -1,0 +1,13 @@
+{
+  "sample": "Copy this file, rename to config.json, update values, remove this line",
+  "http": {
+    "host": "localhost",
+    "port": 3000
+  },
+  "db": {
+    "connectionString": "mongodb://localhost/my-bookshelf"
+  },
+  "storage": {
+    "coversPrefix": "/covers"
+  }
+}

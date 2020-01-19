@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>{{shelf.title}} — &lt;My Bookshelf&gt;</title>
+	<link rel="stylesheet" href="/css/styles.css" type="text/css" />
+	<link rel="stylesheet" href="/css/my-bookshelf.css" type="text/css" />
+	<link rel="stylesheet" href="/css/bookshelf.css" type="text/css" />
+</head>
+	
+<body>
+	<div id="page-wrapper">
+		<div id="content-wrapper">
+			<header>
+				<div><img src="/img/logo.png" class="mb-logo" />&lt;My Bookshelf&gt;</div>
+			</header>
+			<h1>{{#if shelf.title}}{{shelf.title}}{{else}}{{shelf.user.name}}'s Bookshelf{{/if}}</h1>
+			
+			{{#if shelf.intro}}
+			<p class="page-intro">{{shelf.intro}}</p>
+			{{/if}}
+			
+			{{#if books.length}}<ul class="bookshelf">{{/if}}
+			{{#each books}}
+				<li class="bookshelf-book">
+					<div class="bookshelf-book-index"><div>{{this.index}}</div></div class="bookshelf-book-index">
+					<a href="{{this.url}}"><img src="{{../config.storage.coversPrefix}}/{{this.cover}}" alt="Обложка" class="bookshelf-book-cover" /></a>
+					<div class="bookshelf-book-info">
+						<h3 class="bookshelf-book-info-title bookshelf-name"><a href="{{this.url}}">{{this.name}}</a></h3>
+						<p class="bookshelf-book-info-authors">
+							{{~#each this.authors}}
+								{{~#if @index}}, {{/if}}<a href="{{this.url}}">{{this.name}}</a>
+							{{~/each~}}
+						</p>
+						<p class="bookshelf-book-info-publication">
+							Издательство <span class="bookshelf-name"><a href="{{this.publish.publisher.url}}">{{this.publish.publisher.name}}</a></span>; 
+							<span class="bookshelf-pages">{{this.publish.pages}}</span>; <span class="bookshelf-year">{{this.publish.year}}</span>
+						</p>
+						<div class="bookshelf-raiting-outer">
+							<div class="bookshelf-raiting-inner" style="width:{{ratingToWidth this.my.rating}}%"></div>
+						</div>
+						<p class="bookshelf-review">{{this.my.review}}</p>
+					</div>
+				</li>
+			{{else}}
+			<p><small>Bookshelf is empty.</small></p>
+			{{/each}}
+			{{#if books.length}}</ul>{{/if}}
+		</div>
+		<footer>&copy; <a href="http://valera.ws/" title="Personal blog" target="_blank">Valera Leontyev</a>, 2020. &lt;My Bookshelf&gt;</footer>
+	</div>
+</body>
+</html>

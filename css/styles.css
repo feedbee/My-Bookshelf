@@ -1,4 +1,6 @@
 /* Defaults */
+@import url('https://fonts.googleapis.com/css?family=Alata|Exo+2|Merriweather|Roboto+Condensed:400,400i&display=swap&subset=cyrillic');
+
 body {
 	margin: 0;
 	padding: 0;
@@ -6,17 +8,17 @@ body {
 	background: gray url("../img/bewitched.gif");
 }
 body, table, select {
-	font: 11.5pt Calibri, Ubuntu, "Myriad Pro", sans-serif;
+	font: 11.5pt 'Roboto Condensed', 'Calibri', 'Ubuntu', 'Myriad Pro', sans-serif;
 }
 
 h1, h2, h3, h4 {
-	font-family: Cambria, "DejaVu Serif", Ubuntu, serif;
+	font-family: 'Merriweather', 'Cambria', 'DejaVu Serif', 'Ubuntu', serif;
 	font-weight: normal;
 }
 h1 { font-size: 21pt; }
-h2 { font-size: 19pt; }
-h3 { font-size: 17pt; }
-h4 { font-size: 14pt; }
+h2 { font-size: 18pt; }
+h3 { font-size: 14pt; }
+h4 { font-size: 12pt; }
 
 hr {
 	border-top: .15em dashed lightgray;
@@ -126,8 +128,4 @@ footer a, footer a:visited {
 	background-color: rgba(179,179,199,.25);
 	
 	font: 11pt monospace, "Courier New";
-}
-
-.validators ../img {
-	vertical-align: middle;
 }

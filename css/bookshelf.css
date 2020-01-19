@@ -1,3 +1,11 @@
+header div {
+	font-weight: bold;
+	font-family: 'Alata', sans-serif;
+}
+.page-intro {
+	font-style: italic;
+}
+
 .bookshelf {
 	list-style: none;
 	padding: 0;
@@ -25,6 +33,19 @@
 
 .bookshelf-book-info {
 	margin-bottom: .8em;
+}
+.bookshelf-book-index {
+	margin-bottom: .1em;
+}
+.bookshelf-book-index > div {
+	display: inline-block;
+	min-width: 1.1em;
+	padding: .2em;
+	font-family: 'Exo 2', sans-serif;
+	font-size: 60%;
+	text-align: center;
+	background-color: #333333;
+	color: #EBEBEB;
 }
 .bookshelf-book-info-title {
 	margin-bottom: 0;
