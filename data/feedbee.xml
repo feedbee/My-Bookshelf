@@ -42,7 +42,7 @@
 				<rating>4</rating>
 				<review>(Аудиокнига; В процессе...) Начало интересное, но четкое ощущение, что ее лучше слушать, чем читать</review>
 				<start>2019-12-30</start>
-				<end></end>
+				<end>2020-01-15</end>
 			</my>
 		</book>
 		<book>
@@ -65,9 +65,9 @@
 			<cover>shape-up.jpg</cover>
 			<my>
 				<rating>5</rating>
-				<review>(В процессе...) Интересненько...</review>
+				<review>Маст-рид для всех, кто связан с product / project management. Описывает альтернативную вездесущему scrum-у методологию. Много полезных мыслей и техник, которые можно применить в любой среде – agile, waterfall, sturt-up, enterprise</review>
 				<start>2019-12-31</start>
-				<end></end>
+				<end>2020-01-12</end>
 			</my>
 		</book>
 		<book>
@@ -1239,7 +1239,7 @@
 				<pages>464</pages>
 			</publish>
 			<url>http://oz.by/books/more10207863.html</url>
-			<cover>10207863_0_Sam_sebe_MVA_Dzhosh_Kaufman</cover>
+			<cover>10207863_0_Sam_sebe_MVA_Dzhosh_Kaufman.jpg</cover>
 			<my>
 				<rating>5</rating>
 				<review>Отличная книга. Хотя и не дочитал пока, но отложил ее умышленно, так как сейчас интересны немного другие темы</review>
