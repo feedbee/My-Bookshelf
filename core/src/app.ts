@@ -4,19 +4,27 @@ import { AddressInfo } from "net";
 
 import Config from "./config";
 import * as shelfController from "./controllers/shelfController";
+import * as booksController from "./controllers/booksController";
 
 // Our Express APP config
 const app = express();
 app.use(express.json());
+
+// UI Endpoints
+app.use('/public', express.static(__dirname + '/../public'));
 
 // Data Endpoints
 app.use('/css', express.static(__dirname + '/../../css'));
 app.use('/img', express.static(__dirname + '/../../img'));
 app.use('/data/covers', express.static(__dirname + '/../../data/covers'));
 
-// API Endpoints
+// App Endpoints
 app.get("/shelves", shelfController.allShelves);
 app.get("/shelf/:shelfKey", shelfController.getShelf);
+
+// API Endpoints
+shelfController.ShelfApi.register(app);
+booksController.BookApi.register(app);
 
 // Rendering
 app.engine('hbs', exphbs({

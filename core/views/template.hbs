@@ -25,7 +25,7 @@
 			{{#if books.length}}<ul class="bookshelf">{{/if}}
 			{{#each books}}
 				<li class="bookshelf-book">
-					<div class="bookshelf-book-index"><div>{{this.index}}</div></div class="bookshelf-book-index">
+					<div class="bookshelf-book-index"><div>{{this.index}}</div></div>
 					<a href="{{this.url}}"><img src="{{../config.storage.coversPrefix}}/{{this.cover}}" alt="Обложка" class="bookshelf-book-cover" /></a>
 					<div class="bookshelf-book-info">
 						<h3 class="bookshelf-book-info-title bookshelf-name"><a href="{{this.url}}">{{this.name}}</a></h3>

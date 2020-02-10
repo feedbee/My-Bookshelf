@@ -14,7 +14,6 @@ export interface IUser {
 }
 
 export const ShelfSchema = new mongoose.Schema({
-  _id: mongoose.Schema.Types.ObjectId,
   key: { type: String, required: true },
   title: { type: String, required: true },
   intro: { type: String, required: true },

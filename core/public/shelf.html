@@ -1,0 +1,213 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Shelf Editor</title>
+
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+    <link rel='stylesheet' href='//cdn.jsdelivr.net/npm/bootstrap@latest/dist/css/bootstrap.min.css'>
+    <link rel='stylesheet' href='//cdn.jsdelivr.net/npm/@json-editor/json-editor@latest/dist/css/jsoneditor.min.css'>
+    <link rel='stylesheet' href='//cdn.jsdelivr.net/npm/spectre.css@latest/dist/spectre-icons.min.css'>
+    
+    <script src="https://cdn.jsdelivr.net/npm/jquery@latest/dist/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/dompurify@latest/dist/purify.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@json-editor/json-editor@latest/dist/jsoneditor.js"></script>
+    
+    <script>
+      JSONEditor.defaults.options.theme = 'bootstrap4';
+      JSONEditor.defaults.options.iconlib = 'spectre';
+    </script>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Shelf Editor</h1>
+      <div class="row">
+        <div class="col my-3">
+          <div class="input-group mb-3">
+            <div class="input-group-prepend">
+              <span class="input-group-text" id="resource-id">http://localhost:3000/api/v1/shelf/</span>
+            </div>
+            <input type="text" class="form-control" id="resource-url" aria-describedby="resource-id">
+            <div class="input-group-append">
+              <button id="load" class="btn btn-outline-secondary" type="button">Load</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col mb-3">
+          <button id="save" class="btn btn-primary btn-sm">Save</button>
+          <button id="add" class="btn btn-success btn-sm">Add</button>
+          <button id="delete" class="btn btn-danger btn-sm">Delete</button>
+          <span class="mr-3"></span>
+          <button id="debug" class="btn btn-info btn-sm">Debug</button>
+          <button id="clear" class="btn btn-dark btn-sm">Clear</button>
+          <span id="valid_indicator" class="badge"></span>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">
+          <div id="editor_holder"></div>
+        </div>
+      </div>
+    </div>
+    
+    <script>
+      var defaultValue = {
+        "_id": "",
+        "key": "",
+        "user": {
+          "email": "",
+          "name": ""
+        },
+        "title": "",
+        "intro": ""
+      };
+
+      var schema = {
+        "title": "Shelf",
+        "type": "object",
+        "properties": {
+          "_id": {
+            "type": "string",
+            "title": "Object ID"
+          },
+          "key": {
+            "type": "string",
+            "title": "Reference Key",
+            "minLength": 4,
+            "maxLength": 40,
+            "default": "example"
+          },
+          "user": {
+            "type": "object",
+            "title": "User",
+            "properties": {
+              "name": {
+                "type": "string",
+                "title": "Name"
+              },
+              "email": {
+                "type": "string",
+                "title": "Email"
+              }
+            }
+          },
+          "title": {
+            "title": "Title",
+            "type": "string"
+          },
+          "intro": {
+            "type": "string",
+            "title": "Intro",
+            "format": "textarea"
+          }
+        }
+      };
+    </script>
+    <script>
+      var editor = new JSONEditor(document.getElementById('editor_holder'), {
+        disable_edit_json: true,
+        disable_properties: true,
+        no_additional_properties: true,
+        remove_empty_properties: false,
+        schema: schema,
+        startval: defaultValue
+      });
+      
+      editor.on('change', function() {
+        var errors = editor.validate();
+        
+        var indicator = document.getElementById('valid_indicator');
+        
+        if(errors.length) {
+          indicator.className = 'badge badge-alert';
+          indicator.textContent = 'not valid';
+        }
+        else {
+          indicator.className = 'badge badge-success';
+          indicator.textContent = 'valid';
+        }
+      });
+    </script>
+    <script>
+      document.getElementById("load").addEventListener("click", function() {
+        var resourceUrl = $("#resource-id").text() + $("#resource-url").val();
+        $.get(resourceUrl, function(data) {
+          editor.setValue(data);
+        }).fail(
+          (data) => alert(JSON.stringify(data))
+        );
+      });
+      document.getElementById("debug").addEventListener("click", function() {
+        console.log(editor.getValue());
+        alert(JSON.stringify(editor.getValue()));
+      });
+      document.getElementById("save").addEventListener("click", function() {
+        var resourceUrl = $("#resource-id").text() + $("#resource-url").val();
+        
+        var data = editor.getValue();
+        alert(JSON.stringify(data));
+        $.ajax({
+          type: "PUT",
+          url: resourceUrl,
+          data: JSON.stringify(data),
+          dataType: "json",
+          contentType: "application/json",
+          processData: false
+        }).done(
+          (data) => alert(JSON.stringify(data))
+        ).fail(
+          (data) => alert(JSON.stringify(data))
+        );
+      });
+      document.getElementById("add").addEventListener("click", function() {
+        var resourceUrl = $("#resource-id").text();
+        
+        var data = editor.getValue();
+        delete data._id;
+        alert(JSON.stringify(data));
+        $.ajax({
+          type: "POST",
+          url: resourceUrl,
+          data: JSON.stringify(data),
+          dataType: "json",
+          contentType: "application/json",
+          processData: false
+        }).done(
+          (data) => {
+            alert(JSON.stringify(data));
+            $("#resource-url").val(data.key);
+            editor.setValue(data);
+          }
+        ).fail(
+          (data) => alert(JSON.stringify(data))
+        );
+      });
+      document.getElementById("delete").addEventListener("click", function() {
+        var resourceUrl = $("#resource-id").text() + $("#resource-url").val();
+        
+        $.ajax({
+          type: "DELETE",
+          url: resourceUrl,
+          dataType: "json",
+          processData: false
+        }).done(
+          (data) => {
+            alert(JSON.stringify(data));
+            editor.setValue(defaultValue);
+            $("#resource-url").val("");
+          }
+        ).fail(
+          (data) => alert(JSON.stringify(data))
+        );
+      });
+      document.getElementById("clear").addEventListener("click", function() {
+        editor.setValue(defaultValue);
+        $("#resource-url").val("");
+      });
+    </script>
+  </body>
+</html>

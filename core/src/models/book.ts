@@ -1,7 +1,8 @@
 import mongoose from "./../db";
 
 export interface IBook extends mongoose.Document {
-	name: string;
+  name: string;
+  shelf: string;
 	authors: IAuthor[];
 	publish: IPublish;
 	cover: string;
@@ -28,8 +29,32 @@ export interface IPublish {
 }
 
 export const BookSchema = new mongoose.Schema({
-  _id: mongoose.Schema.Types.ObjectId,
-  authors: { type: Array, required: true }
+  shelf: mongoose.Schema.Types.ObjectId,
+  name: { type: String, required: true },
+  authors: [
+    {
+      _id: false,
+      name: String,
+      url: String
+    }
+  ],
+  publish: {
+    publisher: { 
+      name: { type: String },
+      url: { type: String }
+    },
+    year: Number,
+    pages: Number
+  },
+  url: { type: String, required: true },
+  cover: { type: String, required: true },
+  my: {
+    rating: Number,
+    review: String,
+    start: String,
+    end: String
+  },
+  index: Number
 });
 
 const Book = mongoose.model<IBook>("Book", BookSchema);
