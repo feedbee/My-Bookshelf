@@ -52,7 +52,8 @@ export const BookSchema = new mongoose.Schema({
     rating: Number,
     review: String,
     start: String,
-    end: String
+    end: String,
+    type: {type: String}
   },
   index: Number
 });
