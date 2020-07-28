@@ -79,7 +79,8 @@
           "rating": "",
           "review": "",
           "start": "",
-          "end": ""
+          "end": "",
+          "type": ""
         },
         "index": 0
       };
@@ -189,6 +190,11 @@
                 "type": "string",
                 "title": "End Reading",
                 "format": "date"
+              },
+              "type": {
+                "type": "string",
+                "enum": ["paper", "digital", "audio"],
+                "title": "Type"
               }
             }
           },
