@@ -1,0 +1,2936 @@
+[{
+  "_id": {
+    "$oid": "5e237cab6dbbef311d7a163f"
+  },
+  "shelf": {
+    "$oid": "5e198fa76dbbef311d7a154a"
+  },
+  "name": "Как работает Google",
+  "authors": [
+    {
+      "name": "Алан Игл",
+      "url": "https://www.litres.ru/alan-igl/"
+    },
+    {
+      "name": "Джонатан Розенберг",
+      "url": "https://www.litres.ru/dzhonatan-rozenberg/"
+    },
+    {
+      "name": "Эрик Шмидт",
+      "url": "https://www.litres.ru/erik-shmidt/"
+    }
+  ],
+  "publish": {
+    "publisher": {
+      "name": "Бомбора",
+      "url": "https://www.litres.ru/bombora/"
+    },
+    "year": "2014",
+    "pages": "400"
+  },
+  "url": "https://www.litres.ru/alan-igl/kak-rabotaet-google-9811789/?lfrom=141525098&ref_key=7b61e2c9a008fb10cd6d56baa0a104a88d81d8a1b0131e73219547c2802ca3a2&ref_offer=1",
+  "cover": "kak-rabotaet-google.jpg",
+  "my": {
+    "rating": "4",
+    "review": "(Аудиокнига) Хотя в целом книга интересная, но нового из нее узнал мало. Похоже на классический труд, который уже растащан на части в сотни других книг и статей.",
+    "start": "2019-12-30",
+    "end": "2020-01-15",
+    "type": "audio"
+  },
+  "index": 81
+},{
+  "_id": {
+    "$oid": "5e237cab6dbbef311d7a1641"
+  },
+  "shelf": {
+    "$oid": "5e198fa76dbbef311d7a154a"
+  },
+  "name": "Атлант расправил плечи",
+  "authors": [
+    {
+      "name": "Айн Рэнд",
+      "url": "https://www.litres.ru/ayn-rend/"
+    }
+  ],
+  "publish": {
+    "publisher": {
+      "name": "Альпина Диджитал",
+      "url": "https://www.litres.ru/alpina/"
+    },
+    "year": "1957",
+    "pages": "1890"
+  },
+  "url": "https://www.litres.ru/ayn-rend/atlant-raspravil-plechi/?lfrom=141525098&ref_key=1d6acf8f311fe04530ee2363417e661d3e2273a2c4461517224037a6d05f37fb&ref_offer=1",
+  "cover": "atlant-raspravil-plechi.jpg",
+  "my": {
+    "rating": "5",
+    "review": "(Аудиокнига) Очень длинная, но интересная и полезная. Разные люди найдут в ней разные ценности – мысли, мотивацию, структрурирование накопленных знанией. Рекоммендовал бы к прочтению любому выходцу из СССР. Так как книга очень длинная, лучше слушать в аудио. Рекоммендую читать после книги \"Sapiens. Краткая история человечества\" и \"1984\" (именно в таком порядке).",
+    "type": "audio"
+  },
+  "index": 79
+},{
+  "_id": {
+    "$oid": "5e237cab6dbbef311d7a1642"
+  },
+  "shelf": {
+    "$oid": "5e198fa76dbbef311d7a154a"
+  },
+  "name": "1984",
+  "authors": [
+    {
+      "name": "Айн Рэнд",
+      "url": "https://www.litres.ru/ayn-rend/"
+    }
+  ],
+  "publish": {
+    "publisher": {
+      "name": "Издательство АСТ",
+      "url": "https://www.litres.ru/ast/"
+    },
+    "year": "1949",
+    "pages": "320"
+  },
+  "url": "https://www.litres.ru/dzhordzh-oruell/1984/?lfrom=141525098&ref_key=f01450091f628ed07257f37db0b611ae76b2389c04797f40c4f28f01bf6e0758&ref_offer=1",
+  "cover": "1984.jpg",
+  "my": {
+    "rating": "4",
+    "review": "(Аудиокнига) Книга тяжелая, но полезная к прочтению. Описывает устройство (в форме крайностей) таких государтсв, как Северная Корея.",
+    "type": "audio"
+  },
+  "index": 78
+},{
+  "_id": {
+    "$oid": "5e237cab6dbbef311d7a1646"
+  },
+  "shelf": {
+    "$oid": "5e198fa76dbbef311d7a154a"
+  },
+  "name": "Sapiens. Краткая история человечества",
+  "authors": [
+    {
+      "name": "Юваль Ной Харари",
+      "url": "https://www.litres.ru/uval-noy-harari/"
+    }
+  ],
+  "publish": {
+    "publisher": {
+      "name": "Издательство «Синдбад»",
+      "url": "https://www.litres.ru/izdatelstvo-sindbad/"
+    },
+    "year": "2016",
+    "pages": "570"
+  },
+  "url": "https://www.litres.ru/uval-noy-harari/sapiens-kratkaya-istoriya-chelovechestva/?lfrom=141525098&ref_key=a3fa4c526fce4ed0f2e20a9d9a1c7099942131f4743e741bc1342cc9fbc4d596&ref_offer=1",
+  "cover": "sapiens.jpg",
+  "my": {
+    "rating": "5",
+    "review": "Супер-книга. Меняет взгляд на многие вещи в жизни, дает ответы на многие вопросы. Наконец-то – слаженная и последовательная подача истории человечества",
+    "type": "paper"
+  },
+  "index": 74
+},{
+  "_id": {
+    "$oid": "5e237cab6dbbef311d7a1650"
+  },
+  "shelf": {
+    "$oid": "5e198fa76dbbef311d7a154a"
+  },
+  "name": "Размышления о личном развитии",
+  "authors": [
+    {
+      "name": "Ицхак Адизес",
+      "url": "http://oz.by/people/more9013168.html"
+    }
+  ],
+  "publish": {
+    "publisher": {
+      "name": "Манн, Иванов и Фербер",
+      "url": "https://oz.by/producer/more120478.html"
+    },
+    "year": "2015",
+    "pages": "208"
+  },
+  "url": "https://oz.by/books/more10400002.html",
+  "cover": "adizes-personal-dev.jpg",
+  "my": {
+    "rating": "4",
+    "review": "Хорошая интересная книга, но никаких сакральных тайн не раскроет.",
+    "type": "paper"
+  },
+  "index": 64
+},{
+  "_id": {
+    "$oid": "5e237cab6dbbef311d7a165d"
+  },
+  "shelf": {
+    "$oid": "5e198fa76dbbef311d7a154a"
+  },
+  "name": "Эмоциональный интеллект",
+  "authors": [
+    {
+      "name": "Дэниель Гоулман",
+      "url": "http://oz.by/people/more906615.html"
+    }
+  ],
+  "publish": {
+    "publisher": {
+      "name": "Манн, Иванов и Фербер",
+      "url": "http://oz.by/producer/more120478.html"
+    },
+    "year": "2016",
+    "pages": "560"
+  },
+  "url": "http://oz.by/books/more1046198.html",
+  "cover": "emotional-intellect.jpg",
+  "my": {
+    "rating": "5",
+    "review": "Отличная книга с хорошей теоритей и практикой. Дает ответы на много вопросов",
+    "type": "paper"
+  },
+  "index": 51
+},{
+  "_id": {
+    "$oid": "5e237cab6dbbef311d7a1665"
+  },
+  "shelf": {
+    "$oid": "5e198fa76dbbef311d7a154a"
+  },
+  "name": "Бизнес в стиле Virgin",
+  "authors": [
+    {
+      "name": "Ричард Брэнсон",
+      "url": "http://oz.by/people/more903643.html"
+    }
+  ],
+  "publish": {
+    "publisher": {
+      "name": "Манн, Иванов и Фербер",
+      "url": "http://oz.by/producer/more120478.html"
+    },
+    "year": "2015",
+    "pages": "336"
+  },
+  "url": "http://oz.by/books/more10278453.html",
+  "cover": "branson.jpg",
+  "my": {
+    "rating": "5",
+    "review": "Хорошая, полезная и мотивирующая литература",
+    "type": "paper"
+  },
+  "index": 43
+},{
+  "_id": {
+    "$oid": "5e237cab6dbbef311d7a1675"
+  },
+  "shelf": {
+    "$oid": "5e198fa76dbbef311d7a154a"
+  },
+  "name": "Сначала скажите `нет`. Секреты профессиональных переговорщиков",
+  "authors": [
+    {
+      "name": "Джим Кэмп",
+      "url": "http://oz.by/people/more908287.html"
+    }
+  ],
+  "publish": {
+    "publisher": {
+      "name": "Добрая книга",
+      "url": "http://oz.by/producer/more120281.html"
+    },
+    "year": "2011",
+    "pages": "272"
+  },
+  "url": "http://oz.by/books/more1017188.html",
+  "cover": "1017188_0_Snachala_skazhite_net_Sekreti_professionalnih_peregovorschikov_Dzhim_Kemp.jpg",
+  "my": {
+    "rating": "3",
+    "review": "Начал читать. Пока похоже, что эта книга была куплена по ошибке :(",
+    "type": "paper"
+  },
+  "index": 27
+},{
+  "_id": {
+    "$oid": "5e237cab6dbbef311d7a167b"
+  },
+  "shelf": {
+    "$oid": "5e198fa76dbbef311d7a154a"
+  },
+  "name": "Мифический человеко-месяц или как создаются программные системы",
+  "authors": [
+    {
+      "name": "Фредерик Брукс",
+      "url": "http://ru.wikipedia.org/wiki/%D0%91%D1%80%D1%83%D0%BA%D1%81,_%D0%A4%D1%80%D0%B5%D0%B4%D0%B5%D1%80%D0%B8%D0%BA"
+    }
+  ],
+  "publish": {
+    "publisher": {
+      "name": "Символ",
+      "url": "http://oz.by/producer/more12021.html"
+    },
+    "year": "2009",
+    "pages": "304"
+  },
+  "url": "http://oz.by/books/more101035.html",
+  "cover": "101035_0_Mificheskiy_cheloveko-mesyac_ili_kak_sozdayutsya_programmnie_sistemi.jpg",
+  "my": {
+    "rating": "4",
+    "review": "Читать начал, но пока не закончил (не очень увлекательно, слишком устаревшая)",
+    "type": "paper"
+  },
+  "index": 21
+},{
+  "_id": {
+    "$oid": "5e237cab6dbbef311d7a1644"
+  },
+  "shelf": {
+    "$oid": "5e198fa76dbbef311d7a154a"
+  },
+  "name": "Слон на танцполе. Как Герман Греф и его команда учат Сбербанк танцевать",
+  "authors": [
+    {
+      "name": "Евгений Карасюк",
+      "url": "https://www.litres.ru/evgeniy-karasuk/"
+    }
+  ],
+  "publish": {
+    "publisher": {
+      "name": "Манн, Иванов и Фербер",
+      "url": "https://www.litres.ru/mann-ivanov-i-ferber/audioknigi/"
+    },
+    "year": "2013",
+    "pages": "260"
+  },
+  "url": "https://www.litres.ru/evgeniy-karasuk/slon-na-tancpole-kak-german-gref-i-ego-komanda-uchat-sberbank-tancevat/?lfrom=141525098&ref_key=ebaa8e4689a07c9fedd6085b05f670e62ae84e845553c97a95f1ebf023790f3b&ref_offer=1",
+  "cover": "slon-na-tancpole.jpg",
+  "my": {
+    "rating": "3",
+    "review": "(Аудиокнига) Ниже ожиданий. Чистое повествование истории, никаких откровений или практических знаний, мало деталей, очень поверхностно. Лучше слушать в аудио, если интересна непосредственно история Сбербанка",
+    "type": "audio"
+  },
+  "index": 76
+},{
+  "_id": {
+    "$oid": "5e237cab6dbbef311d7a165e"
+  },
+  "shelf": {
+    "$oid": "5e198fa76dbbef311d7a154a"
+  },
+  "name": "Эффективный руководитель",
+  "authors": [
+    {
+      "name": "Питер Друкер",
+      "url": "http://oz.by/people/more904595.html"
+    }
+  ],
+  "publish": {
+    "publisher": {
+      "name": "Манн, Иванов и Фербер",
+      "url": "http://oz.by/producer/more120478.html"
+    },
+    "year": "2014",
+    "pages": "240"
+  },
+  "url": "http://oz.by/books/more1034631.html",
+  "cover": "drucker_effective_manager.png",
+  "my": {
+    "rating": "5",
+    "review": "Все по делу, актуально и системно. Рекомендую.",
+    "type": "paper"
+  },
+  "index": 50
+},{
+  "_id": {
+    "$oid": "5e237cab6dbbef311d7a1678"
+  },
+  "shelf": {
+    "$oid": "5e198fa76dbbef311d7a154a"
+  },
+  "name": "Архитектура компьютера. Пятое издание",
+  "authors": [
+    {
+      "name": "Эндрю Таненбаум",
+      "url": "http://oz.by/people/more90811.html"
+    }
+  ],
+  "publish": {
+    "publisher": {
+      "name": "Питер",
+      "url": "http://oz.by/producer/more1202.html"
+    },
+    "year": "2012",
+    "pages": "848"
+  },
+  "url": "http://oz.by/books/more1028409.html",
+  "cover": "1028409_0_Arhitektura_kompyutera_Shestoe_izdanie_Endryu_Tanenbaum.jpg",
+  "my": {
+    "rating": "0",
+    "review": "Начал читать. Интересно",
+    "type": "paper"
+  },
+  "index": 24
+},{
+  "_id": {
+    "$oid": "5e237cab6dbbef311d7a1658"
+  },
+  "shelf": {
+    "$oid": "5e198fa76dbbef311d7a154a"
+  },
+  "name": "Быть, а не казаться",
+  "authors": [
+    {
+      "name": "Стивен Кови",
+      "url": "https://oz.by/people/more902187.html"
+    }
+  ],
+  "publish": {
+    "publisher": {
+      "name": "Манн, Иванов и Фербер",
+      "url": "https://oz.by/producer/more120478.html"
+    },
+    "year": "2016",
+    "pages": "240"
+  },
+  "url": "https://oz.by/books/more10513410.html",
+  "cover": "to-be.jpg",
+  "my": {
+    "rating": "4",
+    "review": "Книга хороша, но я для себя в ней нового особо не нашел. Немного скучновата",
+    "type": "paper"
+  },
+  "index": 56
+},{
+  "_id": {
+    "$oid": "5e237cab6dbbef311d7a165a"
+  },
+  "shelf": {
+    "$oid": "5e198fa76dbbef311d7a154a"
+  },
+  "name": "Большая восьмерка",
+  "authors": [
+    {
+      "name": "Ричард Джон",
+      "url": "https://oz.by/people/more90112621.html"
+    }
+  ],
+  "publish": {
+    "publisher": {
+      "name": "Манн, Иванов и Фербер",
+      "url": "https://oz.by/producer/more120478.html"
+    },
+    "year": "2015",
+    "pages": "272"
+  },
+  "url": "https://oz.by/books/more10475842.html",
+  "cover": "great8.jpg",
+  "my": {
+    "rating": "4",
+    "review": "С одной стороны, полезная книга и написано по делу, с другой стороны попытка больше доказать, чем рассказать",
+    "type": "paper"
+  },
+  "index": 54
+},{
+  "_id": {
+    "$oid": "5e237cab6dbbef311d7a164a"
+  },
+  "shelf": {
+    "$oid": "5e198fa76dbbef311d7a154a"
+  },
+  "name": "Мудаки под контролем",
+  "authors": [
+    {
+      "name": "Джоди Фостер",
+      "url": "https://www.litres.ru/dzhodi-foster/"
+    },
+    {
+      "name": "Мишель Джой",
+      "url": "https://www.litres.ru/mishel-dzhoy/"
+    }
+  ],
+  "publish": {
+    "publisher": {
+      "name": "Манн, Иванов и Фербер",
+      "url": "https://www.litres.ru/mann-ivanov-i-ferber/"
+    },
+    "year": "2018",
+    "pages": "290"
+  },
+  "url": "https://www.litres.ru/dzhodi-foster/m-daki-pod-kontrolem/?lfrom=141525098&ref_key=59d77c71bad562ffd4cd554001bcae1c4fa7298be5220050131365026a4b386b&ref_offer=1",
+  "cover": "1021734658.jpg",
+  "my": {
+    "rating": "4",
+    "review": "Полезная в практике книга, которая поможет не только понять многих окружающих лучше, но и со стороны взглянуть на себя",
+    "type": "paper"
+  },
+  "index": 70
+},{
+  "_id": {
+    "$oid": "5e237cab6dbbef311d7a165f"
+  },
+  "shelf": {
+    "$oid": "5e198fa76dbbef311d7a154a"
+  },
+  "name": "Что ты выберешь?",
+  "authors": [
+    {
+      "name": "Тал Бен-Шахар",
+      "url": "http://oz.by/people/more9026767.html"
+    }
+  ],
+  "publish": {
+    "publisher": {
+      "name": "Манн, Иванов и Фербер",
+      "url": "http://oz.by/producer/more120478.html"
+    },
+    "year": "2015",
+    "pages": "256"
+  },
+  "url": "http://oz.by/books/more10436262.html",
+  "cover": "chto_ty_vyberesh.jpg",
+  "my": {
+    "rating": "3",
+    "review": "Книга в целом содержит правильные мысли, но чего-то нового в ней мало. Обо всем и ни о чем. Наверное, лучше почитать что-то более конкретное",
+    "type": "paper"
+  },
+  "index": 49
+},{
+  "_id": {
+    "$oid": "5e237cab6dbbef311d7a1666"
+  },
+  "shelf": {
+    "$oid": "5e198fa76dbbef311d7a154a"
+  },
+  "name": "Код Дурова",
+  "authors": [
+    {
+      "name": "Николай Кононов",
+      "url": "http://oz.by/people/more905926.html"
+    }
+  ],
+  "publish": {
+    "publisher": {
+      "name": "Манн, Иванов и Фербер",
+      "url": "http://oz.by/producer/more120478.html"
+    },
+    "year": "2012",
+    "pages": "206"
+  },
+  "url": "http://oz.by/books/more10268210.html",
+  "cover": "kod-durova.jpg",
+  "my": {
+    "rating": "5",
+    "review": "Интересная и однозначно важная для понимания многих вещей книга (глаза на некоторые особенности автора закроем)",
+    "type": "paper"
+  },
+  "index": 42
+},{
+  "_id": {
+    "$oid": "5e237cab6dbbef311d7a1659"
+  },
+  "shelf": {
+    "$oid": "5e198fa76dbbef311d7a154a"
+  },
+  "name": "Голая статистика",
+  "authors": [
+    {
+      "name": "Чарльз Уилан",
+      "url": "https://oz.by/people/more90114421.html"
+    }
+  ],
+  "publish": {
+    "publisher": {
+      "name": "Манн, Иванов и Фербер",
+      "url": "https://oz.by/producer/more120478.html"
+    },
+    "year": "2016",
+    "pages": "352"
+  },
+  "url": "https://oz.by/books/more10492311.html",
+  "cover": "golaya_statistika.jpg",
+  "my": {
+    "rating": "4",
+    "review": "Книга действительно хорошая и интересная, хотя и немного затянутая. Но однозначно полезна тем, кто хочет на легке освоить остновные статистические понятия",
+    "type": "paper"
+  },
+  "index": 55
+},{
+  "_id": {
+    "$oid": "5e237cab6dbbef311d7a166b"
+  },
+  "shelf": {
+    "$oid": "5e198fa76dbbef311d7a154a"
+  },
+  "name": "45 татуировок менеджера. Правила российского руководителя",
+  "authors": [
+    {
+      "name": "Максим Батырев",
+      "url": "http://oz.by/people/more9093834.html"
+    }
+  ],
+  "publish": {
+    "publisher": {
+      "name": "Манн, Иванов и Фербер",
+      "url": "http://oz.by/producer/more120478.html"
+    },
+    "year": "2013",
+    "pages": "304"
+  },
+  "url": "http://oz.by/books/more10327034.html",
+  "cover": "10327034_26.jpg",
+  "my": {
+    "rating": "4",
+    "review": "Хорошая книга в целом, и отличная книга для развивающихся менеджеров в областях, где все построено на иерархии и опыте, как продажи. Но прочесть стоит любому руководителю.",
+    "type": "paper"
+  },
+  "index": 37
+},{
+  "_id": {
+    "$oid": "5e237cab6dbbef311d7a1671"
+  },
+  "shelf": {
+    "$oid": "5e198fa76dbbef311d7a154a"
+  },
+  "name": "Сам себе МВА",
+  "authors": [
+    {
+      "name": "Джош Кауфман",
+      "url": "http://oz.by/people/more9070571.html"
+    }
+  ],
+  "publish": {
+    "publisher": {
+      "name": "Манн, Иванов и Фербер",
+      "url": "http://oz.by/producer/more120478.html"
+    },
+    "year": "2014",
+    "pages": "464"
+  },
+  "url": "http://oz.by/books/more10207863.html",
+  "cover": "10207863_0_Sam_sebe_MVA_Dzhosh_Kaufman.jpg",
+  "my": {
+    "rating": "5",
+    "review": "Отличная книга. Хотя и не дочитал пока, но отложил ее умышленно, так как сейчас интересны немного другие темы",
+    "type": "paper"
+  },
+  "index": 31
+},{
+  "_id": {
+    "$oid": "5e237cab6dbbef311d7a1653"
+  },
+  "shelf": {
+    "$oid": "5e198fa76dbbef311d7a154a"
+  },
+  "name": "Наука общения",
+  "authors": [
+    {
+      "name": "Ванесса ван Эдвардс",
+      "url": "https://oz.by/people/more90123789.html"
+    }
+  ],
+  "publish": {
+    "publisher": {
+      "name": "Манн, Иванов и Фербер",
+      "url": "https://oz.by/producer/more120478.html"
+    },
+    "year": "2017",
+    "pages": "384"
+  },
+  "url": "https://oz.by/books/more10660564.html",
+  "cover": "nauka-obshenia.jpg",
+  "my": {
+    "rating": "4",
+    "review": "Неплохая практичная книга, но сильно растянута, объем можно было бы сократить вдвое",
+    "type": "paper"
+  },
+  "index": 61
+},{
+  "_id": {
+    "$oid": "5e237cab6dbbef311d7a1655"
+  },
+  "shelf": {
+    "$oid": "5e198fa76dbbef311d7a154a"
+  },
+  "name": "Гибкое сознание",
+  "authors": [
+    {
+      "name": "Кэрол Дуэк",
+      "url": "https://oz.by/people/more9092576.html"
+    }
+  ],
+  "publish": {
+    "publisher": {
+      "name": "Манн, Иванов и Фербер",
+      "url": "https://oz.by/producer/more120478.html"
+    },
+    "year": "2013",
+    "pages": "400"
+  },
+  "url": "https://oz.by/books/more10321131.html",
+  "cover": "gibkoe-soznanie.png",
+  "my": {
+    "rating": "5",
+    "review": "Очень важная книга, многое расставит по своим местам и откроет путь к развитию для многих. Лучше читать после Эмоционального интеллекта",
+    "type": "paper"
+  },
+  "index": 59
+},{
+  "_id": {
+    "$oid": "5e237cab6dbbef311d7a166c"
+  },
+  "shelf": {
+    "$oid": "5e198fa76dbbef311d7a154a"
+  },
+  "name": "Стратегия голубого океана",
+  "authors": [
+    {
+      "name": "Чан Ким",
+      "url": "http://oz.by/people/more9010664.html"
+    },
+    {
+      "name": "Рене Моборн",
+      "url": "http://oz.by/people/more9010663.html"
+    }
+  ],
+  "publish": {
+    "publisher": {
+      "name": "Манн, Иванов и Фербер",
+      "url": "http://oz.by/producer/more120478.html"
+    },
+    "year": "2015",
+    "pages": "304"
+  },
+  "url": "http://oz.by/books/more1022284.html",
+  "cover": "1-chan-strategiya.jpg",
+  "my": {
+    "rating": "5",
+    "review": "Очень хорошая, приятная в прочтении, практичная книга с очень высоким КПД (минимум воды). Рекомендую всем, кто хоть как-то связан с управлением",
+    "type": "paper"
+  },
+  "index": 36
+},{
+  "_id": {
+    "$oid": "5e237cab6dbbef311d7a1672"
+  },
+  "shelf": {
+    "$oid": "5e198fa76dbbef311d7a154a"
+  },
+  "name": "Руководство к своду знаний по управлению проектами (Руководство PMBOK). — Пятое издание",
+  "authors": [],
+  "publish": {
+    "publisher": {
+      "name": "Project Management Institute, Inc",
+      "url": "http://www.pmi.org/"
+    },
+    "year": "2013",
+    "pages": "590"
+  },
+  "url": "http://oz.by/books/more10399197.html",
+  "cover": "10399197_0_Rukovodstvo_k_svodu_znaniy_po_upravleniyu_proektami_Rukovodstvo_PMBOK.jpg",
+  "my": {
+    "rating": "4",
+    "review": "Начал читать. Книга, конечно, полезная, но читается очень тяжело.",
+    "type": "paper"
+  },
+  "index": 30
+},{
+  "_id": {
+    "$oid": "5e237cab6dbbef311d7a1674"
+  },
+  "shelf": {
+    "$oid": "5e198fa76dbbef311d7a154a"
+  },
+  "name": "Гибкие методологии разработки",
+  "authors": [
+    {
+      "name": "Борис Вольфсон",
+      "url": "https://twitter.com/borisvolfson"
+    }
+  ],
+  "publish": {
+    "publisher": {
+      "name": "Agile Russia",
+      "url": "http://agilerussia.ru/"
+    },
+    "year": "2012",
+    "pages": "112"
+  },
+  "url": "http://agilerussia.ru/methodologies/borisvolfson_ebook/",
+  "cover": "borisvolfson_book.png",
+  "my": {
+    "rating": "4",
+    "review": "Нормально, но ничего особенного",
+    "type": "paper"
+  },
+  "index": 28
+},{
+  "_id": {
+    "$oid": "5e237cab6dbbef311d7a1679"
+  },
+  "shelf": {
+    "$oid": "5e198fa76dbbef311d7a154a"
+  },
+  "name": "Remote. Офис не обязателен",
+  "authors": [
+    {
+      "name": "Джейсон Фрайд",
+      "url": "http://oz.by/people/more9039956.html"
+    },
+    {
+      "name": "Дэвид Хенссон",
+      "url": "http://oz.by/people/more9039958.html"
+    }
+  ],
+  "publish": {
+    "publisher": {
+      "name": "Манн, Иванов и Фербер",
+      "url": "http://oz.by/producer/more120478.html"
+    },
+    "year": "2013",
+    "pages": "288"
+  },
+  "url": "http://oz.by/books/more10320995.html",
+  "cover": "remote.jpg",
+  "my": {
+    "rating": "4",
+    "review": "Хорошая книга, но немного с перегибами, как и Rework",
+    "type": "paper"
+  },
+  "index": 23
+},{
+  "_id": {
+    "$oid": "5e237cab6dbbef311d7a1647"
+  },
+  "shelf": {
+    "$oid": "5e198fa76dbbef311d7a154a"
+  },
+  "name": "Команда, которую создал я",
+  "authors": [
+    {
+      "name": "Александр Ермак",
+      "url": "https://www.litres.ru/aleksandr-ermak/"
+    }
+  ],
+  "publish": {
+    "publisher": {
+      "name": "Альпина Паблишер",
+      "url": "https://www.alpinabook.ru/"
+    },
+    "year": "2010",
+    "pages": "550"
+  },
+  "url": "https://www.litres.ru/aleksandr-ermak/komanda-kotoruu-sozdal-ya/?lfrom=141525098&ref_key=59d77c71bad562ffd4cd554001bcae1c4fa7298be5220050131365026a4b386b&ref_offer=1",
+  "cover": "komanda-kotoruu-sozdal-ya.jpg",
+  "my": {
+    "rating": "5",
+    "review": "Одна из лучших книг в области менеджмента, которую я прочел (на одном дыхании, кстати). Очень системна, практина, мотивирует.",
+    "type": "paper"
+  },
+  "index": 73
+},{
+  "_id": {
+    "$oid": "5e237cab6dbbef311d7a1648"
+  },
+  "shelf": {
+    "$oid": "5e198fa76dbbef311d7a154a"
+  },
+  "name": "Богатый папа, бедный папа",
+  "authors": [
+    {
+      "name": "Роберт Кийосаки",
+      "url": "https://www.litres.ru/robert-kiyosaki/"
+    }
+  ],
+  "publish": {
+    "publisher": {
+      "name": "Попурри",
+      "url": "https://www.litres.ru/popurri/"
+    },
+    "year": "2012",
+    "pages": "230"
+  },
+  "url": "https://www.litres.ru/robert-kiyosaki/bogatyy-papa-bednyy-papa/?lfrom=141525098&ref_key=59d77c71bad562ffd4cd554001bcae1c4fa7298be5220050131365026a4b386b&ref_offer=1",
+  "cover": "bogatyy-papa-bednyy-papa.jpg",
+  "my": {
+    "rating": "5",
+    "review": "(Аудиокнига) Не скажу, что книга дает какие-то секретные знания, но автор просто заставляет посмотреться на свою профессиональную деятельность немного с другой стороны, задуматься о том, чего хочется дальше. Важно читать в свое правильное время",
+    "type": "audio"
+  },
+  "index": 72
+},{
+  "_id": {
+    "$oid": "5e237cab6dbbef311d7a1640"
+  },
+  "shelf": {
+    "$oid": "5e198fa76dbbef311d7a154a"
+  },
+  "name": "Shape Up (v 1.7)",
+  "authors": [
+    {
+      "name": "Ryan Singer",
+      "url": "https://www.feltpresence.com/"
+    }
+  ],
+  "publish": {
+    "publisher": {
+      "name": "Самиздат",
+      "url": "https://basecamp.com/shapeup"
+    },
+    "year": "2019",
+    "pages": "143"
+  },
+  "url": "https://basecamp.com/shapeup",
+  "cover": "shape-up.jpg",
+  "my": {
+    "rating": "5",
+    "review": "Маст-рид для всех, кто связан с product / project management. Описывает альтернативную вездесущему scrum-у методологию. Много полезных мыслей и техник, которые можно применить в любой среде – agile, waterfall, sturt-up, enterprise",
+    "start": "2019-12-31",
+    "end": "2020-02-12",
+    "type": "paper"
+  },
+  "index": 80
+},{
+  "_id": {
+    "$oid": "5e237cab6dbbef311d7a1654"
+  },
+  "shelf": {
+    "$oid": "5e198fa76dbbef311d7a154a"
+  },
+  "name": "Эмоциональные интеллект 2.0",
+  "authors": [
+    {
+      "name": "Тревис Бредберри",
+      "url": "https://oz.by/people/more9023412.html"
+    },
+    {
+      "name": "Джин Гривз",
+      "url": "https://oz.by/people/more9023327.html"
+    }
+  ],
+  "publish": {
+    "publisher": {
+      "name": "Манн, Иванов и Фербер",
+      "url": "https://oz.by/producer/more120478.html"
+    },
+    "year": "2017",
+    "pages": "192"
+  },
+  "url": "https://oz.by/books/more10594629.html",
+  "cover": "eq20.jpg",
+  "my": {
+    "rating": "4",
+    "review": "Хорошая книга, правда после Гоулмана уже не так вставила",
+    "type": "paper"
+  },
+  "index": 60
+},{
+  "_id": {
+    "$oid": "5e237cab6dbbef311d7a165c"
+  },
+  "shelf": {
+    "$oid": "5e198fa76dbbef311d7a154a"
+  },
+  "name": "Парадокс перфекциониста",
+  "authors": [
+    {
+      "name": "Тал Бен-Шахар",
+      "url": "http://oz.by/people/more9026767.html"
+    }
+  ],
+  "publish": {
+    "publisher": {
+      "name": "Манн, Иванов и Фербер",
+      "url": "http://oz.by/producer/more120478.html"
+    },
+    "year": "2013",
+    "pages": "256"
+  },
+  "url": "http://oz.by/books/more10312935.html",
+  "cover": "perfectionist-paradox.jpg",
+  "my": {
+    "rating": "5",
+    "review": "Эта книга многим может польностью изменить жизнь. Лучше читать следом за Эмоциональным интеллектом Гоулмана",
+    "type": "paper"
+  },
+  "index": 52
+},{
+  "_id": {
+    "$oid": "5e237cab6dbbef311d7a1661"
+  },
+  "shelf": {
+    "$oid": "5e198fa76dbbef311d7a154a"
+  },
+  "name": "Быть начальником — это нормально",
+  "authors": [
+    {
+      "name": "Брюс Тулган",
+      "url": "http://oz.by/people/more9028822.html"
+    }
+  ],
+  "publish": {
+    "publisher": {
+      "name": "Манн, Иванов и Фербер",
+      "url": "http://oz.by/producer/more120478.html"
+    },
+    "year": "2016",
+    "pages": "240"
+  },
+  "url": "http://oz.by/books/more10483232.html",
+  "cover": "to-be-the-boss.jpg",
+  "my": {
+    "rating": "5",
+    "review": "Хорошая, практичная книга. Поможет начинающим менеджерам",
+    "type": "paper"
+  },
+  "index": 47
+},{
+  "_id": {
+    "$oid": "5e237cab6dbbef311d7a1662"
+  },
+  "shelf": {
+    "$oid": "5e198fa76dbbef311d7a154a"
+  },
+  "name": "Как преодолеть кризисы менеджмента",
+  "authors": [
+    {
+      "name": "Ицхак Адизес",
+      "url": "http://oz.by/people/more9013168.html"
+    }
+  ],
+  "publish": {
+    "publisher": {
+      "name": "Манн, Иванов и Фербер",
+      "url": "http://oz.by/producer/more120478.html"
+    },
+    "year": "2015",
+    "pages": "320"
+  },
+  "url": "http://oz.by/books/more10353398.html",
+  "cover": "adizes-krizisy-menedjmenta.jpg",
+  "my": {
+    "rating": "5",
+    "review": "Очень хорошая книга, теория основанная на практике, которую можно и нужно применять на практике",
+    "type": "paper"
+  },
+  "index": 46
+},{
+  "_id": {
+    "$oid": "5e237cab6dbbef311d7a164b"
+  },
+  "shelf": {
+    "$oid": "5e198fa76dbbef311d7a154a"
+  },
+  "name": "Союз непохожих. Как создать счастливую семью не вопреки, а благодаря вашим различиям",
+  "authors": [
+    {
+      "name": "Ицхак Адизес",
+      "url": "http://oz.by/people/more9013168.html"
+    }
+  ],
+  "publish": {
+    "publisher": {
+      "name": "Манн, Иванов и Фербер",
+      "url": "https://oz.by/producer/more120478.html"
+    },
+    "year": "2015",
+    "pages": "208"
+  },
+  "url": "https://oz.by/books/more10594716.html",
+  "cover": "souz-nepohozhih.jpg",
+  "my": {
+    "rating": "5",
+    "review": "Проекция теории Адизеса на семейные отношения. Хорошая книга, как и все остальные. Есть и практика, и теория.",
+    "type": "paper"
+  },
+  "index": 69
+},{
+  "_id": {
+    "$oid": "5e237cab6dbbef311d7a1651"
+  },
+  "shelf": {
+    "$oid": "5e198fa76dbbef311d7a154a"
+  },
+  "name": "Законы победителей",
+  "authors": [
+    {
+      "name": "Бодо Шефер",
+      "url": "https://oz.by/people/more90836.html"
+    }
+  ],
+  "publish": {
+    "publisher": {
+      "name": "Попурри",
+      "url": "https://oz.by/producer/more120283.html"
+    },
+    "year": "2013",
+    "pages": "160"
+  },
+  "url": "https://oz.by/books/more10680363.html",
+  "cover": "zakoni-p.jpg",
+  "my": {
+    "rating": "5",
+    "review": "Отличная книга. КПД очень высок, воды нет, структирована отлично. И раскрывает тему полностью. К тому же очень практична. Одно из лучшего, что я прочел.",
+    "type": "paper"
+  },
+  "index": 63
+},{
+  "_id": {
+    "$oid": "5e237cab6dbbef311d7a165b"
+  },
+  "shelf": {
+    "$oid": "5e198fa76dbbef311d7a154a"
+  },
+  "name": "Воспоминания о войне",
+  "authors": [
+    {
+      "name": "Николай Никулин",
+      "url": "http://oz.by/people/more9054611.html"
+    }
+  ],
+  "publish": {
+    "publisher": {
+      "name": "АСТ",
+      "url": "http://oz.by/producer/more1205.html"
+    },
+    "year": "2014",
+    "pages": "352"
+  },
+  "url": "http://oz.by/books/more10372221.html",
+  "cover": "war-memories.jpg",
+  "my": {
+    "rating": "5",
+    "review": "Отрезвляет... Книгу советовал бы прочесть каждому, но особенно не помешает тем, кто управляет людьми",
+    "type": "paper"
+  },
+  "index": 53
+},{
+  "_id": {
+    "$oid": "5e237cab6dbbef311d7a1669"
+  },
+  "shelf": {
+    "$oid": "5e198fa76dbbef311d7a154a"
+  },
+  "name": "Без жалости к себе",
+  "authors": [
+    {
+      "name": "Эрик Бертран Ларссен",
+      "url": "http://oz.by/people/more90111898.html"
+    }
+  ],
+  "publish": {
+    "publisher": {
+      "name": "Манн, Иванов и Фербер",
+      "url": "http://oz.by/producer/more120478.html"
+    },
+    "year": "2015",
+    "pages": "208"
+  },
+  "url": "http://oz.by/books/more10467468.html",
+  "cover": "e810fc9c5b7113355facb58314c.gif",
+  "my": {
+    "rating": "5",
+    "review": "Отличная книга в своей области.",
+    "type": "paper"
+  },
+  "index": 39
+},{
+  "_id": {
+    "$oid": "5e237cab6dbbef311d7a1645"
+  },
+  "shelf": {
+    "$oid": "5e198fa76dbbef311d7a154a"
+  },
+  "name": "Вы или вас: профессиональная эксплуатация подчиненных",
+  "authors": [
+    {
+      "name": "Александр Фридман",
+      "url": "https://www.litres.ru/aleksandr-fridman/"
+    }
+  ],
+  "publish": {
+    "publisher": {
+      "name": "Добрая книга",
+      "url": "https://www.litres.ru/dobraya-kniga/"
+    },
+    "year": "2009",
+    "pages": "510"
+  },
+  "url": "https://www.litres.ru/aleksandr-fridman/vy-ili-vas-professionalnaya-ekspluataciya-podchinennyh-regulyarnyy-menedzhment-dlya-racionalnogo-rukovoditelya/?lfrom=141525098&ref_key=7bbff15f4eea0624590505d862c95c87600c4b2ab6f2e0362ec0df8d9cd14280&ref_offer=1",
+  "cover": "vy-ili-vas.jpg",
+  "my": {
+    "rating": "3",
+    "review": "(Аудиокнига) Разложение теории менеджмента по полочкам, пракчически полное отсутствие практики и много воды. Точно не стоит слушать в аудио, а читать стоит тем, кто хочет разобраться в сути менеджмента, а не получить новые навыки",
+    "type": "audio"
+  },
+  "index": 75
+},{
+  "_id": {
+    "$oid": "5e237cab6dbbef311d7a1649"
+  },
+  "shelf": {
+    "$oid": "5e198fa76dbbef311d7a154a"
+  },
+  "name": "Шпаргалки для боссов",
+  "authors": [
+    {
+      "name": "Тимур Горяев",
+      "url": "https://www.litres.ru/timur-goryaev/"
+    }
+  ],
+  "publish": {
+    "publisher": {
+      "name": "Альпина Паблишер",
+      "url": "https://www.alpinabook.ru/"
+    },
+    "year": "216",
+    "pages": "280"
+  },
+  "url": "https://www.litres.ru/timur-goryaev/shpargalki-dlya-bossov-zhestkie-i-chestnye-uroki-upravleniya-kotorye-luchshe-vyuchit-na-chuzhom-opyte/?lfrom=141525098&ref_key=f3d5bbe0dcde69901cf8c93d0da61dd6db30a4ada0e7a144441b7726875a7c79&ref_offer=1",
+  "cover": "shpargalki-dlya-bossov.jpg",
+  "my": {
+    "rating": "4",
+    "review": "(Аудиокнига) Хорошая книга, много интересных мыслей, опыта и практики. Нельзя читать и воспринимать буквально. Относится к категории \"руксского менеджмента\"",
+    "type": "audio"
+  },
+  "index": 71
+},{
+  "_id": {
+    "$oid": "5e237cab6dbbef311d7a164e"
+  },
+  "shelf": {
+    "$oid": "5e198fa76dbbef311d7a154a"
+  },
+  "name": "Управляя изменениями",
+  "authors": [
+    {
+      "name": "Ицхак Адизес",
+      "url": "http://oz.by/people/more9013168.html"
+    }
+  ],
+  "publish": {
+    "publisher": {
+      "name": "Манн, Иванов и Фербер",
+      "url": "https://oz.by/producer/more120478.html"
+    },
+    "year": "2015",
+    "pages": "368"
+  },
+  "url": "https://oz.by/books/more10360322.html",
+  "cover": "adizes.changes.png",
+  "my": {
+    "rating": "5",
+    "review": "Одна из лучших книг, который я прочем. Однозначно лучшая по менеджменту. По сути – учебник, который структурирует понимание такой сложной области знаний очень простым и понятным способом.",
+    "type": "paper"
+  },
+  "index": 66
+},{
+  "_id": {
+    "$oid": "5e237cab6dbbef311d7a1656"
+  },
+  "shelf": {
+    "$oid": "5e198fa76dbbef311d7a154a"
+  },
+  "name": "Подсознание может все!",
+  "authors": [
+    {
+      "name": "Джон Кехо",
+      "url": "https://oz.by/people/more902110.html"
+    }
+  ],
+  "publish": {
+    "publisher": {
+      "name": "Попурри",
+      "url": "https://oz.by/producer/more120283.html"
+    },
+    "year": "2016",
+    "pages": "160"
+  },
+  "url": "https://oz.by/books/more10264200.html",
+  "cover": "podsoznanie.jpg",
+  "my": {
+    "rating": "4",
+    "review": "Хотя книга и весьма спорная (в том числе по части аргументации, больше на впаривание похоже), но смысл в ее прочтении есть.",
+    "type": "paper"
+  },
+  "index": 58
+},{
+  "_id": {
+    "$oid": "5e237cab6dbbef311d7a1657"
+  },
+  "shelf": {
+    "$oid": "5e198fa76dbbef311d7a154a"
+  },
+  "name": "Номер 1",
+  "authors": [
+    {
+      "name": "Игорь Манн",
+      "url": "https://oz.by/people/more901596.html"
+    }
+  ],
+  "publish": {
+    "publisher": {
+      "name": "Манн, Иванов и Фербер",
+      "url": "https://oz.by/producer/more120478.html"
+    },
+    "year": "2015",
+    "pages": "240"
+  },
+  "url": "https://oz.by/books/more10355756.html",
+  "cover": "no1.png",
+  "my": {
+    "rating": "4",
+    "review": "Я не в восторге от книги. Мне кажется, что в ней больше маркетинга Манна, чем реальной пользы. Самое ценное в книге — это список литературы по темам",
+    "type": "paper"
+  },
+  "index": 57
+},{
+  "_id": {
+    "$oid": "5e237cab6dbbef311d7a166e"
+  },
+  "shelf": {
+    "$oid": "5e198fa76dbbef311d7a154a"
+  },
+  "name": "Человеческий фактор: успешные проекты и команды",
+  "authors": [
+    {
+      "name": "Тимоти Листер",
+      "url": "http://oz.by/people/more907496.html"
+    },
+    {
+      "name": "Том Демарко",
+      "url": "http://oz.by/people/more907495.html"
+    }
+  ],
+  "publish": {
+    "publisher": {
+      "name": "Символ",
+      "url": "http://oz.by/producer/more12021.html"
+    },
+    "year": "2007",
+    "pages": "256"
+  },
+  "url": "http://oz.by/books/more1015771.html",
+  "cover": "1015771_0_CHelovecheskiy_faktor_uspeshnie_proekti_i_komandi_Tom_Demarko_Timoti_Lister.jpg",
+  "my": {
+    "rating": "5",
+    "review": "Хорошая книга. Хоть и старая, но не устаревшая",
+    "type": "paper"
+  },
+  "index": 34
+},{
+  "_id": {
+    "$oid": "5e237cab6dbbef311d7a1663"
+  },
+  "shelf": {
+    "$oid": "5e198fa76dbbef311d7a154a"
+  },
+  "name": "Deadline",
+  "authors": [
+    {
+      "name": "Том Демарко",
+      "url": "http://oz.by/people/more901596.html"
+    }
+  ],
+  "publish": {
+    "publisher": {
+      "name": "Манн, Иванов и Фербер",
+      "url": "http://oz.by/producer/more120478.html"
+    },
+    "year": "2013",
+    "pages": "352"
+  },
+  "url": "http://oz.by/books/more1018395.html",
+  "cover": "deadline.jpg",
+  "my": {
+    "rating": "5",
+    "review": "Гениальная книга",
+    "type": "paper"
+  },
+  "index": 45
+},{
+  "_id": {
+    "$oid": "5e237cab6dbbef311d7a164f"
+  },
+  "shelf": {
+    "$oid": "5e198fa76dbbef311d7a154a"
+  },
+  "name": "Measure What Matters",
+  "authors": [
+    {
+      "name": "John Doerr",
+      "url": "https://en.wikipedia.org/wiki/John_Doerr"
+    }
+  ],
+  "publish": {
+    "publisher": {
+      "name": "Penguin Publishing Group",
+      "url": "http://www.penguin.com/publishers/penguin-publishing-group/"
+    },
+    "year": "2017",
+    "pages": "352"
+  },
+  "url": "https://www.amazon.com/Measure-What-Matters-Google-Foundation/dp/0525536221",
+  "cover": "measure-what-matters.jpg",
+  "my": {
+    "rating": "4",
+    "review": "Книга про очень правильные и важные вещи. Из минусов только стиль ее написания, можно было бы компактнее и интереснее.",
+    "type": "paper"
+  },
+  "index": 65
+},{
+  "_id": {
+    "$oid": "5e237cab6dbbef311d7a166a"
+  },
+  "shelf": {
+    "$oid": "5e198fa76dbbef311d7a154a"
+  },
+  "name": "Игра на победу. Как стратегия работает на самом деле",
+  "authors": [
+    {
+      "name": "Алан Лафли",
+      "url": "http://oz.by/people/more9091948.html"
+    },
+    {
+      "name": "Роджер Мартин",
+      "url": "http://oz.by/people/more907549.html"
+    }
+  ],
+  "publish": {
+    "publisher": {
+      "name": "Манн, Иванов и Фербер",
+      "url": "http://oz.by/producer/more120478.html"
+    },
+    "year": "2013",
+    "pages": "304"
+  },
+  "url": "http://oz.by/books/more10316165.html",
+  "cover": "1_188.gif",
+  "my": {
+    "rating": "4",
+    "review": "Хорошая книга о бизнесе в конкурентной среде. Немного скушновата, местами затянута, но стоит прочтения теми, кто в той или иной степени управляет бизнесом или его частью.",
+    "type": "paper"
+  },
+  "index": 38
+},{
+  "_id": {
+    "$oid": "5e237cab6dbbef311d7a166f"
+  },
+  "shelf": {
+    "$oid": "5e198fa76dbbef311d7a154a"
+  },
+  "name": "Domain Driven Design Quickly",
+  "authors": [
+    {
+      "name": "Nicholas Carlson",
+      "url": "http://www.businessinsider.com/author/nicholas-carlson"
+    }
+  ],
+  "publish": {
+    "publisher": {
+      "name": "InfoQ",
+      "url": "http://www.infoq.com/"
+    },
+    "year": "2006",
+    "pages": "104"
+  },
+  "url": "http://www.infoq.com/minibooks/domain-driven-design-quickly",
+  "cover": "DomainDrivenDesignQuicklyOnline250x355.JPG",
+  "my": {
+    "rating": "3",
+    "review": "Тема важная, хотя и переоцененная, но как написана книга, мне не понравилось",
+    "type": "paper"
+  },
+  "index": 33
+},{
+  "_id": {
+    "$oid": "5e237cab6dbbef311d7a1670"
+  },
+  "shelf": {
+    "$oid": "5e198fa76dbbef311d7a154a"
+  },
+  "name": "Marissa Mayer and the Fight to Save Yahoo!",
+  "authors": [
+    {
+      "name": "Nicholas Carlson",
+      "url": "http://www.businessinsider.com/author/nicholas-carlson"
+    }
+  ],
+  "publish": {
+    "publisher": {
+      "name": "Twelve",
+      "url": "http://twelvebooks.com/"
+    },
+    "year": "2015",
+    "pages": "368"
+  },
+  "url": "http://www.amazon.com/Marissa-Mayer-Fight-Save-Yahoo/dp/1455556610",
+  "cover": "marissa-mayer.jpg",
+  "my": {
+    "rating": "5",
+    "review": "Интересная, увлекательная и познавательная книга. Рекомендую",
+    "type": "paper"
+  },
+  "index": 32
+},{
+  "_id": {
+    "$oid": "5e237cab6dbbef311d7a164d"
+  },
+  "shelf": {
+    "$oid": "5e198fa76dbbef311d7a154a"
+  },
+  "name": "Бизнес с нуля. Метод Lean Startup",
+  "authors": [
+    {
+      "name": "Эрик Рис",
+      "url": "https://oz.by/people/more9082705.html"
+    }
+  ],
+  "publish": {
+    "publisher": {
+      "name": "Альпина Паблишер",
+      "url": "http://oz.by/producer/more12021.html"
+    },
+    "year": "2017",
+    "pages": "256"
+  },
+  "url": "https://oz.by/books/more10268366.html",
+  "cover": "lean-startup.jpg",
+  "my": {
+    "rating": "3",
+    "review": "В книге есть хорошие мысли, но много воды и КПД довольно низкий. Плюс все ключевые моменты из книги постоянно всплывают в общении, статьях и других книгах. Так что хотя книга в целом и неплоха, не могу ее рекомендовать как must read.",
+    "type": "paper"
+  },
+  "index": 67
+},{
+  "_id": {
+    "$oid": "5e237cab6dbbef311d7a1668"
+  },
+  "shelf": {
+    "$oid": "5e198fa76dbbef311d7a154a"
+  },
+  "name": "Бизнес как игра",
+  "authors": [
+    {
+      "name": "Сергей Абдульманов",
+      "url": "http://oz.by/people/more90112771.html"
+    },
+    {
+      "name": "Дмитрий Борисов",
+      "url": "http://oz.by/people/more90112773.html"
+    },
+    {
+      "name": "Дмитрий Кибкало",
+      "url": "http://oz.by/people/more90112772.html"
+    }
+  ],
+  "publish": {
+    "publisher": {
+      "name": "Манн, Иванов и Фербер",
+      "url": "http://oz.by/producer/more120478.html"
+    },
+    "year": "2015",
+    "pages": "256"
+  },
+  "url": "http://oz.by/books/more10477465.html",
+  "cover": "biznes-kak-igra-big.jpg",
+  "my": {
+    "rating": "5",
+    "review": "Хорошая, полезная книга. Все кратко, четко и по делу.",
+    "type": "paper"
+  },
+  "index": 40
+},{
+  "_id": {
+    "$oid": "5e237cab6dbbef311d7a1652"
+  },
+  "shelf": {
+    "$oid": "5e198fa76dbbef311d7a154a"
+  },
+  "name": "Безжалостный менеджмент",
+  "authors": [
+    {
+      "name": "Андрей Парабеллум",
+      "url": "https://www.ozon.ru/person/4341702/"
+    },
+    {
+      "name": "Николай Мрочковский",
+      "url": "https://www.ozon.ru/person/3451937/"
+    }
+  ],
+  "publish": {
+    "publisher": {
+      "name": "Питер",
+      "url": "https://www.ozon.ru/brand/856134/"
+    },
+    "year": "2013",
+    "pages": "160"
+  },
+  "url": "https://www.ozon.ru/context/detail/id/21668639/",
+  "cover": "bezhmen.jpg",
+  "my": {
+    "rating": "2",
+    "review": "Эта книга особая. С точки зрения применимости она скорей из области вредных советов. Но с точки зрения образования я бы советовал ее прочесть, чтобы понимать, как работают многие другие вокруг.",
+    "type": "paper"
+  },
+  "index": 62
+},{
+  "_id": {
+    "$oid": "5e237cab6dbbef311d7a1667"
+  },
+  "shelf": {
+    "$oid": "5e198fa76dbbef311d7a154a"
+  },
+  "name": "От хорошего к великому. Почему одни компании совершают прорыв, а другие нет...",
+  "authors": [
+    {
+      "name": "Джим Коллинз",
+      "url": "http://oz.by/people/more90192.html"
+    }
+  ],
+  "publish": {
+    "publisher": {
+      "name": "Манн, Иванов и Фербер",
+      "url": "http://oz.by/producer/more120478.html"
+    },
+    "year": "2015",
+    "pages": "320"
+  },
+  "url": "http://oz.by/books/more103571.html",
+  "cover": "good-big.png",
+  "my": {
+    "rating": "5",
+    "review": "Хорошая книга, основанная на фактах с массой практических примеров. Маст рид.",
+    "type": "paper"
+  },
+  "index": 41
+},{
+  "_id": {
+    "$oid": "5e237cab6dbbef311d7a167a"
+  },
+  "shelf": {
+    "$oid": "5e198fa76dbbef311d7a154a"
+  },
+  "name": "Драйв. Что на самом деле нас мотивирует",
+  "authors": [
+    {
+      "name": "Дэниел Пинк",
+      "url": "http://oz.by/people/more908922.html"
+    }
+  ],
+  "publish": {
+    "publisher": {
+      "name": "Альпина",
+      "url": "http://oz.by/producer/more12030.html"
+    },
+    "year": "2013",
+    "pages": "274"
+  },
+  "url": "http://oz.by/books/more10285013.html",
+  "cover": "10285013_0_Drayv_CHto_na_samom_dele_nas_motiviruet_Deniel_Pink.jpg",
+  "my": {
+    "rating": "4",
+    "review": "Довольно полезная книга для понимания, объяснения и обоснования происходящего. Но местами скушноватая, и кофициент повторяемости информации в ней высокий",
+    "type": "paper"
+  },
+  "index": 22
+},{
+  "_id": {
+    "$oid": "5e237cab6dbbef311d7a167c"
+  },
+  "shelf": {
+    "$oid": "5e198fa76dbbef311d7a154a"
+  },
+  "name": "Программист-прагматик. Путь от подмастерья к мастеру",
+  "authors": [
+    {
+      "name": "Д. Томас",
+      "url": "http://oz.by/people/more9014437.html"
+    },
+    {
+      "name": "Э. Хант",
+      "url": "http://oz.by/people/more9014438.html"
+    }
+  ],
+  "publish": {
+    "publisher": {
+      "name": "Лори",
+      "url": "http://oz.by/producer/more12067.html"
+    },
+    "year": "2009",
+    "pages": "270"
+  },
+  "url": "http://oz.by/books/more1031721.html",
+  "cover": "1031721_0_Programmist-pragmatik_Put_ot_podmasterya_k_masteru_D_Tomas_E_Hant.jpg",
+  "my": {
+    "rating": "4",
+    "review": "Интересная и полезная книга, но местами суховато (особенно после «Чистого кода»)",
+    "type": "paper"
+  },
+  "index": 20
+},{
+  "_id": {
+    "$oid": "5e237cab6dbbef311d7a164c"
+  },
+  "shelf": {
+    "$oid": "5e198fa76dbbef311d7a154a"
+  },
+  "name": "The Phoenix Project",
+  "authors": [
+    {
+      "name": "Gene Kim",
+      "url": "https://www.amazon.com/Gene-Kim/e/B00AERCJ9E"
+    },
+    {
+      "name": "Kevin Behr",
+      "url": "https://www.amazon.com/Kevin-Behr/e/B001JS6SXU"
+    }
+  ],
+  "publish": {
+    "publisher": {
+      "name": "IT Revolution Press",
+      "url": "https://itrevolution.com/"
+    },
+    "year": "2017",
+    "pages": "256"
+  },
+  "url": "https://www.amazon.com/Phoenix-Project-DevOps-Helping-Business/dp/0988262592",
+  "cover": "phoenix.jpg",
+  "my": {
+    "rating": "5",
+    "review": "Прекрасная книга, которая не только рассказывает о становлении культуры devops в большой компании с нуля, но и дает хорошее понимание устройства классической американской корпорации изнутри.",
+    "type": "paper"
+  },
+  "index": 68
+},{
+  "_id": {
+    "$oid": "5e237cab6dbbef311d7a1643"
+  },
+  "shelf": {
+    "$oid": "5e198fa76dbbef311d7a154a"
+  },
+  "name": "Психология убеждения",
+  "authors": [
+    {
+      "name": "Роберт Чалдини",
+      "url": "https://www.litres.ru/robert-chaldini/"
+    },
+    {
+      "name": "Ноа Гольдштейн",
+      "url": "https://www.litres.ru/noa-goldshteyn/"
+    },
+    {
+      "name": "Стив Мартин",
+      "url": "https://www.litres.ru/stiv-martin/"
+    }
+  ],
+  "publish": {
+    "publisher": {
+      "name": "Манн, Иванов и Фербер",
+      "url": "https://www.litres.ru/mann-ivanov-i-ferber/"
+    },
+    "year": "2013",
+    "pages": "230"
+  },
+  "url": "https://www.litres.ru/noa-goldshteyn/psihologiya-ubezhdeniya-50-dokazannyh-sposobov-byt-ubeditelnym/",
+  "cover": "psihologiya-ubezhdeniya.jpg",
+  "my": {
+    "rating": "3",
+    "review": "Чисто практическая книга, пременима прежде всего к области рекламы (причем, фокус авторов на рекламе просматривается по ходу книги). Не скажу, что бесполезна, но и нового там не много узнал. Впрочем, для новичков в этом деле будет полезна.",
+    "type": "paper"
+  },
+  "index": 77
+},{
+  "_id": {
+    "$oid": "5e237cab6dbbef311d7a166d"
+  },
+  "shelf": {
+    "$oid": "5e198fa76dbbef311d7a154a"
+  },
+  "name": "Выживают только параноики",
+  "authors": [
+    {
+      "name": "Эндрю Гроув",
+      "url": "http://oz.by/producer/more12030.html"
+    }
+  ],
+  "publish": {
+    "publisher": {
+      "name": "Альпина Паблишер",
+      "url": "http://oz.by/producer/more12021.html"
+    },
+    "year": "2011",
+    "pages": "200"
+  },
+  "url": "http://oz.by/books/more108000.html",
+  "cover": "108000_0_Vizhivayut_tolko_paranoiki.jpg",
+  "my": {
+    "rating": "5",
+    "review": "Книга хорошая и полезная, но есть лучше и полезнее. Информации маловато: можно было бы ужать до 100 страниц без потери информативности, просто стало бы суше и скучнее. Хотя ставлю 5 за книгу, но читать по бизнесу рекомендовал бы ее как минимум не первой, и даже не второй.",
+    "type": "paper"
+  },
+  "index": 35
+},{
+  "_id": {
+    "$oid": "5e237cab6dbbef311d7a1676"
+  },
+  "shelf": {
+    "$oid": "5e198fa76dbbef311d7a154a"
+  },
+  "name": "Рефакторинг. Улучшение существующего кода",
+  "authors": [
+    {
+      "name": "Мартин Фаулер",
+      "url": "http://oz.by/people/more901495.html"
+    }
+  ],
+  "publish": {
+    "publisher": {
+      "name": "Символ",
+      "url": "http://oz.by/producer/more12021.html"
+    },
+    "year": "2013",
+    "pages": "432"
+  },
+  "url": "http://oz.by/books/more105087.html",
+  "cover": "105087_0_Refaktoring_Uluchshenie_suschestvuyuschego_koda_Martin_Fauler.jpg",
+  "my": {
+    "rating": "5",
+    "review": "Начало вообще отличное. Но каталог паттернов тяжелый для прочтения, но при этом едвали полезен столь высокий уровнь детализации — все же все виды рефакторинга надо понимать, а не уметь повторять. И надо учитывать, что книге много лет и некоторые аспекты уже не актуалбны.",
+    "type": "paper"
+  },
+  "index": 26
+},{
+  "_id": {
+    "$oid": "5e237cab6dbbef311d7a1660"
+  },
+  "shelf": {
+    "$oid": "5e198fa76dbbef311d7a154a"
+  },
+  "name": "Парадокс страсти",
+  "authors": [
+    {
+      "name": "Дин Делис",
+      "url": "http://oz.by/people/more90114052.html"
+    },
+    {
+      "name": "Кассандра Филлипс",
+      "url": "http://oz.by/people/more90114053.html"
+    }
+  ],
+  "publish": {
+    "publisher": {
+      "name": "Манн, Иванов и Фербер",
+      "url": "http://oz.by/producer/more120478.html"
+    },
+    "year": "2016",
+    "pages": "320"
+  },
+  "url": "http://oz.by/books/more10489646.html",
+  "cover": "Paradoks_strasti.jpg",
+  "my": {
+    "rating": "5",
+    "review": "Крутая, очень практичная и полезная книга для тех, у кого в жизни есть или была любовь (а у кого пока не было, просто скорее всего не поймет и половины)",
+    "type": "paper"
+  },
+  "index": 48
+},{
+  "_id": {
+    "$oid": "5e237cab6dbbef311d7a1664"
+  },
+  "shelf": {
+    "$oid": "5e198fa76dbbef311d7a154a"
+  },
+  "name": "Маркетинг на 100%. Ремикс",
+  "authors": [
+    {
+      "name": "Игорь Манн",
+      "url": "http://oz.by/people/more901596.html"
+    }
+  ],
+  "publish": {
+    "publisher": {
+      "name": "Манн, Иванов и Фербер",
+      "url": "http://oz.by/producer/more120478.html"
+    },
+    "year": "2014",
+    "pages": "256"
+  },
+  "url": "http://oz.by/books/more10198146.html",
+  "cover": "marker.jpg",
+  "my": {
+    "rating": "4",
+    "review": "Книга учит как стать специалистом в областях, подобных маркетингу. Самому маркетингу не учит вообще",
+    "type": "paper"
+  },
+  "index": 44
+},{
+  "_id": {
+    "$oid": "5e237cab6dbbef311d7a1673"
+  },
+  "shelf": {
+    "$oid": "5e198fa76dbbef311d7a154a"
+  },
+  "name": "Scrum и XP: заметки с передовой",
+  "authors": [
+    {
+      "name": "Хенрик Книберг",
+      "url": "https://www.crisp.se/konsulter/henrik-kniberg"
+    }
+  ],
+  "publish": {
+    "publisher": {
+      "name": "Agile Ukraine",
+      "url": "http://www.agileukraine.org/"
+    },
+    "year": "2008",
+    "pages": "94"
+  },
+  "url": "http://scrum.org.ua/",
+  "cover": "Scrum_and_XP_from_the_trenches.png",
+  "my": {
+    "rating": "4",
+    "review": "Нормально, но ничего особенного",
+    "type": "paper"
+  },
+  "index": 29
+},{
+  "_id": {
+    "$oid": "5e237cab6dbbef311d7a1677"
+  },
+  "shelf": {
+    "$oid": "5e198fa76dbbef311d7a154a"
+  },
+  "name": "PHP: объекты, шаблоны и методики программирования",
+  "authors": [
+    {
+      "name": "Мэтт Зандстра",
+      "url": "http://oz.by/people/more9019321.html"
+    }
+  ],
+  "publish": {
+    "publisher": {
+      "name": "Вильямс",
+      "url": "http://oz.by/producer/more1207.html"
+    },
+    "year": "2013",
+    "pages": "560"
+  },
+  "url": "http://oz.by/books/more1074794.html",
+  "cover": "1074794_0_PHP_obekti_shabloni_i_metodiki_programmirovaniya_Mett_Zandstra.jpg",
+  "my": {
+    "rating": "5",
+    "review": "Отличная книга для позднего джуниора или начинаюшего миддла. Даже сеньеру будет местами полезна",
+    "type": "paper"
+  },
+  "index": 25
+},{
+  "_id": {
+    "$oid": "5e237cab6dbbef311d7a167d"
+  },
+  "shelf": {
+    "$oid": "5e198fa76dbbef311d7a154a"
+  },
+  "name": "Джоэл. И снова о программировании",
+  "authors": [
+    {
+      "name": "Джоэл Спольски",
+      "url": "http://oz.by/people/more9011792.html"
+    }
+  ],
+  "publish": {
+    "publisher": {
+      "name": "Символ",
+      "url": "http://oz.by/producer/more12021.html"
+    },
+    "year": "2009",
+    "pages": "320"
+  },
+  "url": "http://oz.by/books/more1064026.html",
+  "cover": "1064026_0_Dzhoel_I_snova_o_programmirovanii_Dzhoel_Spolski.jpg",
+  "my": {
+    "rating": "5",
+    "review": "Отличная познавательная книга",
+    "type": "paper"
+  },
+  "index": 19
+},{
+  "_id": {
+    "$oid": "5e237cab6dbbef311d7a167e"
+  },
+  "shelf": {
+    "$oid": "5e198fa76dbbef311d7a154a"
+  },
+  "name": "Отзывчивый веб-дизайн",
+  "authors": [
+    {
+      "name": "Итан Маркотт",
+      "url": "http://oz.by/people/more9048239.html"
+    }
+  ],
+  "publish": {
+    "publisher": {
+      "name": "Манн, Иванов и Фербер",
+      "url": "http://oz.by/producer/more120478.html"
+    },
+    "year": "2012",
+    "pages": "176"
+  },
+  "url": "http://oz.by/books/more10234401.html",
+  "cover": "10234401_0_Otzivchiviy_veb-dizayn_Itan_Markott.jpg",
+  "my": {
+    "rating": "5",
+    "review": "Хорошая практичная книга, HTML-coders Must Read!",
+    "type": "paper"
+  },
+  "index": 18
+},{
+  "_id": {
+    "$oid": "5e237cab6dbbef311d7a168d"
+  },
+  "shelf": {
+    "$oid": "5e198fa76dbbef311d7a154a"
+  },
+  "name": "VBA 2003. Самоучитель",
+  "authors": [
+    {
+      "name": "В. Кузьменко",
+      "url": "http://oz.by/people/more901168.html"
+    }
+  ],
+  "publish": {
+    "publisher": {
+      "name": "Бином",
+      "url": "http://oz.by/producer/more12010.html"
+    },
+    "year": "2004",
+    "pages": "432"
+  },
+  "url": "http://oz.by/books/more1010980.html",
+  "cover": "1010980_0_VBA_2003_Samouchitel_V_Kuzmenko.jpg",
+  "my": {
+    "rating": "3",
+    "review": "Вообще не помню ничего про нее",
+    "type": "paper"
+  },
+  "index": 3
+},{
+  "_id": {
+    "$oid": "5e237cab6dbbef311d7a168a"
+  },
+  "shelf": {
+    "$oid": "5e198fa76dbbef311d7a154a"
+  },
+  "name": "Профессиональное программирование на PHP",
+  "authors": [
+    {
+      "name": "Джордж Шлосснейгл",
+      "url": "http://oz.by/people/more909064.html"
+    }
+  ],
+  "publish": {
+    "publisher": {
+      "name": "Вильямс",
+      "url": "http://oz.by/producer/more1207.html"
+    },
+    "year": "2006",
+    "pages": "624"
+  },
+  "url": "http://oz.by/books/more1019011.html",
+  "cover": "1019011_0_Professionalnoe_programmirovanie_na_PHP_Dzhordzh_Shlossneygl.jpg",
+  "my": {
+    "rating": "4",
+    "review": "Неплохой был учебник для начинающих",
+    "type": "paper"
+  },
+  "index": 6
+},{
+  "_id": {
+    "$oid": "5e237cab6dbbef311d7a1685"
+  },
+  "shelf": {
+    "$oid": "5e198fa76dbbef311d7a154a"
+  },
+  "name": "Искусство управления IT-проектами",
+  "authors": [
+    {
+      "name": "Скотт Беркун",
+      "url": "http://oz.by/people/more9014340.html"
+    }
+  ],
+  "publish": {
+    "publisher": {
+      "name": "Питер",
+      "url": "http://oz.by/producer/more1202.html"
+    },
+    "year": "2010",
+    "pages": "432"
+  },
+  "url": "http://oz.by/books/more1031383.html",
+  "cover": "1031383_0_Iskusstvo_upravleniya_IT-proektami_Skott_Berkun.jpg",
+  "my": {
+    "rating": "2",
+    "review": "Очень тяжело читается. Полезного мало. Не дочитал",
+    "type": "paper"
+  },
+  "index": 11
+},{
+  "_id": {
+    "$oid": "5e237cab6dbbef311d7a168b"
+  },
+  "shelf": {
+    "$oid": "5e198fa76dbbef311d7a154a"
+  },
+  "name": "Java 2 в подлиннике",
+  "authors": [
+    {
+      "name": "Патрик Ноутон",
+      "url": "http://oz.by/people/more904871.html"
+    },
+    {
+      "name": "Герберт Шилдт",
+      "url": "http://oz.by/people/more90356.html"
+    }
+  ],
+  "publish": {
+    "publisher": {
+      "name": "BHV",
+      "url": "http://oz.by/producer/more1203.html"
+    },
+    "year": "2008",
+    "pages": "1072"
+  },
+  "url": "http://oz.by/books/more108154.html",
+  "cover": "108154_0_Java_2_v_podlinnike_Rerbert_Shildt_Patrik_Nouton.jpg",
+  "my": {
+    "review": "Прочитал часть. Не помню точных ощущений от прочтения, но вроде книга",
+    "type": "paper"
+  },
+  "index": 5
+},{
+  "_id": {
+    "$oid": "5e237cab6dbbef311d7a168f"
+  },
+  "shelf": {
+    "$oid": "5e198fa76dbbef311d7a154a"
+  },
+  "name": "C/C++. Программирование на языке высокого уровня",
+  "authors": [
+    {
+      "name": "Татьяна Павловская",
+      "url": "http://oz.by/people/more901106.html"
+    }
+  ],
+  "publish": {
+    "publisher": {
+      "name": "Питер",
+      "url": "http://oz.by/producer/more1202.html"
+    },
+    "year": "2004",
+    "pages": "-"
+  },
+  "url": "http://oz.by/books/more102293.html",
+  "cover": "102293_0_CC_Programmirovanie_na_yazike_visokogo_urovnya_Tatyana_Pavlovskaya.jpg",
+  "my": {
+    "rating": "4",
+    "review": "Средненько. Для студентов начальных курсов",
+    "type": "paper"
+  },
+  "index": 1
+},{
+  "_id": {
+    "$oid": "5e237cab6dbbef311d7a1682"
+  },
+  "shelf": {
+    "$oid": "5e198fa76dbbef311d7a154a"
+  },
+  "name": "Совершенный код. Мастер-класс",
+  "authors": [
+    {
+      "name": "Стив МакКоннелл",
+      "url": "http://oz.by/people/more907177.html"
+    }
+  ],
+  "publish": {
+    "publisher": {
+      "name": "Русская редакция",
+      "url": "http://oz.by/producer/more12090.html"
+    },
+    "year": "2012",
+    "pages": "896"
+  },
+  "url": "http://oz.by/books/more1015206.html",
+  "cover": "1015206_0_Sovershenniy_kod_Master-klass_Stiv_MakKonnell.jpg",
+  "my": {
+    "rating": "3",
+    "review": "Нудно, многословно и скучно написано. Полезная иформация есть. Пока не дочитал.",
+    "type": "paper"
+  },
+  "index": 14
+},{
+  "_id": {
+    "$oid": "5e237cab6dbbef311d7a1687"
+  },
+  "shelf": {
+    "$oid": "5e198fa76dbbef311d7a154a"
+  },
+  "name": "Rework. Бизнес без предрассудков",
+  "authors": [
+    {
+      "name": "Джейсон Фрайд",
+      "url": "http://oz.by/people/more9039956.html"
+    },
+    {
+      "name": "Дэвид Хенссон",
+      "url": "http://oz.by/people/more9039958.html"
+    }
+  ],
+  "publish": {
+    "publisher": {
+      "name": "Манн, Иванов и Фербер",
+      "url": "http://oz.by/producer/more120478.html"
+    },
+    "year": "2010",
+    "pages": "208"
+  },
+  "url": "http://oz.by/books/more10120181.html",
+  "cover": "10120181_0_Rework_Biznes_bez_predrassudkov_Dzheyson_Frayd_Devid_Hensson.jpg",
+  "my": {
+    "rating": "5",
+    "review": "Отличная книга для всех. Must read!",
+    "type": "paper"
+  },
+  "index": 9
+},{
+  "_id": {
+    "$oid": "5e237cab6dbbef311d7a167f"
+  },
+  "shelf": {
+    "$oid": "5e198fa76dbbef311d7a154a"
+  },
+  "name": "Джоэл о программировании",
+  "authors": [
+    {
+      "name": "Джоэл Спольски",
+      "url": "http://oz.by/people/more9011792.html"
+    }
+  ],
+  "publish": {
+    "publisher": {
+      "name": "Символ",
+      "url": "http://oz.by/producer/more12021.html"
+    },
+    "year": "2006",
+    "pages": "352"
+  },
+  "url": "http://oz.by/books/more1025139.html",
+  "cover": "1025139_0_Dzhoel_o_programmirovanii_Dzhoel_Spolski.jpg",
+  "my": {
+    "rating": "5",
+    "review": "Отличная познавательная книга",
+    "type": "paper"
+  },
+  "index": 17
+},{
+  "_id": {
+    "$oid": "5e237cab6dbbef311d7a1689"
+  },
+  "shelf": {
+    "$oid": "5e198fa76dbbef311d7a154a"
+  },
+  "name": "Веб-дизайн: книга Якоба Нильсена",
+  "authors": [
+    {
+      "name": "Якоб Нильсен",
+      "url": "http://oz.by/people/more9091.html"
+    }
+  ],
+  "publish": {
+    "publisher": {
+      "name": "Символ",
+      "url": "http://oz.by/producer/more12021.html"
+    },
+    "year": "2006",
+    "pages": "512"
+  },
+  "url": "http://oz.by/books/more101892.html",
+  "cover": "101892_0_Veb-dizayn_kniga_Yakoba_Nilsena_Yakob_Nilsen.jpg",
+  "my": {
+    "rating": "4",
+    "review": "Хорошая книга для своего времени, хотя и слишеом американизированная",
+    "type": "paper"
+  },
+  "index": 7
+},{
+  "_id": {
+    "$oid": "5e237cab6dbbef311d7a1681"
+  },
+  "shelf": {
+    "$oid": "5e198fa76dbbef311d7a154a"
+  },
+  "name": "Руководство Джоэла Спольски по подбору программистов и управлению ими",
+  "authors": [
+    {
+      "name": "Джоэл Спольски",
+      "url": "http://oz.by/people/more9011792.html"
+    }
+  ],
+  "publish": {
+    "publisher": {
+      "name": "Вильямс",
+      "url": "http://oz.by/producer/more1207.html"
+    },
+    "year": "2008",
+    "pages": "144"
+  },
+  "url": "http://oz.by/books/more1043609.html",
+  "cover": "1043609_0_Rukovodstvo_Dzhoela_Spolski_po_podboru_programmistov_i_upravleniyu_imi_Dzhoel_Spolski.jpg",
+  "my": {
+    "rating": "5",
+    "review": "Хорошая практичная книга",
+    "type": "paper"
+  },
+  "index": 15
+},{
+  "_id": {
+    "$oid": "5e237cab6dbbef311d7a1680"
+  },
+  "shelf": {
+    "$oid": "5e198fa76dbbef311d7a154a"
+  },
+  "name": "Компьютерные сети",
+  "authors": [
+    {
+      "name": "Эндрю Таненбаум",
+      "url": "http://oz.by/people/more90811.html"
+    },
+    {
+      "name": "Д. Уэзеролл"
+    }
+  ],
+  "publish": {
+    "publisher": {
+      "name": "Питер",
+      "url": "http://oz.by/producer/more1202.html"
+    },
+    "year": "2012",
+    "pages": "960"
+  },
+  "url": "http://oz.by/books/more104157.html",
+  "cover": "104157_0_Kompyuternie_seti_Endryu_Tanenbaum.jpg",
+  "my": {
+    "rating": "5",
+    "review": "Очень интересно и познавательно. Читать всем!",
+    "type": "paper"
+  },
+  "index": 16
+},{
+  "_id": {
+    "$oid": "5e237cab6dbbef311d7a1683"
+  },
+  "shelf": {
+    "$oid": "5e198fa76dbbef311d7a154a"
+  },
+  "name": "Чистый код. Создание, анализ и рефакторинг",
+  "authors": [
+    {
+      "name": "Роберт Мартин",
+      "url": "http://oz.by/people/more904052.html"
+    }
+  ],
+  "publish": {
+    "publisher": {
+      "name": "Питер",
+      "url": "http://oz.by/producer/more1202.html"
+    },
+    "year": "2011",
+    "pages": "464"
+  },
+  "url": "http://oz.by/books/more10109592.html",
+  "cover": "10109592_0_CHistiy_kod_Sozdanie_analiz_i_refaktoring_Robert_Martin.jpg",
+  "my": {
+    "rating": "5",
+    "review": "Лучшая книга для программиста. Programmers Must Read!",
+    "type": "paper"
+  },
+  "index": 13
+},{
+  "_id": {
+    "$oid": "5e237cab6dbbef311d7a1686"
+  },
+  "shelf": {
+    "$oid": "5e198fa76dbbef311d7a154a"
+  },
+  "name": "Как пасти котов. Наставление для программистов, руководящих другими программистами",
+  "authors": [
+    {
+      "name": "Дж. Рейнвотер",
+      "url": "http://oz.by/people/more908017.html"
+    }
+  ],
+  "publish": {
+    "publisher": {
+      "name": "Питер",
+      "url": "http://oz.by/producer/more1202.html"
+    },
+    "year": "2011",
+    "pages": "256"
+  },
+  "url": "http://oz.by/books/more1016852.html",
+  "cover": "1016852_0_Kak_pasti_kotov_Nastavlenie_dlya_programmistov_rukovodyaschih_drugimi_programmistami_Dzh_Reynvoter.jpg",
+  "my": {
+    "rating": "2",
+    "review": "Очень тяжело читается. Полезного мало. Не дочитал",
+    "type": "paper"
+  },
+  "index": 10
+},{
+  "_id": {
+    "$oid": "5e237cab6dbbef311d7a168e"
+  },
+  "shelf": {
+    "$oid": "5e198fa76dbbef311d7a154a"
+  },
+  "name": "Программирование в C++ Builder 6",
+  "authors": [
+    {
+      "name": "Алексей Архангельский",
+      "url": "http://oz.by/people/more90674.html"
+    }
+  ],
+  "publish": {
+    "publisher": {
+      "name": "Бином",
+      "url": "http://oz.by/producer/more12010.html"
+    },
+    "year": "2004",
+    "pages": "-"
+  },
+  "url": "http://oz.by/books/more104020.html",
+  "cover": "104020_0_Programmirovanie_v_C_Builder_6_i_2006__CD-ROM_Aleksey_Arhangelskiy.jpg",
+  "my": {
+    "rating": "4",
+    "review": "Мало что про нее помню",
+    "type": "paper"
+  },
+  "index": 2
+},{
+  "_id": {
+    "$oid": "5e237cab6dbbef311d7a168c"
+  },
+  "shelf": {
+    "$oid": "5e198fa76dbbef311d7a154a"
+  },
+  "name": "MySQL 5 в подлиннике",
+  "authors": [
+    {
+      "name": "Максим Кузнецов",
+      "url": "http://oz.by/people/more904991.html"
+    }
+  ],
+  "publish": {
+    "publisher": {
+      "name": "BHV",
+      "url": "http://oz.by/producer/more1203.html"
+    },
+    "year": "2006",
+    "pages": "1024"
+  },
+  "url": "http://oz.by/books/more1026914.html",
+  "cover": "1026914_0_MySQL_5__CD-ROM_Maksim_Kuznecov.jpg",
+  "my": {
+    "rating": "3",
+    "review": "Мануал. Кой-что полезное подметил в свое время",
+    "type": "paper"
+  },
+  "index": 4
+},{
+  "_id": {
+    "$oid": "5e237cab6dbbef311d7a1684"
+  },
+  "shelf": {
+    "$oid": "5e198fa76dbbef311d7a154a"
+  },
+  "name": "Современные операционные системы",
+  "authors": [
+    {
+      "name": "Эндрю Таненбаум",
+      "url": "http://oz.by/people/more90811.html"
+    }
+  ],
+  "publish": {
+    "publisher": {
+      "name": "Питер",
+      "url": "http://oz.by/producer/more1202.html"
+    },
+    "year": "2012",
+    "pages": "1120"
+  },
+  "url": "http://oz.by/books/more104617.html",
+  "cover": "104617_0_Sovremennie_operacionnie_sistemi_Endryu_Tanenbaum.jpg",
+  "my": {
+    "rating": "5",
+    "review": "Отличное пособие. Must read for all!",
+    "type": "paper"
+  },
+  "index": 12
+},{
+  "_id": {
+    "$oid": "5e237cab6dbbef311d7a1688"
+  },
+  "shelf": {
+    "$oid": "5e198fa76dbbef311d7a154a"
+  },
+  "name": "Приемы объектно-ориентированного проектирования. Паттерны проектирования",
+  "authors": [
+    {
+      "name": "Р. Хелм",
+      "url": "http://oz.by/people/more908690.html"
+    },
+    {
+      "name": "Э. Гамма",
+      "url": "http://oz.by/people/more905851.html"
+    },
+    {
+      "name": "Р. Джонсон"
+    },
+    {
+      "name": "Д. Влиссидес"
+    }
+  ],
+  "publish": {
+    "publisher": {
+      "name": "Питер",
+      "url": "http://oz.by/producer/more1202.html"
+    },
+    "year": "2009",
+    "pages": "368"
+  },
+  "url": "http://oz.by/books/more101783.html",
+  "cover": "101783_0_Priemi_obektno-orientirovannogo_proektirovaniya_Patterni_proektirovaniya_Erik_Ramma_R_Helm.jpg",
+  "my": {
+    "rating": "4",
+    "review": "Неплохая книга, правда тяжеловато читается",
+    "type": "paper"
+  },
+  "index": 8
+},{
+  "_id": {
+    "$oid": "5e24a21664e9db8518881338"
+  },
+  "shelf": {
+    "$oid": "5e198fa76dbbef311d7a154a"
+  },
+  "name": "Договориться можно обо всем!",
+  "authors": [
+    {
+      "name": "Гэвин Кеннеди",
+      "url": "https://www.litres.ru/gevin-kennedi/"
+    }
+  ],
+  "publish": {
+    "publisher": {
+      "name": "Альпина Диджитал",
+      "url": "https://www.litres.ru/alpina/"
+    },
+    "year": "2016",
+    "pages": "410"
+  },
+  "url": "https://www.litres.ru/gevin-kennedi/dogovoritsya-mozhno-obo-vsem-kak-dobivatsya-maksimuma-v-lubyh-peregovorah-11981022/?lfrom=141525098&ref_key=c319293fe3395e816b2c01eade9fa5da67882983ae32c2670f33578697cd0463&ref_offer=1",
+  "cover": "dogovoritsya-mozhno-obo-vsem.jpg",
+  "my": {
+    "rating": "5",
+    "review": "(Аудиокнига) Отличное практическое пособие по всем видам переговоров. Хорошо подойдет для начинающих. Маст-рид для любого человека.",
+    "start": "2020-01-16",
+    "end": "2020-01-25",
+    "type": "audio"
+  },
+  "index": 82
+},{
+  "_id": {
+    "$oid": "5e2c96ed03d7d97bd1fcf88c"
+  },
+  "shelf": {
+    "$oid": "5e198fa76dbbef311d7a154a"
+  },
+  "name": "Джедайские техники",
+  "authors": [
+    {
+      "name": "Максим Дорофеев",
+      "url": "https://www.litres.ru/maksim-dorofeev/"
+    }
+  ],
+  "publish": {
+    "publisher": {
+      "name": "Манн, Иванов и Фербер",
+      "url": "https://www.litres.ru/mann-ivanov-i-ferber/"
+    },
+    "year": 2017,
+    "pages": 352
+  },
+  "url": "https://www.litres.ru/maksim-dorofeev/dzhedayskie-tehniki-kak-vospitat-svou-obezyanu-opustoshit-inboks-i-sberech-mysletoplivo/?lfrom=141525098&ref_key=da1006092fd4eafd820c5c5c98837c480f6fa8d8da2848c7b6e69ab8fa7b0fa4&ref_offer=1",
+  "cover": "dzhedayskie-tehniki.jpg",
+  "my": {
+    "review": "Очень интересная книга о самоорганизации. Куча практических советов вместе с теоретическими размышлениями. Интересная подача. Описывает авторскую систему личной эффективности, которая была скомпилирована под влиянием книг ведущих мировых авторов этой тематики. Одна из лучших книг, которые я прочел.",
+    "start": "2020-01-26",
+    "end": "2020-02-09",
+    "rating": "5",
+    "type": "paper"
+  },
+  "index": 83
+},{
+  "_id": {
+    "$oid": "5e3c3206ea9c4a9d091d4136"
+  },
+  "publish": {
+    "publisher": {
+      "name": "Издательство АСТ",
+      "url": "https://www.litres.ru/ast/"
+    },
+    "year": 2013,
+    "pages": 653
+  },
+  "shelf": {
+    "$oid": "5e198fa76dbbef311d7a154a"
+  },
+  "name": "Думай медленно… Решай быстро",
+  "authors": [
+    {
+      "name": "Даниэль Канеман",
+      "url": "https://www.litres.ru/daniel-kaneman/"
+    }
+  ],
+  "url": "https://www.litres.ru/daniel-kaneman/dumay-medlenno-reshay-bystro/?lfrom=141525098&ref_key=8c8977d0ddda4f497a404600cc7637bde3ba7ba1582e80c8ad8063dede2521fa&ref_offer=1",
+  "cover": "dumay-medlenno-reshay-bystro.jpg",
+  "my": {
+    "rating": 4,
+    "review": "Книга, несомненно, полезная, но прочесть ее до конца далось с большим трудом. По сути дела она создана для ученых, содержит в себе множество деталей и примеров. Можно было бы сократить раза в два точно. Но пока сокращенной версии нет, эта книга является важным подспорьем для изучения психологии принятия решений, которая просто необходима, например, всем управленцам.",
+    "type": "paper",
+    "start": "2020-02-09",
+    "end": "2020-05-18"
+  },
+  "index": 85
+},{
+  "_id": {
+    "$oid": "5e3c3431ea9c4a9d091d4137"
+  },
+  "publish": {
+    "publisher": {
+      "name": "Азбука-Аттикус",
+      "url": "https://www.litres.ru/azbuka-attikus/"
+    },
+    "year": 2010,
+    "pages": 680
+  },
+  "shelf": {
+    "$oid": "5e198fa76dbbef311d7a154a"
+  },
+  "name": "Черный лебедь. Под знаком непредсказуемости",
+  "authors": [
+    {
+      "name": "Нассим Николас Талеб",
+      "url": "https://www.litres.ru/nassim-nikolas-taleb/"
+    }
+  ],
+  "url": "https://www.litres.ru/nassim-nikolas-taleb/chernyy-lebed-pod-znakom-nepredskazuemosti/?lfrom=141525098&ref_key=2e8551c4d083a60255c92204120d1177d5e348c75998cb0ca5770ad1b6cf5013&ref_offer=1",
+  "cover": "chernyy-lebed.jpg",
+  "my": {
+    "rating": 4,
+    "review": "(Аудиокнига) В этой книге Нассим Талеб презентует свою несомненно значимую и интересную теорию, только вот стиль повествования, хотя и неординарный и веселый, сильно заносчивый, заумный и растянутый. Прочесть эту книгу я бы, наверное, не смог. Зато смог ее прослушать, о чем совершенно не жалею.",
+    "type": "audio"
+  },
+  "index": 86
+},{
+  "_id": {
+    "$oid": "5e405ce0ea9c4a9d091d4138"
+  },
+  "publish": {
+    "publisher": {
+      "name": "Бомбора",
+      "url": "https://www.litres.ru/bombora/"
+    },
+    "year": 2018,
+    "pages": 320
+  },
+  "shelf": {
+    "$oid": "5e198fa76dbbef311d7a154a"
+  },
+  "name": "НИ СЫ",
+  "authors": [
+    {
+      "name": "Джен Синсеро",
+      "url": "https://www.litres.ru/dzhen-sinsero-13028383/"
+    }
+  ],
+  "url": "https://www.litres.ru/dzhen-sinsero-130283/ni-sy-vostochnaya-mudrost-kotoraya-glasit-bud-uveren/?lfrom=141525098&ref_key=14506f8b03b009d3d78436a6bf9d74ffbcf2e6369fa42f5aefa49d6a9f24eb3b&ref_offer=1",
+  "cover": "ni-sy.jpg",
+  "my": {
+    "review": "(Аудиокнига) Книга про веру в себя, любовь к себе, аффирмации, \"возьми и сделай\". Основаная ее польза  – мотивация, хотя и немного умных мыслей также имеется. Рекомендую слушать в аудио-формате. Книга написана в забавном стиле, хотя в середине и была весьма скучна.",
+    "start": "2020-02-02",
+    "end": "2020-02-09",
+    "rating": 4,
+    "type": "audio"
+  },
+  "index": 84
+},{
+  "_id": {
+    "$oid": "5eaa980217aa4b1850a23779"
+  },
+  "publish": {
+    "publisher": {
+      "name": "Манн, Иванов и Фербер",
+      "url": "https://www.litres.ru/shimon-peres/"
+    },
+    "year": 2020,
+    "pages": 280
+  },
+  "shelf": {
+    "$oid": "5e198fa76dbbef311d7a154a"
+  },
+  "name": "Робким мечтам здесь не место",
+  "authors": [
+    {
+      "name": "Шимон Перес",
+      "url": "https://www.litres.ru/mann-ivanov-i-ferber/"
+    }
+  ],
+  "url": "https://www.litres.ru/shimon-peres/robkim-mechtam-zdes-ne-mesto/?lfrom=141525098&ref_key=f8b6da9333571f8cfe0a131b88871002810be6bbbad9d64f17414ad72ad296ac&ref_offer=1",
+  "cover": "shimon-peres.jpg",
+  "my": {
+    "rating": 5,
+    "review": "Отличная книга, читается на одном дыхании. Интересная с исторической точки зрения, заряженная мотивацией, вообще нет воды. Прочел с удовольствием.",
+    "start": "2020-04-20",
+    "end": "2020-04-27",
+    "type": "paper"
+  },
+  "index": 87
+},{
+  "_id": {
+    "$oid": "5f0cb81bd7505a3ffd1697f2"
+  },
+  "publish": {
+    "publisher": {
+      "name": "Азбука-Аттикус",
+      "url": "https://www.litres.ru/azbuka-attikus/"
+    },
+    "year": 2013,
+    "pages": 770
+  },
+  "shelf": {
+    "$oid": "5e198fa76dbbef311d7a154a"
+  },
+  "name": "Антихрупкость. Как извлечь выгоду из хаоса",
+  "authors": [
+    {
+      "name": "Нассим Николас Талеб",
+      "url": "https://www.litres.ru/nassim-nikolas-taleb/"
+    }
+  ],
+  "url": "https://www.litres.ru/nassim-nikolas-taleb/antihrupkost-kak-izvlech-vygodu-iz-haosa/?lfrom=141525098&ref_key=c3bcca376deb0f649854d2f587cd21d4b700531d7e4bc0f7ea06ca4357559a61&ref_offer=1",
+  "cover": "antihrupkost.jpg",
+  "my": {
+    "rating": 4,
+    "review": "(Аудиокнига) Вторая книга Нассима Талеба, которую я прослушал. И так же рецензия, как и на Черного лебедя – несомненно значимая и интересная теория изложена в стиле, хотя и неординарном и веселом, но сильно заносчивом, заумном и растянутом. Только аудио формат. Не жалею.",
+    "start": "2020-05-17",
+    "end": "2020-06-18",
+    "type": "audio"
+  },
+  "index": 88
+},{
+  "_id": {
+    "$oid": "5f0cbcacd7505a3ffd1697f3"
+  },
+  "publish": {
+    "publisher": {
+      "name": "Попурри",
+      "url": "https://www.litres.ru/popurri/"
+    },
+    "year": 1998,
+    "pages": 290
+  },
+  "shelf": {
+    "$oid": "5e198fa76dbbef311d7a154a"
+  },
+  "name": "Как завоевывать друзей и оказывать влияние на людей",
+  "authors": [
+    {
+      "name": "Дейл Карнеги",
+      "url": "https://www.litres.ru/deyl-karnegi/"
+    }
+  ],
+  "url": "https://www.litres.ru/deyl-karnegi/kak-zavoevyvat-druzey-i-okazyvat-vliyanie-na-ludey/?lfrom=141525098&ref_key=491198539743bfe222414ce16d80cc0d1297d06645b1e834bedeb46eaa07f7d9&ref_offer=1",
+  "cover": "deyl-karnegi-kak-zavoevyvat-druzey.jpg",
+  "my": {
+    "rating": 3,
+    "review": "Книга хотя и относится к классике и прочесть ее я решил больше из любопытства – за что же ее так много хвалят? Она оставила весьма двоякое впечатление. С одной стороны там дан большой объем полезной информации. С другой, она уже устарела, а многие другие книги ушли дальше в вопросах как ораторского искусства, так и техниках манипуляции. В любом случае, книга не про друзей, а про манипулирование  людьми.",
+    "start": "2020-05-17",
+    "end": "2020-07-13",
+    "type": "paper"
+  },
+  "index": 89
+},{
+  "_id": {
+    "$oid": "5f0cbfa1d7505a3ffd1697f4"
+  },
+  "publish": {
+    "publisher": {
+      "name": "Манн, Иванов и Фербер",
+      "url": "https://www.litres.ru/mann-ivanov-i-ferber/"
+    },
+    "year": 2016,
+    "pages": 610
+  },
+  "shelf": {
+    "$oid": "5e198fa76dbbef311d7a154a"
+  },
+  "name": "Открывая организации будущего",
+  "authors": [
+    {
+      "name": "Фредерик Лалу",
+      "url": "https://www.litres.ru/frederik-lalu/"
+    }
+  ],
+  "url": "https://www.litres.ru/frederik-lalu/otkryvaya-organizacii-buduschego-29186270/?lfrom=141525098&ref_key=113b4609139b67e61628e43e29be68d7eb09d713298b34fc5781efc7123fc030&ref_offer=1",
+  "cover": "otkryvaya-organizacii-buduschego.jpg",
+  "my": {
+    "rating": 3,
+    "review": "(Аудиокнига) Книга вызвала очень неоднозначные впечатления. Начало было интересное и затягивающее, но уже к середине стилистика написания начала напрягать. Книга получилась очень растянута, много раз повторяется одно и то же. К середине книги я решил изучить модель Спиральной динамики, после чего книга стала восприниматься иначе – лучше. Тем не менее, ее можно было бы написать компактнее и менее пафосно. А ошибка перевода названия ввела огромную коллизию цветокодирования по отношению к самой модели Спиральной динамики – организации в книге должны были быть не бирюзовыми, а желтыми. Наибольшую пользу в книге представляют данные самого исследования и детали работы исследованных компаний.",
+    "start": "2020-05-17",
+    "end": "2020-07-23",
+    "type": "audio"
+  },
+  "index": 90
+},{
+  "_id": {
+    "$oid": "5f0cc0b0d7505a3ffd1697f5"
+  },
+  "publish": {
+    "publisher": {
+      "name": "Манн, Иванов и Фербер",
+      "url": "https://www.litres.ru/mann-ivanov-i-ferber/"
+    },
+    "year": 2017,
+    "pages": 200
+  },
+  "shelf": {
+    "$oid": "5e198fa76dbbef311d7a154a"
+  },
+  "name": "Кто. Решите вашу проблему номер один",
+  "authors": [
+    {
+      "name": "Джефф Смарт",
+      "url": "https://www.litres.ru/dzheff-smart/"
+    },
+    {
+      "name": "Рэнди Стрит",
+      "url": "https://www.litres.ru/rendi-strit/"
+    }
+  ],
+  "url": "https://www.litres.ru/dzheff-smart/kto-reshite-vashu-problemu-nomer-odin/?lfrom=141525098&ref_key=680ffa3926002e5c903cd8c97b3cd8130e84a9a275a8bfd5ce1582d639ea6c97&ref_offer=1",
+  "cover": "kto-reshite-vashu-problemu-nomer-odin.jpg",
+  "my": {
+    "rating": 4,
+    "review": "Книга весьма неплоха, системная, полна примеров и практических советов. Будет очень полезна как для специалистов из областей HR и Recruitment, так и для руководителей в любых компаниях, которые практикуют с западные принципы менеджмента. Стоит уточнить, что книга описывает статистику, подходы, принципы, свойственные более развитым рынкам и компаниям, и возможности ее применения на рынках Беларуси, России, Украны могут оказаться ограниченными. Однако, даже у нас в индустрии разработки ПО такие подходы уже применяются широко.",
+    "start": "2020-05-17",
+    "end": "2020-07-26",
+    "type": "paper"
+  },
+  "index": 91
+},{
+  "_id": {
+    "$oid": "5f1d46858c0bfe9dfcb9c5d3"
+  },
+  "publish": {
+    "publisher": {
+      "name": "Манн, Иванов и Фербер",
+      "url": "https://www.litres.ru/mann-ivanov-i-ferber/"
+    },
+    "year": 2020,
+    "pages": 120
+  },
+  "shelf": {
+    "$oid": "5e198fa76dbbef311d7a154a"
+  },
+  "name": "Джедайские техники конструктивного общения",
+  "authors": [
+    {
+      "name": "Александр Орлов",
+      "url": "https://www.litres.ru/aleksandr-orlov-23090507/"
+    }
+  ],
+  "url": "https://www.litres.ru/aleksandr-orlov-23090507/dzhedayskie-tehniki-konstruktivnogo-obscheniya/?lfrom=141525098&ref_key=5906cd57345d36bfd8823caf359067bfbed9340300c4f618d961f0e27b6088f6&ref_offer=1",
+  "cover": "dzhedayskie-tehniki-konstruktivnogo-obscheniya.jpg",
+  "my": {
+    "rating": 0,
+    "review": "(В процессе...)",
+    "start": "2020-05-20",
+    "end": "",
+    "type": "paper"
+  },
+  "index": 92
+},{
+  "_id": {
+    "$oid": "5f1d48d28c0bfe9dfcb9c5d4"
+  },
+  "publish": {
+    "publisher": {
+      "name": "Издательские решения",
+      "url": "https://www.litres.ru/izdatelskie-resheniya/"
+    },
+    "year": 2016,
+    "pages": 140
+  },
+  "shelf": {
+    "$oid": "5e198fa76dbbef311d7a154a"
+  },
+  "name": "Наставничество. Метод Петра Кузнецова",
+  "authors": [
+    {
+      "name": "Роман Матвеев",
+      "url": "https://www.litres.ru/roman-matveev/"
+    }
+  ],
+  "url": "https://www.litres.ru/roman-matveev/nastavnichestvo-metod-petra-kuznecova-otkroy-dlya-sebya-formulu-uspeshnogo-rukovodstva-novichkami-ovladey-umeniem-nastavlyat-ih-na-pravilnyy-put-i-peredavat-silu-svoego-masterstva/?lfrom=141525098&ref_key=07c4f211c0cc477cde20217d0072cc32c5b3592b655a98de918b34aeaf794a0d&ref_offer=1",
+  "cover": "roman-matveev-nastavnichestvo.jpg",
+  "my": {
+    "rating": 0,
+    "review": "(В очереди...)",
+    "start": "",
+    "end": "",
+    "type": "paper"
+  },
+  "index": 93
+},{
+  "_id": {
+    "$oid": "5f1d49c68c0bfe9dfcb9c5d5"
+  },
+  "publish": {
+    "publisher": {
+      "name": "Манн, Иванов и Фербер",
+      "url": "https://www.litres.ru/mann-ivanov-i-ferber/"
+    },
+    "year": 2017,
+    "pages": 750
+  },
+  "shelf": {
+    "$oid": "5e198fa76dbbef311d7a154a"
+  },
+  "name": "Теория игр. Искусство стратегического мышления в бизнесе и жизни",
+  "authors": [
+    {
+      "name": "Авинаш Диксит",
+      "url": "https://www.litres.ru/avinash-diksit/"
+    },
+    {
+      "name": "Барри Дж. Нейлбафф",
+      "url": "https://www.litres.ru/barri-dzh-neylbaff/"
+    }
+  ],
+  "url": "https://www.litres.ru/avinash-diksit/teoriya-igr-iskusstvo-strategicheskogo-myshleniya-v-biznese/?lfrom=141525098&ref_key=14ce44cf49b6293f8862e12de7213d8e8bedc30576cfc7a7756e6fe4f617d3cb&ref_offer=1",
+  "cover": "teoriya-igr.jpg",
+  "my": {
+    "rating": 0,
+    "review": "(В очереди)",
+    "start": "",
+    "end": "",
+    "type": "paper"
+  },
+  "index": 94
+}]
