@@ -1,7 +1,7 @@
 pipeline {
   agent {
     dockerfile {
-      filename 'core/Dockerfile'
+      filename 'Dockerfile'
       dir 'core'
     }
 
@@ -10,7 +10,7 @@ pipeline {
     stage('Build') {
       agent {
         dockerfile {
-          filename 'core/Dockerfile'
+          filename 'Dockerfile'
           dir 'core'
         }
 
