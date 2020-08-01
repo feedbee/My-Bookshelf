@@ -14,8 +14,8 @@ app.use(express.json());
 app.use('/public', express.static(__dirname + '/../public'));
 
 // Data Endpoints
-app.use('/css', express.static(__dirname + '/../css'));
-app.use('/img', express.static(__dirname + '/../img'));
+app.use('/css', express.static(__dirname + '/../public/css'));
+app.use('/img', express.static(__dirname + '/../public/img'));
 
 // App Endpoints
 app.get("/shelves", shelfController.allShelves);
