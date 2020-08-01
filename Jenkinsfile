@@ -12,6 +12,7 @@ pipeline {
         dockerfile {
           filename 'Dockerfile'
           dir 'core'
+          args '--entrypoint=""'
         }
 
       }
