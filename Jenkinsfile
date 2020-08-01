@@ -2,22 +2,21 @@ pipeline {
   agent {
     dockerfile {
       filename 'core/Dockerfile'
+      dir 'core'
     }
 
   }
   stages {
     stage('Build') {
-      steps {
-        sh 'cd core'
-      }
       agent {
         dockerfile {
           filename 'core/Dockerfile'
+          dir 'core'
         }
 
       }
       steps {
-        sh 'echo 1'
+        sh 'echo OK'
       }
     }
 
