@@ -7,6 +7,9 @@ pipeline {
   }
   stages {
     stage('Build') {
+      steps {
+        sh 'cd core'
+      }
       agent {
         dockerfile {
           filename 'core/Dockerfile'
