@@ -1,12 +1,15 @@
 import mongoose from "./../db";
+import { HydratedDocument, Types } from "mongoose";
 
-export interface IShelf extends mongoose.Document {
-  _id: string;
+export interface IShelf {
+  _id: Types.ObjectId;
   key: string;
   title: string;
   intro: string;
   user: IUser;
 }
+
+export type ShelfDocument = HydratedDocument<IShelf>;
 
 export interface IUser {
   email: string;

@@ -1,5 +1,5 @@
 import express, { Request, Response } from "express";
-import exphbs from "express-handlebars";
+import { engine } from "express-handlebars";
 import { AddressInfo } from "net";
 
 import Config from "./config";
@@ -26,7 +26,7 @@ shelfController.ShelfApi.register(app);
 booksController.BookApi.register(app);
 
 // Rendering
-app.engine('hbs', exphbs({
+app.engine('hbs', engine({
   extname: '.hbs',
   defaultLayout: 'default',
   layoutsDir: __dirname + '/layouts/',

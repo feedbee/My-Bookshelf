@@ -1,8 +1,9 @@
 import mongoose from "./../db";
+import { HydratedDocument, Types } from "mongoose";
 
-export interface IBook extends mongoose.Document {
+export interface IBook {
   name: string;
-  shelf: string;
+  shelf: Types.ObjectId;
 	authors: IAuthor[];
 	publish: IPublish;
 	cover: string;
@@ -13,6 +14,8 @@ export interface IBook extends mongoose.Document {
 	myStartDate: string;
 	myEndDate: string;
 }
+
+export type BookDocument = HydratedDocument<IBook>;
 
 interface INamedEntity {
 	name: string;

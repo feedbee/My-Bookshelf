@@ -4,34 +4,30 @@ import { Types as MongooseTypes } from "mongoose";
 import Shelf, { IShelf } from "./../models/shelf";
 import Book, { IBook } from "./../models/book";
 
-export let allShelves = (req: Request, res: Response) => {
-  Shelf.find((err: any, shelves: IShelf[]) => {
-    if (err) {
-      res.status(500).send("Error!");
-    } else {
-      res.send(shelves);
-    }
-  });
+export let allShelves = async (req: Request, res: Response) => {
+  try {
+    const shelves = await Shelf.find().exec();
+    res.send(shelves);
+  } catch {
+    res.status(500).send("Error!");
+  }
 };
 
-export let getShelf = (req: Request, res: Response) => {
-  Shelf.findOne({key: req.params.shelfKey}, (err: any, shelf: IShelf) => {
-    if (err) {
-      res.status(500).send(err);
-    } else if (shelf === null) {
+export let getShelf = async (req: Request, res: Response) => {
+  try {
+    const shelf = await Shelf.findOne({key: req.params.shelfKey}).exec();
+    if (shelf === null) {
       res.status(404).send("Not Found");
-    } else {
-      Book.find({shelf: new MongooseTypes.ObjectId(shelf._id)})
-        .sort({index: -1})
-        .exec((err: any, books: IBook[]) => {
-          if (err) {
-            res.send("Error!");
-          } else {
-            res.render("template", {layout: false, shelf: shelf.toObject(), books: books.map((el) =>  el.toObject())});
-          }
-      });
+      return;
     }
-  });
+
+    const books = await Book.find({shelf: new MongooseTypes.ObjectId(shelf._id)})
+      .sort({index: -1})
+      .exec();
+    res.render("template", {layout: false, shelf: shelf.toObject(), books: books.map((el) => el.toObject())});
+  } catch {
+    res.status(500).send("Error!");
+  }
 };
 
 export class ShelfApi {
@@ -52,14 +48,14 @@ export class ShelfApi {
    * @param res Response
    */
   static async getShelfWithBooks(req: Request, res: Response) {
-    let shelf: IShelf | null = await Shelf.findOne({key: req.params.shelfKey}).exec();
+    const shelf = await Shelf.findOne({key: req.params.shelfKey}).exec();
 
     if (shelf === null) {
       res.status(404).send(`Shelf '${req.params.shelfKey}' was not found`);
       return;
     }
 
-    let books: IBook[] = await Book.find({shelf: new MongooseTypes.ObjectId(shelf._id)})
+    const books = await Book.find({shelf: new MongooseTypes.ObjectId(shelf._id)})
       .sort({index: -1})
       .exec();
     
@@ -68,7 +64,7 @@ export class ShelfApi {
   }
 
   static async getShelf(req: Request, res: Response) {
-    let shelf: IShelf | null = await Shelf.findOne({key: req.params.shelfKey}).exec();
+    const shelf = await Shelf.findOne({key: req.params.shelfKey}).exec();
 
     if (shelf === null) {
       res.status(404).send(`Shelf '${req.params.shelfKey}' was not found`);
@@ -79,7 +75,7 @@ export class ShelfApi {
   }
 
   static async updateShelf(req: Request, res: Response) {
-    let shelf: IShelf | null = await Shelf.findOneAndUpdate({key: req.params.shelfKey}, req.body).exec();
+    const shelf = await Shelf.findOneAndUpdate({key: req.params.shelfKey}, req.body).exec();
 
     if (shelf === null) {
       res.status(404).send(`Shelf '${req.params.shelfKey}' was not found`);
@@ -98,7 +94,7 @@ export class ShelfApi {
   }
 
   static async deleteShelf(req: Request, res: Response) {
-    let shelf: IShelf | null = await Shelf.findOneAndDelete({key: req.params.shelfKey}, req.body).exec();
+    const shelf = await Shelf.findOneAndDelete({key: req.params.shelfKey}).exec();
 
     if (shelf === null) {
       res.status(404).send(`Shelf '${req.params.shelfKey}' was not found`);

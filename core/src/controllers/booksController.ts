@@ -16,14 +16,14 @@ export class BookApi {
   }
 
   static async getBooksFromShelf(req: Request, res: Response) {
-    let shelf: IShelf | null = await Shelf.findOne({key: req.params.shelfKey}).exec();
+    const shelf = await Shelf.findOne({key: req.params.shelfKey}).exec();
 
     if (shelf === null) {
       res.status(404).send(`Shelf '${req.params.shelfKey}' was not found`);
       return;
     }
 
-    let books: IBook[] = await Book.find({shelf: new MongooseTypes.ObjectId(shelf._id)})
+    const books = await Book.find({shelf: new MongooseTypes.ObjectId(shelf._id)})
       .sort({index: -1})
       .exec();
     
@@ -31,7 +31,7 @@ export class BookApi {
   }
 
   static async getBook(req: Request, res: Response) {
-    let book: IBook | null = await Book.findById(req.params.bookId).exec();
+    const book = await Book.findById(req.params.bookId).exec();
 
     if (book === null) {
       res.status(404).send(`Book '${req.params.bookId}' was not found`);
@@ -42,7 +42,7 @@ export class BookApi {
   }
 
   static async updateBook(req: Request, res: Response) {
-    let book: IBook | null = await Book.findByIdAndUpdate(req.params.bookId, req.body).exec();
+    const book = await Book.findByIdAndUpdate(req.params.bookId, req.body).exec();
 
     if (book === null) {
       res.status(404).send(`Shelf '${req.params.bookId}' was not found`);
@@ -61,7 +61,7 @@ export class BookApi {
   }
 
   static async deleteBook(req: Request, res: Response) {
-    let book: IBook | null = await Book.findByIdAndDelete(req.params.bookId, req.body).exec();
+    const book = await Book.findByIdAndDelete(req.params.bookId).exec();
 
     if (book === null) {
       res.status(404).send(`Shelf '${req.params.bookId}' was not found`);
@@ -72,7 +72,7 @@ export class BookApi {
   }
 
   static async moveBook(req: Request, res: Response) {
-    let book: IBook | null = await Book.findOne({key: req.params.bookId}, req.body).exec();
+    const book = await Book.findById(req.params.bookId).exec();
 
     if (book === null) {
       res.status(404).send(`Shelf '${req.params.bookId}' was not found`);
