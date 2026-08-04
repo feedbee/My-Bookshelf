@@ -3,6 +3,8 @@ import { engine } from "express-handlebars";
 import { AddressInfo } from "net";
 
 import Config from "./config";
+import "./db";
+import { apiErrorHandler } from "./api/error-handler";
 import * as shelfController from "./controllers/shelfController";
 import * as booksController from "./controllers/booksController";
 
@@ -38,6 +40,7 @@ app.engine('hbs', engine({
 app.set('view engine', 'hbs');
 app.set('views', __dirname + '/../views/');
 app.locals.config = Config;
+app.use(apiErrorHandler);
 
 const host: string = process.env.HOST || Config.http.host || "localhost";
 const port: any = process.env.PORT || Config.http.port || 3000;

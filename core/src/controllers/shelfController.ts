@@ -1,6 +1,7 @@
 import { Application, Request, Response } from "express";
 import { Types as MongooseTypes } from "mongoose";
 
+import { SHELF_INPUT_FIELDS, validateRequestBody } from "../api/input-validation";
 import Shelf, { IShelf } from "./../models/shelf";
 import Book, { IBook } from "./../models/book";
 
@@ -35,8 +36,8 @@ export class ShelfApi {
     app.get("/api/v1/shelf-full/:shelfKey", ShelfApi.getShelfWithBooks);
     
     app.get("/api/v1/shelf/:shelfKey", ShelfApi.getShelf);
-    app.post("/api/v1/shelf/", ShelfApi.addShelf);
-    app.put("/api/v1/shelf/:shelfKey", ShelfApi.updateShelf);
+    app.post("/api/v1/shelf/", validateRequestBody(SHELF_INPUT_FIELDS), ShelfApi.addShelf);
+    app.put("/api/v1/shelf/:shelfKey", validateRequestBody(SHELF_INPUT_FIELDS), ShelfApi.updateShelf);
     app.delete("/api/v1/shelf/:shelfKey", ShelfApi.deleteShelf);
   }
 
@@ -75,14 +76,17 @@ export class ShelfApi {
   }
 
   static async updateShelf(req: Request, res: Response) {
-    const shelf = await Shelf.findOneAndUpdate({key: req.params.shelfKey}, req.body).exec();
+    const shelf = await Shelf.findOneAndUpdate({key: req.params.shelfKey}, req.body, {
+      new: true,
+      runValidators: true
+    }).exec();
 
     if (shelf === null) {
       res.status(404).send(`Shelf '${req.params.shelfKey}' was not found`);
       return;
     }
 
-    res.send(req.body);
+    res.send(shelf);
   }
 
   static async addShelf(req: Request, res: Response) {
@@ -94,11 +98,21 @@ export class ShelfApi {
   }
 
   static async deleteShelf(req: Request, res: Response) {
-    const shelf = await Shelf.findOneAndDelete({key: req.params.shelfKey}).exec();
+    const shelf = await Shelf.findOne({key: req.params.shelfKey}).exec();
 
     if (shelf === null) {
       res.status(404).send(`Shelf '${req.params.shelfKey}' was not found`);
       return;
+    }
+
+    const booksDeletion = await Book.deleteMany({shelf: shelf._id}).exec();
+    if (!booksDeletion.acknowledged) {
+      throw new Error(`Failed to delete books from shelf '${req.params.shelfKey}'`);
+    }
+
+    const shelfDeletion = await shelf.deleteOne();
+    if (!shelfDeletion.acknowledged || shelfDeletion.deletedCount !== 1) {
+      throw new Error(`Failed to delete shelf '${req.params.shelfKey}'`);
     }
 
     res.send({});

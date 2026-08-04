@@ -1,6 +1,7 @@
 import { Application, Request, Response } from "express";
 import { Types as MongooseTypes } from "mongoose";
 
+import { BOOK_INPUT_FIELDS, validateRequestBody } from "../api/input-validation";
 import Shelf, { IShelf } from "./../models/shelf";
 import Book, { IBook } from "./../models/book";
 
@@ -9,8 +10,8 @@ export class BookApi {
     app.get("/api/v1/shelf/:shelfKey/books/", BookApi.getBooksFromShelf);
     
     app.get("/api/v1/book/:bookId", BookApi.getBook);
-    app.post("/api/v1/book/", BookApi.addBook);
-    app.put("/api/v1/book/:bookId", BookApi.updateBook);
+    app.post("/api/v1/book/", validateRequestBody(BOOK_INPUT_FIELDS), BookApi.addBook);
+    app.put("/api/v1/book/:bookId", validateRequestBody(BOOK_INPUT_FIELDS), BookApi.updateBook);
     app.delete("/api/v1/book/:bookId", BookApi.deleteBook);
     app.put("/api/v1/book-move/:bookId/new-index=:newIndex", BookApi.moveBook);
   }
@@ -42,14 +43,17 @@ export class BookApi {
   }
 
   static async updateBook(req: Request, res: Response) {
-    const book = await Book.findByIdAndUpdate(req.params.bookId, req.body).exec();
+    const book = await Book.findByIdAndUpdate(req.params.bookId, req.body, {
+      new: true,
+      runValidators: true
+    }).exec();
 
     if (book === null) {
       res.status(404).send(`Shelf '${req.params.bookId}' was not found`);
       return;
     }
 
-    res.send(req.body);
+    res.send(book);
   }
 
   static async addBook(req: Request, res: Response) {

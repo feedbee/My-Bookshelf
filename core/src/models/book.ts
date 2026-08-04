@@ -1,5 +1,4 @@
-import mongoose from "./../db";
-import { HydratedDocument, Types } from "mongoose";
+import mongoose, { HydratedDocument, Types } from "mongoose";
 
 export interface IBook {
   name: string;
@@ -9,30 +8,35 @@ export interface IBook {
 	cover: string;
 	url: string;
 	index: number;
-	myReview: string;
-	myRating: string;
-	myStartDate: string;
-	myEndDate: string;
+	my?: IReadingDetails;
 }
 
 export type BookDocument = HydratedDocument<IBook>;
 
 interface INamedEntity {
-	name: string;
-	url: string;
+	name?: string;
+	url?: string;
 }
 
 export interface IAuthor extends INamedEntity {}
 export interface IPublisher extends INamedEntity {}
 
 export interface IPublish {
-	publisher: IPublisher;
-	year: number;
-	pages: number;
+	publisher?: IPublisher;
+	year?: number;
+	pages?: number;
 }
 
-export const BookSchema = new mongoose.Schema({
-  shelf: mongoose.Schema.Types.ObjectId,
+export interface IReadingDetails {
+	rating?: number;
+	review?: string;
+	start?: string;
+	end?: string;
+	type?: "paper" | "digital" | "audio";
+}
+
+export const BookSchema = new mongoose.Schema<IBook>({
+  shelf: {type: mongoose.Schema.Types.ObjectId, ref: "Shelf", required: true, index: true},
   name: { type: String, required: true },
   authors: [
     {
@@ -52,14 +56,14 @@ export const BookSchema = new mongoose.Schema({
   url: { type: String, required: true },
   cover: { type: String, required: true },
   my: {
-    rating: Number,
+    rating: {type: Number, min: 0, max: 5},
     review: String,
     start: String,
     end: String,
-    type: {type: String}
+    type: {type: String, enum: ["paper", "digital", "audio"]}
   },
-  index: Number
-});
+  index: {type: Number, required: true}
+}, {strict: "throw"});
 
 const Book = mongoose.model<IBook>("Book", BookSchema);
 export default Book;
