@@ -1,8 +1,8 @@
 import mongoose from "mongoose";
 
-const uri: string = "mongodb+srv://mybookshelf:sjHj3jldwn5gd@mybookshelfcluster-uavwe.mongodb.net/my-bookshelf";
+import Config from "./config";
 
-mongoose.connect(uri)
+mongoose.connect(Config.db.connectionString)
   .then(() => {
     console.log("Successfully Connected!");
   })
