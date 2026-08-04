@@ -1,5 +1,6 @@
 const assert = require("node:assert/strict");
 const test = require("node:test");
+const mongoose = require("mongoose");
 
 const {describeApiError} = require("../dist/api/error-handler");
 const {InputValidationError} = require("../dist/api/input-validation");
@@ -35,6 +36,20 @@ test("unknown errors do not expose their details", () => {
       error: {
         code: "INTERNAL_ERROR",
         message: "An unexpected error occurred"
+      }
+    }
+  });
+});
+
+test("invalid MongoDB identifiers produce a safe validation response", () => {
+  const error = new mongoose.Error.CastError("ObjectId", "not-an-id", "_id");
+
+  assert.deepEqual(describeApiError(error), {
+    status: 422,
+    body: {
+      error: {
+        code: "VALIDATION_ERROR",
+        message: "Request data is invalid"
       }
     }
   });

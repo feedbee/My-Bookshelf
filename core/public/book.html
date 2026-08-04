@@ -246,6 +246,7 @@
         var resourceUrl = $("#resource-id").text() + $("#resource-url").val();
         
         var data = editor.getValue();
+        delete data._id;
         alert(JSON.stringify(data));
         $.ajax({
           type: "PUT",
@@ -276,7 +277,7 @@
         }).done(
           (data) => {
             alert(JSON.stringify(data));
-            $("#resource-url").val(data.key);
+            $("#resource-url").val(data._id);
             editor.setValue(data);
           }
         ).fail(

@@ -6,29 +6,21 @@ import Shelf, { IShelf } from "./../models/shelf";
 import Book, { IBook } from "./../models/book";
 
 export let allShelves = async (req: Request, res: Response) => {
-  try {
-    const shelves = await Shelf.find().exec();
-    res.send(shelves);
-  } catch {
-    res.status(500).send("Error!");
-  }
+  const shelves = await Shelf.find().exec();
+  res.send(shelves);
 };
 
 export let getShelf = async (req: Request, res: Response) => {
-  try {
-    const shelf = await Shelf.findOne({key: req.params.shelfKey}).exec();
-    if (shelf === null) {
-      res.status(404).send("Not Found");
-      return;
-    }
-
-    const books = await Book.find({shelf: new MongooseTypes.ObjectId(shelf._id)})
-      .sort({index: -1})
-      .exec();
-    res.render("template", {layout: false, shelf: shelf.toObject(), books: books.map((el) => el.toObject())});
-  } catch {
-    res.status(500).send("Error!");
+  const shelf = await Shelf.findOne({key: req.params.shelfKey}).exec();
+  if (shelf === null) {
+    res.status(404).send("Not Found");
+    return;
   }
+
+  const books = await Book.find({shelf: new MongooseTypes.ObjectId(shelf._id)})
+    .sort({index: -1})
+    .exec();
+  res.render("template", {layout: false, shelf: shelf.toObject(), books: books.map((el) => el.toObject())});
 };
 
 export class ShelfApi {

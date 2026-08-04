@@ -2,8 +2,9 @@ import { Application, Request, Response } from "express";
 import { Types as MongooseTypes } from "mongoose";
 
 import { BOOK_INPUT_FIELDS, validateRequestBody } from "../api/input-validation";
-import Shelf, { IShelf } from "./../models/shelf";
-import Book, { IBook } from "./../models/book";
+import { buildBookMoveUpdate, parseBookIndex } from "../services/book-order";
+import Shelf from "./../models/shelf";
+import Book from "./../models/book";
 
 export class BookApi {
   static register(app: Application) {
@@ -49,7 +50,7 @@ export class BookApi {
     }).exec();
 
     if (book === null) {
-      res.status(404).send(`Shelf '${req.params.bookId}' was not found`);
+      res.status(404).send(`Book '${req.params.bookId}' was not found`);
       return;
     }
 
@@ -68,7 +69,7 @@ export class BookApi {
     const book = await Book.findByIdAndDelete(req.params.bookId).exec();
 
     if (book === null) {
-      res.status(404).send(`Shelf '${req.params.bookId}' was not found`);
+      res.status(404).send(`Book '${req.params.bookId}' was not found`);
       return;
     }
 
@@ -76,26 +77,30 @@ export class BookApi {
   }
 
   static async moveBook(req: Request, res: Response) {
+    const newIndex = parseBookIndex(req.params.newIndex);
     const book = await Book.findById(req.params.bookId).exec();
 
     if (book === null) {
-      res.status(404).send(`Shelf '${req.params.bookId}' was not found`);
+      res.status(404).send(`Book '${req.params.bookId}' was not found`);
       return;
     }
 
-    let shelf = await Shelf.findById(book.shelf).exec() as IShelf;
-
-    let newIndex = req.params.newIndex as unknown as number;
-    if (newIndex > book.index) {
-      Book.updateMany({"$and": [{shelf: shelf._id}, {index: {"$lte": newIndex}}, {index: {"$gt": book.index}}]},
-        {"$inc": {index: 1}}).exec();
-    } else {
-      Book.updateMany({"$and": [{shelf: shelf._id}, {index: {"$gte": newIndex}}, {index: {"$lt": book.index}}]},
-        {"$inc": {index: -1}}).exec();
+    if (newIndex === book.index) {
+      res.send(book);
+      return;
     }
-    book.index = newIndex;
-    book.save();
 
-    res.send(req.body);
+    const move = buildBookMoveUpdate(book._id, book.shelf, book.index, newIndex);
+    const result = await Book.updateMany(move.filter, move.pipeline).exec();
+    if (!result.acknowledged || result.matchedCount === 0) {
+      throw new Error(`Failed to move book '${req.params.bookId}'`);
+    }
+
+    const updatedBook = await Book.findById(book._id).exec();
+    if (updatedBook === null) {
+      throw new Error(`Book '${req.params.bookId}' disappeared while moving`);
+    }
+
+    res.send(updatedBook);
   }
 }
