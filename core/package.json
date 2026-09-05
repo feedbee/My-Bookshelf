@@ -24,14 +24,14 @@
   "homepage": "https://github.com/feedbee/My-Bookshelf",
   "devDependencies": {
     "@types/express": "^5.0.6",
-    "@types/node": "^26.1.2",
-    "concurrently": "^10.0.4",
+    "@types/node": "^26.4.1",
+    "concurrently": "^10.0.5",
     "nodemon": "^3.1.14",
     "typescript": "^7.0.2"
   },
   "dependencies": {
     "express": "^5.2.1",
     "express-handlebars": "^9.0.1",
-    "mongoose": "^9.9.1"
+    "mongoose": "^9.9.5"
   }
 }
