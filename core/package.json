@@ -32,6 +32,6 @@
   "dependencies": {
     "express": "^5.2.1",
     "express-handlebars": "^9.0.1",
-    "mongoose": "^9.9.5"
+    "mongoose": "^9.11.4"
   }
 }
