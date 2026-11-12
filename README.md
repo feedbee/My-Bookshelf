@@ -62,20 +62,41 @@ A multi-architecture image cannot be imported into the local Docker image store 
 
 ## GitHub Actions
 
-The **Container CI and release** workflow runs tests, audits production dependencies, and builds the Docker image for amd64 and arm64 on pull requests and pushes to `master`.
+**Container CI** runs tests, audits production dependencies, and builds the image for amd64 and arm64 on pull requests and pushes to `master`. **Release to ECR** runs the same checks when a stable SemVer tag is pushed.
 
-To release, open the workflow in the **Actions** tab, choose **Run workflow**, and select `master`. After the checks pass, the workflow publishes the image to ECR with the tags `latest` and `sha-<commit>`. The run summary records the verified image digest.
+## Prepare and publish a release
 
-The repository variable `AWS_RELEASE_ROLE_ARN` points to an IAM role that trusts the GitHub OIDC subject `repo:feedbee/My-Bookshelf:ref:refs/heads/master` with audience `sts.amazonaws.com`. Its ECR permissions cover authentication and publishing and verifying images in `my-bookshelf`.
+1. Review the changes since the previous release tag. Choose a SemVer bump and run `npm --prefix core version <version> --no-git-tag-version` to keep the package and lockfile in sync. The first tagged release uses the existing version `1.0.0`.
+2. Record the user-visible and deployment changes in [CHANGELOG.md](CHANGELOG.md) under `## [<version>] - YYYY-MM-DD`. Move relevant entries from `Unreleased`. The workflow uses this section as the GitHub Release body.
+3. Run `node scripts/release.mjs verify v<version>` and `npm --prefix core test`. Commit the version and changelog and land the release commit on `master`.
+4. Create and push the annotated release tag on the verified commit.
+
+   ```bash
+   git tag -a v1.0.0 <release-commit> -m "My Bookshelf 1.0.0"
+   git push origin refs/tags/v1.0.0
+   ```
+
+The workflow checks that the tag matches the package and lockfile and that the commit is in `master`. It publishes `MAJOR.MINOR.PATCH`, `MAJOR.MINOR`, and `latest` to ECR and creates a GitHub Release with the changelog notes and `release-manifest.json`. Deploy or roll back using the digest in that manifest. Use a new patch version to correct an existing release.
+
+### GitHub release configuration
+
+| Repository variable | Value |
+| --- | --- |
+| `AWS_REGION` | `us-east-2` |
+| `API_ECR_REPOSITORY` | `my-bookshelf` |
+| `AWS_ROLE_ARN` | ARN of the My-Bookshelf ECR publishing role |
+
+The release job uses GitHub OIDC with audience `sts.amazonaws.com` and a tag subject matching `repo:feedbee/My-Bookshelf:ref:refs/tags/v*.*.*`. Restrict creation of release tags to authorized maintainers and prevent their update or deletion. The IAM trust pattern limits repository and ref scope, while the workflow validates the exact SemVer and commit ancestry.
 
 ## Publishing manually to Amazon ECR
 
-Set the AWS profile, region, ECR repository name, and image tag:
+Set the local AWS profile and image tag, and read the ECR destination from the GitHub repository variables:
 
 ```bash
 export AWS_PROFILE=my-aws
-export AWS_REGION=us-east-2
-export ECR_REPOSITORY=my-bookshelf
+AWS_REGION="$(gh variable get AWS_REGION --repo feedbee/My-Bookshelf)" &&
+API_ECR_REPOSITORY="$(gh variable get API_ECR_REPOSITORY --repo feedbee/My-Bookshelf)" &&
+export AWS_REGION API_ECR_REPOSITORY
 export IMAGE_TAG=latest
 ```
 
@@ -88,7 +109,7 @@ export AWS_ACCOUNT_ID="$(aws sts get-caller-identity \
   --output text)"
 
 export ECR_REGISTRY="${AWS_ACCOUNT_ID}.dkr.ecr.${AWS_REGION}.amazonaws.com"
-export ECR_IMAGE="${ECR_REGISTRY}/${ECR_REPOSITORY}:${IMAGE_TAG}"
+export ECR_IMAGE="${ECR_REGISTRY}/${API_ECR_REPOSITORY}:${IMAGE_TAG}"
 ```
 
 Verify that the repository exists:
@@ -97,7 +118,7 @@ Verify that the repository exists:
 aws ecr describe-repositories \
   --profile "$AWS_PROFILE" \
   --region "$AWS_REGION" \
-  --repository-names "$ECR_REPOSITORY"
+  --repository-names "$API_ECR_REPOSITORY"
 ```
 
 Authenticate Docker with ECR:
