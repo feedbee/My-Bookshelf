@@ -4,9 +4,9 @@ This project was originally conceived as a general-purpose web application where
 
 ## Current state
 
-The `v2` branch corresponds to the code currently used in production.
+The default branch is `master`. Releases publish the container to Amazon ECR.
 
-The backend lives in `core` and uses Node.js 14, TypeScript, Express, Handlebars, MongoDB, and Mongoose. During the Docker build, TypeScript is compiled into `dist`. The final image contains the compiled application, production dependencies, templates, and static assets.
+The backend lives in `core` and uses Node.js 24, TypeScript, Express, Handlebars, MongoDB, and Mongoose. During the Docker build, TypeScript is compiled into `dist`. The final image contains the compiled application, production dependencies, templates, and static assets.
 
 The application:
 
@@ -60,13 +60,21 @@ docker buildx build \
 
 A multi-architecture image cannot be imported into the local Docker image store with `--load`. A shared manifest for both architectures is created when the image is published to a registry with `--push`.
 
-## Publishing to Amazon ECR
+## GitHub Actions
+
+The **Container CI and release** workflow runs tests, audits production dependencies, and builds the Docker image for amd64 and arm64 on pull requests and pushes to `master`.
+
+To release, open the workflow in the **Actions** tab, choose **Run workflow**, and select `master`. After the checks pass, the workflow publishes the image to ECR with the tags `latest` and `sha-<commit>`. The run summary records the verified image digest.
+
+The repository variable `AWS_RELEASE_ROLE_ARN` points to an IAM role that trusts the GitHub OIDC subject `repo:feedbee/My-Bookshelf:ref:refs/heads/master` with audience `sts.amazonaws.com`. Its ECR permissions cover authentication and publishing and verifying images in `my-bookshelf`.
+
+## Publishing manually to Amazon ECR
 
 Set the AWS profile, region, ECR repository name, and image tag:
 
 ```bash
 export AWS_PROFILE=my-aws
-export AWS_REGION=eu-central-1
+export AWS_REGION=us-east-2
 export ECR_REPOSITORY=my-bookshelf
 export IMAGE_TAG=latest
 ```
@@ -123,7 +131,4 @@ The resulting manifest should contain both `linux/amd64` and `linux/arm64`.
 
 ## Known limitations
 
-- Node.js 14 has reached end of life.
-- The project dependencies are outdated and contain known vulnerabilities.
 - The application currently reflects the author's personal bookshelf use case, although its model and API leave room for further development.
-- Runtime upgrades, dependency updates, and cleanup of historical code are left for future work.
